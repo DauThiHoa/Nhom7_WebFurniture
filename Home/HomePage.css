@@ -1,18 +1,46 @@
-  body{
+      body{
             margin: 0 ;
             overflow: auto;
             font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   }
-   #Thanh_cong_cu{
+        }
+     #Thanh_cong_cu{
              background: darkturquoise;
              width: 100%;
-             height: 100px;
-   }
-  input[type="text"] {
+             height: 80px;
+        }
+     #Thanh_cong_cu input[type="text"] {
       width: 500px;
       box-sizing: border-box;
       border: 1px solid black;
       border-radius: 4px;
       outline:none;
       padding: 12px 14px;
-  }
+      float: left;
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+    #Thanh_cong_cu #Ten_Web{
+        float: left;
+        margin-left: 35px;
+    }
+    #Thanh_cong_cu #Tim_Kiem{
+        float: left;
+        margin-left: 0px;
+        margin-top: 21px;
+    }
+    #Thanh_cong_cu #Hotline #anh_HotLine{
+        float: left;
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 30px;
+        height: 30px;
+        margin-left: 45px;
+        margin-top: 28px;
+    }
+    #Thanh_cong_cu #Hotline #chu_HotLine{
+        float: left;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 100%;
+    }
