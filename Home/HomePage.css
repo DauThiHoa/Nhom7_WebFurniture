@@ -30,8 +30,6 @@
     }
     #Thanh_cong_cu #Hotline #anh_HotLine{
         float: left;
-        margin-left: 20px;
-        margin-top: 20px;
         width: 30px;
         height: 30px;
         margin-left: 45px;
@@ -44,3 +42,85 @@
         margin-bottom: 10px;
         font-size: 100%;
     }
+      #Thanh_cong_cu #TaiKhoan #anh_TaiKhoan{
+          float: left;
+          width: 30px;
+          height: 30px;
+          margin-left: 45px;
+          margin-top: 28px;
+      }
+      #Thanh_cong_cu #TaiKhoan #dangNhap_dangKy{
+          float: left;
+          margin-left: 10px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          font-size: 100%;
+      }
+      #Thanh_cong_cu #gioHang #anh_GioHang{
+          float: left;
+          width: 30px;
+          height: 30px;
+          margin-left: 45px;
+          margin-top: 28px;
+      }
+      #Thanh_cong_cu #gioHang #chu_giohang{
+          float: left;
+          margin-left: 10px;
+          margin-top: 15px;
+          margin-bottom: 10px;
+          font-size: 100%;
+      }
+      #trangChu_DanhMuc   {
+          border: 1px solid black;
+          width: 100%;
+          height: 50px;
+          background: lightcyan;
+      }
+      #trangChu_DanhMuc #danhMuc {
+          float: left;
+          clear: right;
+          margin-left: 50px;
+          margin-top: 4px;
+      }
+      #trangChu_DanhMuc #anh_danhMuc {
+          float: left;
+          clear: right;
+          margin-left: 150px;
+          margin-top: -11px;
+          width: 50px;
+          height: 45px;
+      }
+      #trangChu_DanhMuc #chu_DanhMuc {
+          float: left;
+          clear: right;
+          margin-left: 10px;
+          margin-top: 0px;
+      }
+      #trangChu_DanhMuc #trangchu {
+          float: left;
+          clear: right;
+          margin-left: 80px;
+          margin-top: -15px;
+      }
+      #trangChu_DanhMuc #heThongCuaHang {
+          float: left;
+          clear: right;
+          margin-left: 50px;
+          margin-top: -15px;
+      }
+      #trangChu_DanhMuc #tinTuc {
+          float: left;
+          clear: right;
+          margin-left: 50px;
+          margin-top: -15px;
+      }
+      #trangChu_DanhMuc #lienHe {
+          float: left;
+          margin-left: 50px;
+          margin-top: -15px;
+      }
+      #trangKhung   {
+          width: 100%;
+          height: 500px;
+          margin: 0;
+      }
