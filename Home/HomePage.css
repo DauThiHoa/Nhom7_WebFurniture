@@ -122,5 +122,374 @@
       #trangKhung   {
           width: 100%;
           height: 500px;
-          margin: 0;
+          margin: -1px;
+      }
+
+      #ThanhHoTro {
+          border: 1px solid black;
+          margin: -4px;
+          background: white;
+          width: 100%;
+          height: 50px;
+      }
+      #ThanhHoTro #chatLuong #anh_ChatLuong{
+          float: left;
+          clear: right;
+          margin-left: 20px;
+          margin-top: 5px;
+          width: 50px;
+          height: 45px;
+      }
+      #ThanhHoTro #chatLuong #bd{
+          float: left;
+          clear: right;
+          margin-left: 20px;
+          margin-top: -15px;
+          margin-right: 10px;
+      }
+      #ThanhHoTro #chatLuong #sp{
+          float: left;
+          clear: right;
+          margin-left: -158px;
+          margin-top: 10px;
+      }
+      #ThanhHoTro #giaoHang #anh_GiaoHang{
+          float: left;
+          clear: right;
+          margin-left: 150px;
+          margin-top: 5px;
+          width: 50px;
+          height: 45px;
+      }
+      #ThanhHoTro #giaoHang #mp{
+          float: left;
+          clear: right;
+          margin-left: 23px;
+          margin-top: -15px;
+          margin-right: 10px;
+      }
+      #ThanhHoTro #giaoHang #dh{
+          float: left;
+          clear: right;
+          margin-left: -150px;
+          margin-top: 10px;
+      }
+      #ThanhHoTro #hoTro #anh_HoTro{
+          float: left;
+          clear: right;
+          margin-left: 150px;
+          margin-top: 5px;
+          width: 50px;
+          height: 45px;
+      }
+      #ThanhHoTro #hoTro #ht{
+          float: left;
+          clear: right;
+          margin-left: 23px;
+          margin-top: -15px;
+          margin-right: 10px;
+      }
+      #ThanhHoTro #hoTro #hl{
+          float: left;
+          clear: right;
+          margin-left: -100px;
+          margin-top: 10px;
+      }
+      #ThanhHoTro #doiTra #anh_DoiTro{
+          float: left;
+          clear: right;
+          margin-left: 150px;
+          margin-top: 5px;
+          width: 50px;
+          height: 45px;
+      }
+      #ThanhHoTro #doiTra #dt{
+          float: left;
+          clear: right;
+          margin-left: 23px;
+          margin-top: -15px;
+          margin-right: 10px;
+      }
+      #ThanhHoTro #doiTra #dk{
+          float: left;
+          clear: right;
+          margin-left: 23px;
+          margin-top: -35px;
+          margin-right: 10px;
+      }
+       #hinh #hinh1{
+           margin-left: 210px;
+           margin-right: 40px;
+           margin-top: 20px;
+          width: 240px;
+          height: 320px;
+
+      }
+       #hinh #hinh2{
+           margin-right: 40px;
+           width: 240px;
+           height: 320px;
+      }
+       #hinh #hinh3{
+           margin-right: 40px;
+           width: 240px;
+           height: 320px;
+       }
+        #hinh #hinh4{
+            margin-right: 100px;
+            width: 240px;
+            height: 320px;
+        }
+      #SanPhamNoiBat #BanLamViec{
+          float: left;
+          clear: right;
+          border: 3px solid mediumturquoise;
+          width: 350px;
+          height: 550px;
+          margin-left: 60px;
+          margin-top: 50px;
+      }
+      #SanPhamNoiBat #BanLamViec #anh_BanLamViec{
+          margin-left: 25px;
+          margin-top: 30px;
+          height: 300px ;
+          width :300px;
+      }
+      #SanPhamNoiBat #BanLamViec #blv{
+          text-align: center;
+      }
+      #SanPhamNoiBat #BanLamViec #blv #giaBLV{
+          color: mediumturquoise;
+      }
+      #SanPhamNoiBat #chu_SanPhamNoiBat{
+          margin-left: 50px;
+          margin-top: 50px;
+          float: left;
+          clear: right;
+          border: 3px solid mediumturquoise;
+          background: mediumturquoise;
+          text-align: center;
+          color: white;
+          width: 300px;
+          height: 55px;
+      }
+      #SanPhamNoiBat #sangTraiPhaiSPNB #left{
+          margin-left: 577px;
+          margin-top: 68px;
+          float: left;
+          clear: right;
+          border: 1px solid mediumturquoise;
+          height : 42px;
+          width : 40px;
+      }
+      #SanPhamNoiBat #sangTraiPhaiSPNB #right{
+          margin-left: 974px;
+          margin-top: -45px;
+          float: left;
+          border: 1px solid mediumturquoise;
+          height : 42px;
+          width : 40px;
+      }
+      #tenCacSanPhamNoiBat{
+          float: left;
+          clear: right;
+          border: 3px solid mediumturquoise;
+          width: 960px;
+          height: 490px;
+          margin-left: 466px;
+          margin-top: -496px;
+      }
+      #tenCacSanPhamNoiBat #TuHaBu {
+          margin-left: 45px;
+          margin-top: 15px;
+          float: left;
+          clear: right;
+          border: 3px solid white;
+          width: 250px;
+          height: 220px;
+      }
+      #tenCacSanPhamNoiBat #anh_TuHaBu {
+          float: left;
+          clear: right;
+          width: 250px;
+          height: 150px;
+      }
+      #tenCacSanPhamNoiBat #tu {
+          text-align: center;
+      }
+      #tenCacSanPhamNoiBat #tu #giaTuHaBu{
+          color: mediumturquoise;
+      }
+      #tenCacSanPhamNoiBat #SofaBangBella {
+          margin-left: 45px;
+          margin-top: 15px;
+          float: left;
+          clear: right;
+          border: 3px solid white;
+          width: 250px;
+          height: 220px;
+      }
+      #tenCacSanPhamNoiBat #anh_SofaBangBella {
+          float: left;
+          clear: right;
+          width: 250px;
+          height: 150px;
+      }
+      #tenCacSanPhamNoiBat #bella {
+          text-align: center;
+      }
+      #tenCacSanPhamNoiBat #bella #giaBella{
+          color: mediumturquoise;
+      }
+
+      #tenCacSanPhamNoiBat #keTuHoBu {
+          margin-left: 45px;
+          margin-top: 15px;
+          float: left;
+          clear: right;
+          border: 3px solid white;
+          width: 250px;
+          height: 220px;
+      }
+      #tenCacSanPhamNoiBat #anh_keTuHoBu {
+          float: left;
+          clear: right;
+          width: 250px;
+          height: 150px;
+      }
+      #tenCacSanPhamNoiBat #tuHoBu {
+          text-align: center;
+      }
+      #tenCacSanPhamNoiBat #tuHoBu #giaKeTuHoBu{
+          color: mediumturquoise;
+      }
+
+      #tenCacSanPhamNoiBat #keTreoPoplar {
+          margin-left: 45px;
+          margin-top: 15px;
+          float: left;
+          clear: right;
+          border: 3px solid white;
+          width: 250px;
+          height: 220px;
+      }
+      #tenCacSanPhamNoiBat #anh_keTreoPoplar {
+          float: left;
+          clear: right;
+          width: 250px;
+          height: 150px;
+      }
+      #tenCacSanPhamNoiBat #poplar {
+          text-align: center;
+      }
+      #tenCacSanPhamNoiBat #poplar #giaKeTreoPoplar{
+          color: mediumturquoise;
+      }
+
+      #tenCacSanPhamNoiBat #keTiViHoBu {
+          margin-left: 45px;
+          margin-top: 15px;
+          float: left;
+          clear: right;
+          border: 3px solid white;
+          width: 250px;
+          height: 220px;
+      }
+      #tenCacSanPhamNoiBat #anh_keTiViHoBu {
+          float: left;
+          clear: right;
+          width: 250px;
+          height: 150px;
+      }
+      #tenCacSanPhamNoiBat #tivi {
+          text-align: center;
+      }
+      #tenCacSanPhamNoiBat #tivi #giaKeTiViHoBu{
+          color: mediumturquoise;
+      }
+
+
+      #tenCacSanPhamNoiBat #gheEuro {
+          margin-left: 45px;
+          margin-top: 15px;
+          float: left;
+          clear: right;
+          border: 3px solid white;
+          width: 250px;
+          height: 220px;
+      }
+      #tenCacSanPhamNoiBat #anh_gheEuro {
+          float: left;
+          clear: right;
+          width: 250px;
+          height: 150px;
+      }
+      #tenCacSanPhamNoiBat #euro {
+          text-align: center;
+      }
+      #tenCacSanPhamNoiBat #euro #giaGheEuro{
+          color: mediumturquoise;
+      }
+      #SanPhamHot  {
+          border: 3px solid mediumturquoise;
+          width: 100%;
+          height: 400px;
+          margin-top: 650px;
+      }
+      #SanPhamHot  #chu_SanPhamHot  {
+          text-align: center;
+      }
+      #SanPhamHot  #chu_SanPhamHot  #chu{
+          margin-top: 0px;
+          text-align: center;
+          border: 3px solid mediumturquoise;
+          width: 250px;
+          height: 40px;
+          background: mediumturquoise;
+          margin-left: 630px;
+          color: white;
+      }
+      #SanPhamHot  #chu_SanPhamHot  #hot1{
+          margin: 0px;
+          float: left;
+          clear: right;
+          margin-left: 250px;
+      }
+      #SanPhamHot  #chu_SanPhamHot  #hot2{
+          margin: 0px;
+          float: left;
+          clear: right;
+          margin-left: 330px;
+      }
+      #SanPhamHot  #chu_SanPhamHot  #hot3{
+          margin: 0px;
+          margin-top: -18px;
+          float: left;
+          clear: right;
+          margin-left: 1200px;
+      }
+
+
+      #SanPhamHot #gheGoBapBenhIconic{
+          float: left;
+          clear: right;
+          border: 3px solid mediumturquoise;
+          width: 300px;
+          height: 350px;
+          margin-left: 60px;
+          margin-top: 50px;
+      }
+      #SanPhamHot #gheGoBapBenhIconic #anh_gheGoBapBenhIconic{
+          float: left;
+          clear: right;
+          margin-left: 25px;
+          margin-top: 30px;
+          height: 200px ;
+          width :250px;
+      }
+      #SanPhamHot #gheGoBapBenhIconic #iconic{
+          text-align: center;
+      }
+      #SanPhamHot #gheGoBapBenhIconic #iconic #giaIconic{
+          color: mediumturquoise;
       }
