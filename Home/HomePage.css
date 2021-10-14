@@ -431,9 +431,9 @@
           color: mediumturquoise;
       }
       #SanPhamHot  {
-          border: 3px solid mediumturquoise;
+          border: 3px solid white;
           width: 100%;
-          height: 400px;
+          height: 500px;
           margin-top: 650px;
       }
       #SanPhamHot  #chu_SanPhamHot  {
@@ -454,6 +454,7 @@
           float: left;
           clear: right;
           margin-left: 250px;
+          color: mediumturquoise;
       }
       #SanPhamHot  #chu_SanPhamHot  #hot2{
           margin: 0px;
@@ -469,15 +470,14 @@
           margin-left: 1200px;
       }
 
-
       #SanPhamHot #gheGoBapBenhIconic{
           float: left;
           clear: right;
-          border: 3px solid mediumturquoise;
+          border: 10px solid mediumturquoise;
           width: 300px;
           height: 350px;
-          margin-left: 60px;
-          margin-top: 50px;
+          margin-left: 30px;
+          margin-top: 35px;
       }
       #SanPhamHot #gheGoBapBenhIconic #anh_gheGoBapBenhIconic{
           float: left;
@@ -491,5 +491,78 @@
           text-align: center;
       }
       #SanPhamHot #gheGoBapBenhIconic #iconic #giaIconic{
+          color: mediumturquoise;
+      }
+
+      #SanPhamHot #ghePhongKhachArctander{
+          float: left;
+          clear: right;
+          border: 10px solid mediumturquoise;
+          width: 300px;
+          height: 350px;
+          margin-left: 60px;
+          margin-top: 35px;
+      }
+      #SanPhamHot #ghePhongKhachArctander #anh_ghePhongKhachArctander{
+          float: left;
+          clear: right;
+          margin-left: 25px;
+          margin-top: 30px;
+          height: 200px ;
+          width :250px;
+      }
+      #SanPhamHot #ghePhongKhachArctander #Arctander{
+          text-align: center;
+      }
+      #SanPhamHot #ghePhongKhachArctander #Arctander #giaArctander{
+          color: mediumturquoise;
+      }
+      #SanPhamHot #BanAillen03{
+          float: left;
+          clear: right;
+          border: 10px solid mediumturquoise;
+          width: 300px;
+          height: 350px;
+          margin-left: 60px;
+          margin-top: 35px;
+      }
+      #SanPhamHot #BanAillen03 #anh_BanAillen03{
+          float: left;
+          clear: right;
+          margin-left: 25px;
+          margin-top: 30px;
+          height: 200px ;
+          width :250px;
+      }
+      #SanPhamHot #BanAillen03 #Aillen03{
+          text-align: center;
+      }
+      #SanPhamHot #BanAillen03 #Aillen03 #giaAillen03{
+          color: mediumturquoise;
+      }
+
+
+
+      #SanPhamHot #banBinas{
+          float: left;
+          clear: right;
+          border: 10px solid mediumturquoise;
+          width: 300px;
+          height: 350px;
+          margin-left: 60px;
+          margin-top: 35px;
+      }
+      #SanPhamHot #banBinas #anh_banBinas{
+          float: left;
+          clear: right;
+          margin-left: 25px;
+          margin-top: 30px;
+          height: 200px ;
+          width :250px;
+      }
+      #SanPhamHot #banBinas #binas{
+          text-align: center;
+      }
+      #SanPhamHot #banBinas #binas #giaBinas{
           color: mediumturquoise;
       }
