@@ -240,6 +240,7 @@
             width: 240px;
             height: 320px;
         }
+
       #SanPhamNoiBat #BanLamViec{
           float: left;
           clear: right;
@@ -430,6 +431,7 @@
       #tenCacSanPhamNoiBat #euro #giaGheEuro{
           color: mediumturquoise;
       }
+
       #SanPhamHot  {
           border: 3px solid white;
           width: 100%;
@@ -438,6 +440,14 @@
       }
       #SanPhamHot  #chu_SanPhamHot  {
           text-align: center;
+      }
+      #SanPhamHot  #chu_SanPhamHot  #thanhKe1{
+          color: darkturquoise;
+          width: 350px;
+      }
+      #SanPhamHot  #chu_SanPhamHot  #thanhKe2{
+          color: darkturquoise;
+          width: 100%;
       }
       #SanPhamHot  #chu_SanPhamHot  #chu{
           margin-top: 0px;
@@ -541,8 +551,6 @@
           color: mediumturquoise;
       }
 
-
-
       #SanPhamHot #banBinas{
           float: left;
           clear: right;
@@ -564,5 +572,201 @@
           text-align: center;
       }
       #SanPhamHot #banBinas #binas #giaBinas{
+          color: mediumturquoise;
+      }
+
+
+      #SanPhamMoi #Kozoka_trysil{
+          float: left;
+          clear: right;
+          border: 3px solid mediumturquoise;
+          width: 350px;
+          height: 550px;
+          margin-left: 60px;
+          margin-top: 50px;
+      }
+      #SanPhamMoi #Kozoka_trysil #anh_Kozoka_trysil{
+          margin-left: 25px;
+          margin-top: 30px;
+          height: 300px ;
+          width :300px;
+      }
+      #SanPhamMoi #Kozoka_trysil #Kozoka{
+          text-align: center;
+      }
+      #SanPhamMoi #Kozoka_trysil #Kozoka #giaKozoka{
+          color: mediumturquoise;
+      }
+
+      #SanPhamMoi #chu_SamPhamMoi{
+          margin-left: 50px;
+          margin-top: 50px;
+          float: left;
+          clear: right;
+          border: 3px solid mediumturquoise;
+          background: mediumturquoise;
+          text-align: center;
+          color: white;
+          width: 300px;
+          height: 55px;
+      }
+      #SanPhamMoi #sangTraiPhaiSPM #left_SPM{
+          margin-left: 577px;
+          margin-top: 68px;
+          float: left;
+          clear: right;
+          border: 1px solid mediumturquoise;
+          height : 42px;
+          width : 40px;
+      }
+      #SanPhamMoi #sangTraiPhaiSPM #right_SPM{
+          margin-left: 974px;
+          margin-top: -45px;
+          float: left;
+          border: 1px solid mediumturquoise;
+          height : 42px;
+          width : 40px;
+      }
+
+      #tenCacSanPhamMoi{
+          float: left;
+          clear: right;
+          border: 3px solid mediumturquoise;
+          width: 960px;
+          height: 490px;
+          margin-left: 466px;
+          margin-top: -496px;
+      }
+
+      #tenCacSanPhamMoi #dongHoMiso {
+          margin-left: 55px;
+          margin-top: 15px;
+          float: left;
+          clear: right;
+          border: 3px solid white;
+          width: 250px;
+          height: 220px;
+      }
+      #tenCacSanPhamMoi #anh_dongHoMiso {
+          float: left;
+          clear: right;
+          width: 230px;
+          height: 150px;
+      }
+      #tenCacSanPhamMoi #Miso {
+          text-align: center;
+      }
+      #tenCacSanPhamMoi #Miso #giaMiso{
+          color: mediumturquoise;
+      }
+
+      #tenCacSanPhamMoi #dongHoTabu {
+          margin-left: 45px;
+          margin-top: 15px;
+          float: left;
+          clear: right;
+          border: 3px solid white;
+          width: 250px;
+          height: 220px;
+      }
+      #tenCacSanPhamMoi #anh_dongHoTabu {
+          float: left;
+          clear: right;
+          width: 230px;
+          height: 150px;
+      }
+      #tenCacSanPhamMoi #Tabu {
+          text-align: center;
+      }
+      #tenCacSanPhamMoi #Tabu #giaTaBu{
+          color: mediumturquoise;
+      }
+
+      #tenCacSanPhamMoi #GiuongILBRO_BASIC {
+          margin-left: 45px;
+          margin-top: 15px;
+          float: left;
+          clear: right;
+          border: 3px solid white;
+          width: 250px;
+          height: 220px;
+      }
+      #tenCacSanPhamMoi #anh_GiuongILBRO_BASIC {
+          float: left;
+          clear: right;
+          width: 230px;
+          height: 150px;
+      }
+      #tenCacSanPhamMoi #Basic {
+          text-align: center;
+      }
+      #tenCacSanPhamMoi #Basic #giaBasic{
+          color: mediumturquoise;
+      }
+
+      #tenCacSanPhamMoi #GoSoIBIE_DRVICESO {
+          margin-left: 55px;
+          margin-top: 15px;
+          float: left;
+          clear: right;
+          border: 3px solid white;
+          width: 250px;
+          height: 220px;
+      }
+      #tenCacSanPhamMoi #anh_GoSoIBIE_DRVICESO {
+          float: left;
+          clear: right;
+          width: 230px;
+          height: 150px;
+      }
+      #tenCacSanPhamMoi #DRVICESO {
+          text-align: center;
+      }
+      #tenCacSanPhamMoi #DRVICESO #giaDrviceso{
+          color: mediumturquoise;
+      }
+
+      #tenCacSanPhamMoi #TuQuanAo {
+          margin-left: 45px;
+          margin-top: 15px;
+          float: left;
+          clear: right;
+          border: 3px solid white;
+          width: 250px;
+          height: 220px;
+      }
+      #tenCacSanPhamMoi #anh_TuQuanAo {
+          float: left;
+          clear: right;
+          width: 230px;
+          height: 150px;
+      }
+      #tenCacSanPhamMoi #SDR20 {
+          text-align: center;
+      }
+      #tenCacSanPhamMoi #SDR20 #giaSDR20{
+          color: mediumturquoise;
+      }
+
+
+      #tenCacSanPhamMoi #LotLy {
+          margin-left: 45px;
+          margin-top: 15px;
+          float: left;
+          clear: right;
+          border: 3px solid white;
+          width: 250px;
+          height: 220px;
+      }
+      #tenCacSanPhamMoi #anh_LotLy {
+          float: left;
+          clear: right;
+          width: 230px;
+          height: 150px;
+      }
+      #tenCacSanPhamMoi #NVH03 {
+          text-align: center;
+      }
+      #tenCacSanPhamMoi #NVH03 #giaNVH03{
           color: mediumturquoise;
       }
