@@ -28,10 +28,9 @@
         margin-left: 0px;
         margin-top: 21px;
     }
-    #Thanh_cong_cu #Hotline #anh_HotLine{
+    #Thanh_cong_cu #Hotline .fa-phone-square{
         float: left;
-        width: 30px;
-        height: 30px;
+        font-size: 35px;
         margin-left: 45px;
         margin-top: 28px;
     }
@@ -42,10 +41,9 @@
         margin-bottom: 10px;
         font-size: 100%;
     }
-      #Thanh_cong_cu #TaiKhoan #anh_TaiKhoan{
+      #Thanh_cong_cu #TaiKhoan .fa-user-circle{
           float: left;
-          width: 30px;
-          height: 30px;
+          font-size: 35px;
           margin-left: 45px;
           margin-top: 28px;
       }
@@ -56,10 +54,9 @@
           margin-bottom: 10px;
           font-size: 100%;
       }
-      #Thanh_cong_cu #gioHang #anh_GioHang{
+      #Thanh_cong_cu #gioHang .fa-shopping-cart{
           float: left;
-          width: 30px;
-          height: 30px;
+          font-size: 35px;
           margin-left: 45px;
           margin-top: 28px;
       }
@@ -441,7 +438,7 @@
           border: 1px solid black;
           width: 100%;
           height: 570px;
-          margin-top: 650px;
+          margin-top: 700px;
       }
       #SanPhamHot  #chu_SanPhamHot  {
           text-align: center;
@@ -772,4 +769,55 @@
       }
       #tenCacSanPhamMoi #NVH03 #giaNVH03{
           color: mediumturquoise;
+      }
+      #layout4  {
+          width: 100%;
+           background: white;
+          height: 200px;
+          margin-top: 700px;
+      }
+      #layout4  .layout4_danhMucSanPham{
+          float: left;
+          clear: right;
+          margin-left: 13px;
+          margin-right: 15px;
+          width: 18%;
+          height: 200px;
+          border: 1px solid mediumturquoise;
+
+      }
+      #layout4  .layout4_danhMucSanPham .danhMucSanPham .anh{
+          width: 18%;
+          height: 200px;
+          position: absolute;
+          z-index: 1;
+      }
+      #layout4  .layout4_danhMucSanPham .danhMucSanPham .noiThat {
+          position: absolute;
+          z-index: 2;
+          margin-top: 80px;
+          color: white;
+          text-align: center;
+      }
+      #layout4  .layout4_danhMucSanPham .danhMucSanPham .noiThat .tenNoiThat{
+          text-align: center;
+          font-size: 170%;
+      }
+      #layout4  .layout4_danhMucSanPham .danhMucSanPham .noiThat .noiDung{
+          margin-top: -20px;
+      }
+      #layout5 {
+          margin-top: 100px;
+          width: 100%;
+          height: 1500px;
+          background: mediumturquoise;
+      }
+      #layout5 .sanPham{
+          margin-left: 150px;
+          width: 600px;
+          background: greenyellow;
+      }
+      #layout5 .sanPham .tieuDe{
+          width: 100%;
+          height: 100px;
       }
