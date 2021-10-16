@@ -1013,3 +1013,99 @@
           margin-top: 15px;
           margin-left: 10px;
       }
+
+    #layout7 .thanhDuoi {
+        width: 100%;
+        height: 500px;
+        background: darkturquoise;
+        margin-top: 50px;
+    }
+      #layout7 .thanhDuoi .tenWeb{
+          margin-left: 30px;
+          float: left;
+          clear: right;
+          width: 300px;
+          margin-right: 70px;
+      }
+      #layout7 .thanhDuoi .tenWeb .hotline .fa-phone-square {
+          float: left;
+          clear: right;
+          font-size: 200%;
+          margin-right: 10px;
+      }
+      #layout7 .thanhDuoi .tenWeb .hotline .line {
+          font-size: 150%;
+          color: white;
+      }
+
+      #layout7 .thanhDuoi .thongTin{
+          float: left;
+          clear: right;
+          margin-right: 50px;
+      }
+      #layout7 .thanhDuoi .thongTin .right .fa{
+          float : left;
+          clear: right;
+          margin-right: 10px;
+      }
+      #layout7 .thanhDuoi .thongTin .right .noiDung{
+          margin-left: 20px;
+      }
+      #layout7 .thanhDuoi .NoiDung .hoTro .chucNang{
+          float: left;
+          clear: right;
+          margin-right: 100px;
+      }
+      #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left{
+          float: left;
+          clear: right;
+          margin-top: 220px;
+      }
+      #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left{
+          float: left;
+          clear: right;
+          margin-left: -1450px;
+      }
+      #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left .mang{
+          border-radius: 100px;
+          margin-right: 10px;
+      }
+      #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right{
+          float: left;
+          clear: right;
+          margin-left: -1450px;
+          margin-top: 110px;
+      }
+      #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right .mang{
+          border-radius: 5px;
+          margin-right: 10px;
+      }
+      #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .nhanTin {
+          float: left;
+          clear: right;
+          margin-right: 30px;
+          margin-left: 200px;
+          margin-top: 50px;
+      }
+      #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from {
+             float: left;
+             clear: right;
+             width: 400px;
+              height: 50px;
+              background: white;
+              margin-top: 100px;
+              border-radius: 10px;
+              margin-left: -310px;
+      }
+      #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .dangKi{
+          float: left;
+          clear: right;
+          width: 120px;
+          height: 50px;
+          background: blue;
+          color: white;
+          margin-top: -50px;
+          border-radius: 10px;
+          margin-left: 420px;
+          font-size: 190%;
+      }
