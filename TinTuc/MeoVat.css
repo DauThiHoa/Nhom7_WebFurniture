@@ -144,7 +144,7 @@ body{
     clear: right;
     width: 60%;
     height: 1500px;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 #tinTuc_2 #left .thoiGian .fa-clock-o{
     float: left;
@@ -158,69 +158,127 @@ body{
     text-align: center;
     margin-left: 150px;
 }
-#tinTuc_2 #right .baiVietMoi {
+#tinTuc_2 #right{
+    margin-top: 150px;
+}
+#tinTuc_2 #right #top  {
+    margin-left: 1050px;
+    margin-bottom: 50px;
+    width: 20%;
     margin-top: 50px;
-    margin-left: 1050px;
 }
-#tinTuc_2 #right .baiViet {
-    border: 3px solid mediumturquoise;
-    height: 100px;
-    width: 25%;
-    margin-left: 1050px;
+#tinTuc_2 #right #top .khung {
+    background: cadetblue;
+    height: 55px;
+    width: 100%;
 }
-#tinTuc_2 #right .baiViet .anhBaiVietMoi{
-    float: left;
-    clear: right;
-    width: 81px;
-    height: 84px;
+#tinTuc_2 #right #top .khung .SanPham{
+    color: white;
+    font-size: 150%;
+    vertical-align: middle;
+    margin-left: 25px;
+ }
+#tinTuc_2 #right #top .danhMuc {
+    border: 1px solid darkgray;
+    height: 50px;
+    width: 99%;
 }
-
-#tinTuc_3 {
-    margin-top: 1050px;
-}
-#tinTuc_3 .thanhKe{
-    width: 400px;
-    text-align: center;
-}
-#tinTuc_3 .thanhKe1{
-    width: 600px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-#tinTuc_3 #chu_TinTuc{
-    text-align: center;
-}
-#tinTuc_3 #chu_TinTuc .chu {
-    font-size: 200%;
-    color: darkturquoise;
-}
-#tinTuc_3 #chu_TinTuc .nd {
-    margin-top: -20px;
-}
-#tinTuc_3 #khung .tinTucMoiNhat {
-    float: left;
-    clear: right;
-    border: 1px solid lightskyblue;
-    width: 30%;
-    height: 480px;
-    margin-right: 20px;
+#tinTuc_2 #right #top .danhMuc .noiDungSanPham {
     margin-left: 25px;
 }
-#tinTuc_3 #khung .tinTucMoiNhat .anhTinTucMoiNhat{
+
+#tinTuc_2 #right #bottom  {
+    margin-left: 1050px;
+    margin-bottom: 50px;
+    width: 20%;
+}
+#tinTuc_2 #right #bottom .khung {
+    background: cadetblue;
+    height: 55px;
     width: 100%;
+}
+#tinTuc_2 #right #bottom .khung .SanPham{
+    color: white;
+    font-size: 150%;
+    vertical-align: middle;
+    margin-left: 25px;
+}
+#tinTuc_2 #right #bottom .danhMuc {
+    border: 1px solid darkgray;
+    height: 50px;
+    width: 99%;
+}
+#tinTuc_2 #right #bottom .danhMuc .noiDungSanPham {
+    margin-left: 25px;
+}
+#layout6 {
+    width: 100%;
+    height: 550px;
+    background: #e0ffff ;
+    margin-top: 1100px;
+}
+#layout6 .TieuDe .ten{
+    float: left;
+    clear: right;
+    font-size: 260%;
+    margin-top: -1px;
+    width: 250px;
+    height: 60px;
+    color: white;
+    background: coral;
+}
+#layout6 .TieuDe .right{
+    float: left;
+    clear: right;
+    margin-left: 1400px;
+    margin-top: -60px;
+}
+#layout6 .TieuDe .thanhKe{
+    margin-top: 50px;
+}
+#layout6 .meoVatHay  {
+    margin-left: -10px;
+}
+#layout6 .meoVatHay .meoVat {
+    float: left;
+    clear: right;
+    width: 400px;
     height: 300px;
+    margin-right: 30px;
+    margin-left: 70px;
+
 }
-#tinTuc_3 #khung .tinTucMoiNhat .xemThem{
-    box-shadow: 0 2px black;
-    width: 17%;
+#layout6 .meoVatHay .meoVat .anh {
+    width: 400px;
+    height: 250px;
 }
+#layout6 .meoVatHay .meoVat .lich{
+    width: 400px;
+    height: 50px;
+    background: skyblue;
+    margin-top: -4px;
+}
+#layout6 .meoVatHay .meoVat .lich .fa-calendar-check-o {
+    float: left;
+    clear: right;
+    font-size: 200%;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+#layout6 .meoVatHay .meoVat .lich .ngay {
+    float: left;
+    clear: right;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
 
 #layout7 .thanhDuoi {
 
     width: 100%;
     height: 500px;
     background: darkturquoise;
-    margin-top: 600px;
+    margin-top: 100px;
 }
 #layout7 .thanhDuoi .tenWeb{
     margin-left: 30px;
