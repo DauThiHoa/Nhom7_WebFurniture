@@ -1,8 +1,4 @@
-body{
-    margin: 0 ;
-    overflow: auto;
-    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+
 #Thanh_cong_cu{
     background: darkturquoise;
     width: 100%;
@@ -79,47 +75,63 @@ body{
     margin-left: 50px;
     margin-top: 4px;
 }
-#trangChu_DanhMuc #anh_danhMuc {
+#trangChu_DanhMuc #danhMuc #anh_danhMuc {
     float: left;
     clear: right;
     margin-left: 150px;
-    margin-top: -11px;
+    margin-top: -3px;
     width: 50px;
     height: 45px;
 }
-#trangChu_DanhMuc #chu_DanhMuc {
+#trangChu_DanhMuc #danhMuc #chu_DanhMuc {
     float: left;
     clear: right;
     margin-left: 10px;
     margin-top: 0px;
+    border: 1px solid lightcyan;
 }
 #trangChu_DanhMuc #trangchu {
     float: left;
     clear: right;
     margin-left: 80px;
-    margin-top: -15px;
+}
+#trangChu_DanhMuc #trangchu .chu{
+    margin-top: 2px;
+    border: 1px solid lightcyan;
 }
 #trangChu_DanhMuc #heThongCuaHang {
     float: left;
     clear: right;
     margin-left: 50px;
-    margin-top: -15px;
+    border: 1px solid lightcyan;
+}
+#trangChu_DanhMuc #heThongCuaHang .chu{
+    margin-top: 2px;
+    border: 1px solid lightcyan;
 }
 #trangChu_DanhMuc #tinTuc {
     float: left;
     clear: right;
     margin-left: 50px;
-    margin-top: -15px;
+    border: 1px solid lightcyan;
+}
+#trangChu_DanhMuc #tinTuc .chu{
+    margin-top: 2px;
+    border: 1px solid lightcyan;
 }
 #trangChu_DanhMuc #lienHe {
     float: left;
     margin-left: 50px;
-    margin-top: -15px;
+    border: 1px solid lightcyan;
+}
+#trangChu_DanhMuc #lienHe .chu{
+    margin-top: 2px;
+    border: 1px solid lightcyan;
 }
 #trangKhung   {
     width: 100%;
     height: 500px;
-    margin: -1px;
+    margin: -12px;
 }
 
 body {
@@ -129,7 +141,7 @@ body {
     font-size: 14px;
     color: black;
     line-height: 1.15;
-
+    overflow: auto;
 }
 #wrapper{
     max-width: 1170px;
@@ -307,8 +319,13 @@ ul.products li .product-info a.product-price a{
     clear: right;
     margin-right: 10px;
 }
+#layout7 .thanhDuoi .thongTin .right .ten{
+    margin-top: -10px;
+    border: 1px solid darkturquoise;
+ }
 #layout7 .thanhDuoi .thongTin .right .noiDung{
     margin-left: 20px;
+    margin-top: -10px;
 }
 #layout7 .thanhDuoi .NoiDung .hoTro .chucNang{
     float: left;
@@ -324,11 +341,53 @@ ul.products li .product-info a.product-price a{
     float: left;
     clear: right;
     margin-left: -1450px;
+    margin-bottom: 150px;
+}
+#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left .ten{
+    float: left;
+    clear: right;
+    margin-top: -50px;
+    border: 1px solid darkturquoise;
+    margin-left: 45px;
+}
+#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left .left_mang{
+    float: left;
+    clear: right;
+    margin-left: -250px;
 }
 #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left .mang{
+    float: left;
+    clear: right;
     border-radius: 100px;
     margin-right: 10px;
 }
+
+
+#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left2{
+    float: left;
+    clear: right;
+    margin-left: -1450px;
+    margin-top: 150px;
+}
+#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left2 .ten{
+    float: left;
+    clear: right;
+    margin-top: -50px;
+    border: 1px solid darkturquoise;
+    margin-left: 50px;
+}
+#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left2 .left_mang{
+    float: left;
+    clear: right;
+    margin-left: -150px;
+}
+#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left2 .mang{
+    float: left;
+    clear: right;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
 #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right{
     float: left;
     clear: right;
@@ -360,7 +419,7 @@ ul.products li .product-info a.product-price a{
     float: left;
     clear: right;
     width: 120px;
-    height: 50px;
+    height: 35px;
     background: blue;
     color: white;
     margin-top: -50px;
