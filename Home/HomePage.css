@@ -3,6 +3,22 @@
             overflow: auto;
             font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
+     #SanPhamNoiBat  a{
+          color: black;
+          text-decoration: none;
+      }
+      #SanPhamHot  a{
+          color: black;
+          text-decoration: none;
+      }
+      #SanPhamMoi  a{
+          color: black;
+          text-decoration: none;
+      }
+      #layout4 .layout4_danhMucSanPham .danhMucSanPham a {
+          color: white;
+          text-decoration: none;
+      }
      #Thanh_cong_cu{
              background: darkturquoise;
              width: 100%;
