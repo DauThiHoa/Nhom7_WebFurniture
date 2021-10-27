@@ -3,10 +3,6 @@ body{
     overflow: auto;
     font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-a{
-    color: black;
-    text-decoration: none;
-}
 #Thanh_cong_cu{
     background: darkturquoise;
     width: 100%;
@@ -121,6 +117,7 @@ a{
     margin-top: -15px;
 }
 
+
 #khungTinTuc #anh_khungTinTuc {
     width: 100%;
     height: 400px;
@@ -128,43 +125,43 @@ a{
     z-index: 1;
     margin-left: -1110px;
 }
-#khungTinTuc #tenTinTuc {
+#khungTinTuc #tenTinTuc #trangChu_TinTuc{
     text-align: center;
     position: absolute;
     z-index: 2;
-    color: #0a58ca;
-    margin-left: 600px;
-    margin-top: 40px;
+    color: coral;
+    margin-left: 400px;
+    margin-top: 430px;
     font-size: 150%;
 }
 
 #tinTuc_2 {
     margin-top: 500px;
+
 }
 #tinTuc_2 #left{
     float: left;
     clear: right;
-    width: 70%;
-}
-#tinTuc_2 #left .anh_TinTuc {
-    float: left;
-    clear: right;
-    width: 400px;
-    height: 500px;
-    margin-right: 50px;
+    width: 60%;
+    height: 1500px;
     margin-left: 50px;
 }
- #tinTuc_2 #left .anh_TinTuc .anh{
-     width: 400px;
-     height: 250px;
- }
-#tinTuc_2 #left .anh_TinTuc .thoiGian .fa-clock-o{
+#tinTuc_2 #left .thoiGian .fa-clock-o{
     float: left;
     clear: right;
     font-size: 120%;
     margin-right: 10px;
 }
-
+#tinTuc_2 #left .anh {
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin-left: 150px;
+}
+#tinTuc_2 #right .baiVietMoi {
+    margin-top: 50px;
+    margin-left: 1050px;
+}
 #tinTuc_2 #right .baiViet {
     border: 3px solid mediumturquoise;
     height: 100px;
@@ -177,98 +174,9 @@ a{
     width: 81px;
     height: 84px;
 }
-#khungBinhLuan{
-    margin-top: 310px;
-    margin-left: 50px;
-    border: 1px solid darkgray;
-    width: 1000px;
-    height: 740px;
-}
-#khungBinhLuan .tieuDeBinhLuan{
-    margin-left: 50px;
-}
-#khungBinhLuan .hoTen_Email{
-    margin-left: 50px;
-    margin-top: 30px;
-}
-#khungBinhLuan .hoTen_Email .hoten{
-    float : left;
-    clear: right;
-    border: 1px solid darkgray;
-    width: 430px;
-    height: 60px;
- }
-#khungBinhLuan .hoTen_Email .hoten .ten{
-    margin-left: 25px;
-}
-#khungBinhLuan .hoTen_Email .Email{
-    float : left;
-    clear: right;
-    border: 1px solid darkgray;
-    width: 430px;
-    height: 60px;
-    margin-left: 35px;
-}
-
-#khungBinhLuan .hoTen_Email .Email .email{
-    margin-left: 25px;
-}
-#khungBinhLuan .noiDungBinhLuan{
-    margin-top: 120px;
-    margin-left: 50px;
-    border: 1px solid darkgray;
-    width: 900px;
-    height: 150px;
-}
-#khungBinhLuan .noiDungBinhLuan .thongTinNoiDung{
-    margin-left: 25px;
-}
-#khungBinhLuan .guiBinhLuan{
-    margin-left: 50px;
-    margin-top: 25px;
-    border: 1px solid #0a58ca;
-    width: 150px;
-    height: 50px;
-    border-radius: 10px;
-    background: deepskyblue;
-}
-#khungBinhLuan .guiBinhLuan .gui{
-    text-align: center;
-    margin-top: 15px;
-    font-size: 120%;
-    color: white;
-}
-#khungBinhLuan .soBinhLuan{
-    margin-left: 50px;
-    margin-top: 35px;
-}
-#khungBinhLuan .binhLuan .noiDungBinhLuan{
-    margin-top: -5px;
-    width: 900px;
-    height: 100px;
-    margin-bottom: 25px;
-}
-#khungBinhLuan .binhLuan  .noiDungBinhLuan .anh .anhBinhLuan {
-    width: 100px;
-    height: 100px;
-    float: left;
-    clear: right;
-}
-#khungBinhLuan .binhLuan .noiDungBinhLuan .thongTinBinhLuan  {
-    margin-left: 40px;
-    float: left;
-    clear: right;
-    margin-top: -15px;
-}
-#khungBinhLuan .binhLuan .noiDungBinhLuan .thongTinBinhLuan .ngayDang {
-    margin-top: -10px;
-}
-#khungBinhLuan .binhLuan .noiDungBinhLuan .thongTinBinhLuan .noiDung {
-    margin-top: -5px;
-}
 
 #tinTuc_3 {
-    margin-top: 100px;
+    margin-top: 3100px;
 }
 #tinTuc_3 .thanhKe{
     width: 400px;
@@ -312,7 +220,7 @@ a{
     width: 100%;
     height: 500px;
     background: darkturquoise;
-    margin-top: 580px;
+    margin-top: 600px;
 }
 #layout7 .thanhDuoi .tenWeb{
     margin-left: 30px;
