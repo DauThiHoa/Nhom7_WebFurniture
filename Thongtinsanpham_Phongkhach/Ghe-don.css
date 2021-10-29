@@ -196,7 +196,7 @@
     background: white;
     border: 2px solid black;
     margin-top: 45px;
-    margin-left: -224px;
+    margin-left: -196px;
 }
 #thongTinSanPham .phai  .soLuongSanPham .tru .dauTru{
     font-size: 500%;
@@ -212,7 +212,7 @@
     background: darkorange;
     border: 2px solid coral;
     margin-top: 45px;
-    margin-left: -168px;
+    margin-left: -141px;
 
 }
 #thongTinSanPham .phai  .soLuongSanPham .so .soLuongDat{
@@ -230,7 +230,7 @@
     background: white;
     border: 2px solid black;
     margin-top: 45px;
-    margin-left: -112px;
+    margin-left: -85px;
 }
 #thongTinSanPham .phai  .soLuongSanPham .cong .dauCong{
     font-size: 250%;
@@ -243,7 +243,7 @@
     width: 270px;
     height: 50px;
     background: darkorange;
-    margin-left: -34px;
+    margin-left: -5px;
     margin-top: 50px;
     border-radius: 10px;
 }
