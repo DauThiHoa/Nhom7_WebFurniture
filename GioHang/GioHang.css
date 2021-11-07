@@ -238,14 +238,20 @@ body{
     height: 320px;
 }
 #layout1 .noiDungGioHang {
-    background-color: white;
+    background-color: #cfd8dc;
+    height: 100%;
 }
 #layout1 .timKiem .btn_timKiem {
-    width: 100%;
+    width: 1455px;
     height: 50px;
     text-align: left;
     background: none;
     border: 1px solid #737373;
+    background-color: #cfd8dc;
+}
+#layout1 .timKiem .btn_timKiem img {
+    margin-left: 1450px;
+    margin-top: -15px;
 }
 #layout1 .noiDungGioHang .fa-shopping-cart{
     font-size: 40px;
@@ -257,10 +263,112 @@ body{
     text-align: left;
     background: none;
     border: 1px solid #737373;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
-#layout1 .timKiem .btn_thongTin h2 {
+#layout1 .timKiem .total {
     font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    border: 1px solid #737373;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
+#layout1 .timKiem .btn {
+    margin-top: 20px;
+    width: 1490px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid;
+}
+#layout1 .back {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-right: 45px;
+}
+#layout1 .back i {
+    margin-right: 20px;
+}
+#layout3 .container {
+    height: 200px;
+    border: 1px solid #737373;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#layout3 .container .lienHe h1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+#layout3 .container .lienHe p{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+#layout3 .container .lienHe .btn1 {
+    background-color: white;
+    border: 1px solid #555555;
+}
+#layout3 .container .lienHe .btn2 {
+    background-color: #0a58ca;
+    border: 1px solid #0a58ca;
+}
+#layout4 {
+    height: 100px;
+}
+#layout4 #giaoHang .fa-archive{
+    float: left;
+    font-size: 35px;
+    margin-left: 45px;
+    margin-top: 28px;
+}
+#layout4 #giaoHang #chu_giaoHang{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 100%;
+}
+#layout4 #chinhSach .fa-bullhorn{
+    float: left;
+    font-size: 35px;
+    margin-left: 45px;
+    margin-top: 28px;
+}
+#layout4 #chinhSach #chu_chinhSach{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 100%;
+}
+#layout4 #hoTro .fa-bell{
+    float: left;
+    font-size: 35px;
+    margin-left: 45px;
+    margin-top: 28px;
+}
+#layout4 #hoTro #chu_hoTro{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 100%;
+}
+#layout5 button{
+    width: 450px;
+    margin-left: 500px;
+    background-color: #0a58ca;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
 #layout7 .thanhDuoi {
     width: 100%;
     height: 500px;
