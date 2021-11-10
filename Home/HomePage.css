@@ -55,10 +55,25 @@
         float: left;
         margin-left: 35px;
     }
-    #Thanh_cong_cu #Tim_Kiem{
+    #Thanh_cong_cu .fa-search{
+        float: left;
+        margin-top: 12px;
+        margin-left: 13px;
+    }
+    #Tim_Kiem {
+        border-radius: 5px;
         float: left;
         margin-left: 0px;
-        margin-top: 21px;
+        margin-top: 20px;
+        height :  40px;
+        width : 40px;
+        background: blue;
+        border: 1px solid #0a58ca;
+        color: white;
+    }
+    #Tim_Kiem:hover {
+        cursor: pointer;
+        background: blue;
     }
     #Thanh_cong_cu #Hotline .fa-phone-square{
         float: left;
@@ -66,6 +81,10 @@
         margin-left: 45px;
         margin-top: 28px;
     }
+      #Thanh_cong_cu #Hotline .fa-phone-square:hover{
+          color: white;
+          cursor: pointer;
+      }
     #Thanh_cong_cu #Hotline #chu_HotLine{
         float: left;
         margin-left: 10px;
@@ -73,24 +92,65 @@
         margin-bottom: 10px;
         font-size: 100%;
     }
+      #Thanh_cong_cu #Hotline #chu_HotLine:hover{
+          color: white;
+          cursor: pointer;
+      }
       #Thanh_cong_cu #TaiKhoan .fa-user-circle{
           float: left;
           font-size: 35px;
           margin-left: 45px;
           margin-top: 28px;
       }
+      #Thanh_cong_cu #TaiKhoan .fa-user-circle:hover{
+          color: white;
+          cursor: pointer;
+      }
       #Thanh_cong_cu #TaiKhoan #dangNhap_dangKy{
           float: left;
           margin-left: 10px;
           margin-top: 10px;
-          margin-bottom: 10px;
           font-size: 100%;
+      }
+      .danhNhap{
+          float: left;
+          clear: right;
+      }
+      .danhNhap:hover{
+          color: white;
+          cursor: pointer;
+      }
+      .cheo {
+          float: left;
+          clear: right;
+      }
+      .dangKi {
+          float: left;
+          clear: right;
+      }
+      .dangKi:hover{
+          color: white;
+          cursor: pointer;
+      }
+      .taiKhoanCuaToi {
+          float: left;
+          clear: right;
+          margin-left: -135px;
+          margin-top: 35px;
+      }
+      .taiKhoanCuaToi:hover{
+          color: white;
+          cursor: pointer;
       }
       #Thanh_cong_cu #gioHang .fa-shopping-cart{
           float: left;
           font-size: 35px;
           margin-left: 45px;
           margin-top: 28px;
+      }
+      #Thanh_cong_cu #gioHang .fa-shopping-cart:hover{
+          color: white;
+          cursor: pointer;
       }
       #Thanh_cong_cu #gioHang #chu_giohang{
           float: left;
@@ -99,17 +159,24 @@
           margin-bottom: 10px;
           font-size: 100%;
       }
+      #Thanh_cong_cu #gioHang #chu_giohang:hover{
+          color: white;
+          cursor: pointer;
+      }
       #trangChu_DanhMuc   {
+          float: left;
+          clear: right;
           border: 1px solid black;
           width: 100%;
           height: 50px;
           background: lightcyan;
+          margin-top: -10px;
       }
       #trangChu_DanhMuc #danhMuc {
           float: left;
           clear: right;
           margin-left: 200px;
-          margin-top: -8px;
+          margin-top: 0px;
           width: 260px;
           height: 50px;
       }
@@ -174,23 +241,23 @@
 
         }
 
-      #trangChu_DanhMuc #danhMuc #top .danhMuc .noiDungSanPham1 {
+      #trangChu_DanhMuc #danhMuc #top .danhMuc1 .noiDungSanPham1 {
+          margin-left: 30px;
+
+      }
+      #trangChu_DanhMuc #danhMuc #top .danhMuc2 .noiDungSanPham2 {
           margin-left: 25px;
 
       }
-      #trangChu_DanhMuc #danhMuc #top .danhMuc .noiDungSanPham2 {
+      #trangChu_DanhMuc #danhMuc #top .danhMuc3 .noiDungSanPham3 {
           margin-left: 25px;
 
       }
-      #trangChu_DanhMuc #danhMuc #top .danhMuc .noiDungSanPham3 {
+      #trangChu_DanhMuc #danhMuc #top .danhMuc4 .noiDungSanPham4 {
           margin-left: 25px;
 
       }
-      #trangChu_DanhMuc #danhMuc #top .danhMuc .noiDungSanPham4 {
-          margin-left: 25px;
-
-      }
-      #trangChu_DanhMuc #danhMuc #top .danhMuc .noiDungSanPham5 {
+      #trangChu_DanhMuc #danhMuc #top .danhMuc5 .noiDungSanPham5 {
           margin-left: 25px;
 
       }
@@ -226,7 +293,7 @@
           float: left;
           clear: right;
           margin-left: 0px;
-          margin-top: -8px;
+          margin-top: 0px;
           height: 50px;
           width: 200px;
       }
@@ -244,7 +311,7 @@
           float: left;
           clear: right;
           margin-left: 0px;
-          margin-top: -8px;
+          margin-top: 0px;
           height: 50px;
           width: 250px;
       }
@@ -262,7 +329,7 @@
           float: left;
           clear: right;
           margin-left: 0px;
-          margin-top: -8px;
+          margin-top: 0px;
           height: 50px;
           width: 160px;
       }
@@ -280,7 +347,7 @@
           float: left;
           clear: right;
           margin-left: 0px;
-          margin-top: -8px;
+          margin-top: 0px;
           height: 50px;
           width: 160px;
       }
@@ -426,6 +493,11 @@
           margin-left: 60px;
           margin-top: 50px;
       }
+      #SanPhamNoiBat #BanLamViec:hover{
+          background: #76c9bd;
+          cursor: pointer;
+          color: white;
+      }
       #SanPhamNoiBat #BanLamViec #anh_BanLamViec{
           margin-left: 25px;
           margin-top: 30px;
@@ -435,8 +507,17 @@
       #SanPhamNoiBat #BanLamViec #blv{
           text-align: center;
       }
+      #SanPhamNoiBat #BanLamViec:hover #blv .chuBanLamViec{
+          cursor: pointer;
+          color: white;
+      }
       #SanPhamNoiBat #BanLamViec #blv #giaBLV{
           color: mediumturquoise;
+      }
+
+      #SanPhamNoiBat #BanLamViec:hover #blv #giaBLV{
+          cursor: pointer;
+          color: white;
       }
       #SanPhamNoiBat #chu_SanPhamNoiBat{
           margin-left: 50px;
@@ -487,17 +568,39 @@
           height: 220px;
           border: 1px solid black;
       }
+
       #tenCacSanPhamNoiBat #anh_TuHaBu {
           float: left;
           clear: right;
           width: 250px;
           height: 150px;
       }
+
       #tenCacSanPhamNoiBat #tu {
           text-align: center;
       }
       #tenCacSanPhamNoiBat #tu #giaTuHaBu{
+          margin-top: -10px;
           color: mediumturquoise;
+      }
+
+      #tenCacSanPhamNoiBat #TuHaBu:hover {
+          background: #76c9bd;
+          color: white;
+      }
+      #tenCacSanPhamNoiBat #TuHaBu:hover #anh_TuHaBu {
+          width: 230px;
+          height: 130px;
+          background: #76c9bd;
+          color: white;
+          margin-left: 10px;
+          margin-top: 20px;
+      }
+      #tenCacSanPhamNoiBat #TuHaBu:hover .ten {
+          color: white;
+      }
+      #tenCacSanPhamNoiBat #TuHaBu:hover #tu #giaTuHaBu {
+          color: white;
       }
       #tenCacSanPhamNoiBat #SofaBangBella {
           background: white;
@@ -520,8 +623,27 @@
       }
       #tenCacSanPhamNoiBat #bella #giaBella{
           color: mediumturquoise;
+          margin-top: -10px;
       }
 
+      #tenCacSanPhamNoiBat #SofaBangBella:hover {
+          background: #76c9bd;
+          color: white;
+      }
+      #tenCacSanPhamNoiBat #SofaBangBella:hover #anh_SofaBangBella {
+          width: 230px;
+          height: 130px;
+          background: #76c9bd;
+          color: white;
+          margin-left: 10px;
+          margin-top: 20px;
+      }
+      #tenCacSanPhamNoiBat #SofaBangBella:hover .ten {
+          color: white;
+      }
+      #tenCacSanPhamNoiBat #SofaBangBella:hover #bella #giaBella {
+          color: white;
+      }
       #tenCacSanPhamNoiBat #keTuHoBu {
           background: white;
           margin-left: 45px;
@@ -544,8 +666,26 @@
       }
       #tenCacSanPhamNoiBat #tuHoBu #giaKeTuHoBu{
           color: mediumturquoise;
+          margin-top: -10px;
       }
-
+      #tenCacSanPhamNoiBat #keTuHoBu:hover {
+          background: #76c9bd;
+          color: white;
+      }
+      #tenCacSanPhamNoiBat #keTuHoBu:hover #anh_keTuHoBu {
+          width: 230px;
+          height: 130px;
+          background: #76c9bd;
+          color: white;
+          margin-left: 10px;
+          margin-top: 20px;
+      }
+      #tenCacSanPhamNoiBat #keTuHoBu:hover .ten {
+          color: white;
+      }
+      #tenCacSanPhamNoiBat #keTuHoBu:hover #tuHoBu #giaKeTuHoBu {
+          color: white;
+      }
       #tenCacSanPhamNoiBat #keTreoPoplar {
           background: white;
           margin-left: 45px;
@@ -568,6 +708,25 @@
       }
       #tenCacSanPhamNoiBat #poplar #giaKeTreoPoplar{
           color: mediumturquoise;
+          margin-top: -10px;
+      }
+      #tenCacSanPhamNoiBat #keTreoPoplar:hover {
+          background: #76c9bd;
+          color: white;
+      }
+      #tenCacSanPhamNoiBat #keTreoPoplar:hover #anh_keTreoPoplar {
+          width: 230px;
+          height: 130px;
+          background: #76c9bd;
+          color: white;
+          margin-left: 10px;
+          margin-top: 20px;
+      }
+      #tenCacSanPhamNoiBat #keTreoPoplar:hover .ten {
+          color: white;
+      }
+      #tenCacSanPhamNoiBat #keTreoPoplar:hover #poplar #giaKeTreoPoplar {
+          color: white;
       }
 
       #tenCacSanPhamNoiBat #keTiViHoBu {
@@ -592,6 +751,25 @@
       }
       #tenCacSanPhamNoiBat #tivi #giaKeTiViHoBu{
           color: mediumturquoise;
+          margin-top: -10px;
+      }
+      #tenCacSanPhamNoiBat #keTiViHoBu:hover {
+          background: #76c9bd;
+          color: white;
+      }
+      #tenCacSanPhamNoiBat #keTiViHoBu:hover #anh_keTiViHoBu {
+          width: 230px;
+          height: 130px;
+          background: #76c9bd;
+          color: white;
+          margin-left: 10px;
+          margin-top: 20px;
+      }
+      #tenCacSanPhamNoiBat #keTiViHoBu:hover .ten {
+          color: white;
+      }
+      #tenCacSanPhamNoiBat #keTiViHoBu:hover #tivi #giaKeTiViHoBu {
+          color: white;
       }
 
 
@@ -617,8 +795,27 @@
       }
       #tenCacSanPhamNoiBat #euro #giaGheEuro{
           color: mediumturquoise;
+          margin-top: -10px;
       }
-
+      #tenCacSanPhamNoiBat #gheEuro:hover {
+          background: #76c9bd;
+          color: white;
+      }
+      #tenCacSanPhamNoiBat #gheEuro:hover #anh_gheEuro {
+          width: 230px;
+          height: 130px;
+          background: #76c9bd;
+          color: white;
+          margin-left: 10px;
+          margin-top: 20px;
+      }
+      #tenCacSanPhamNoiBat #gheEuro:hover .ten {
+          color: white;
+      }
+      #tenCacSanPhamNoiBat #gheEuro:hover #euro #giaGheEuro {
+          color: white;
+      }
+      
       #SanPhamHot  {
           border: 1px solid black;
           width: 100%;
@@ -709,6 +906,7 @@
       }
       #SanPhamHot #ghePhongKhachArctander #Arctander #giaArctander{
           color: mediumturquoise;
+          margin-top: -10px;
       }
       #SanPhamHot #BanAillen03{
           float: left;
