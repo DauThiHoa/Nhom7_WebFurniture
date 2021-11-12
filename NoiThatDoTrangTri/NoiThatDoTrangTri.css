@@ -390,13 +390,14 @@ body{
     height: 400px;
     margin-left: 0px;
 }
-#khungTinTuc #tenTinTuc #trangChu_TinTuc{
+
+#khungTinTuc #tenTinTuc .trangChu_TinTuc{
     color: palevioletred;
-    margin-left: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 80px;
     font-size: 150%;
 }
-
 #layout1 #left  {
    margin-left: 40px;
     margin-top: 20px;
@@ -431,7 +432,15 @@ body{
 #layout1 #left .khung .noiDung .noiThat .nd{
     margin-left: 25px;
 }
-
+#layout1 #left .khung .noiDung .noiThat:hover{
+    background: darkturquoise ;
+    color: white;
+    cursor: pointer;
+}
+#layout1 #left .khung .noiDung a {
+    color: black;
+    text-decoration: none;
+}
 #layout1 #left .khung1 {
     width: 300px;
     height: 450px;
@@ -454,22 +463,41 @@ body{
     width: 100%;
     height: 55px;
     border: 1px solid darkgray;
+    margin-left: -1px;
 }
-#layout1 #left .khung1 .noiDung .gia .fa-square-o{
+#layout1 #left .khung1 .noiDung .gia .khungGia{
+    float: left;
+    clear: right;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-top: 12px;
+    color: #ef5f43;
+    border: 3px solid black;
+    border-radius: 20%;
+    height: 25px;
+    width: 25px;
+}
+#layout1 #left .khung1 .noiDung .gia .fa-check-square{
     float: left;
     clear: right;
     font-size: 200%;
-    margin-right: 15px;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: -1px;
+    margin-top: -3px;
+    color: white;
+    border-radius: 20%;
 }
 #layout1 #left .tuKhoa  {
     width: 300px;
     height: 120px;
     border: 1px solid darkgray;
 }
+#layout1 #left .khung1 .noiDung .gia .fa-check-square:hover{
+    cursor: pointer;
+    color: #ef5f43;
+}
 #layout1 #left .tuKhoa .khung  {
-    width: 295px;
+    width: 297px;
     height: 50px;
     background: mediumturquoise;
 }
@@ -481,13 +509,14 @@ body{
 #layout1 #left .tuKhoa .noiDung  {
     width: 275px;
     height: 40px;
-    border: 1px solid black;
     margin-top: -25px;
-    margin-left: 12px;
+    margin-left: 10px;
 }
 #layout1 #left .tuKhoa .noiDung .tuKhoaTimKiem  {
-    margin-left: 5px;
-    margin-top: 8px;
+    width: 275px;
+    height: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 #layout1 #left .mauSac{
     width: 300px;
@@ -511,6 +540,96 @@ body{
     width: 50px;
     height: 50px;
     margin-right: 10px;
+}
+#layout1 #left .mauSac .boMau .fa{
+    float: left;
+    clear: right;
+    margin-right: 10px;
+    font-size: 300%;
+}
+
+#layout1 #left .mauSac .boMau .fa-circle{
+    float: left;
+    clear: right;
+    margin-right: 10px;
+    margin-left: 6px;
+    font-size: 320%;
+    color: pink;
+}
+#layout1 #left .mauSac .boMau #fa2{
+    float: left;
+    clear: right;
+    margin-right: 10px;
+    margin-left: 6px;
+    font-size: 320%;
+    color: yellow;
+}
+#layout1 #left .mauSac .boMau #fa3{
+    float: left;
+    clear: right;
+    margin-right: 10px;
+    margin-left: 6px;
+    font-size: 320%;
+    color: #b0bec5;
+}
+#layout1 #left .mauSac .boMau #fa4{
+    float: left;
+    clear: right;
+    margin-right: 10px;
+    margin-left: 6px;
+    font-size: 320%;
+    color: #6394F8;
+}
+#layout1 #left .mauSac .boMau #fa5{
+    float: left;
+    clear: right;
+    margin-right: 10px;
+    margin-left: 6px;
+    font-size: 320%;
+    color: mediumspringgreen;
+}
+#layout1 #left .mauSac .boMau #fa6{
+    float: left;
+    clear: right;
+    margin-right: 10px;
+    margin-left: 6px;
+    font-size: 320%;
+    color: #ef5f43;
+}
+#layout1 #left .mauSac .boMau #fa7{
+    float: left;
+    clear: right;
+    margin-right: 10px;
+    margin-left: 6px;
+    font-size: 320%;
+    color: cyan;
+}
+#layout1 #left .mauSac .boMau #fa8{
+    float: left;
+    clear: right;
+    margin-right: 10px;
+    margin-left: 6px;
+    font-size: 320%;
+    color: black;
+}
+#layout1 #left .mauSac .boMau #fa9{
+    float: left;
+    clear: right;
+    margin-right: 10px;
+    margin-left: 6px;
+    font-size: 320%;
+    color: darkorchid;
+}
+#layout1 #left .mauSac .boMau #fa10{
+    float: left;
+    clear: right;
+    margin-right: 10px;
+    margin-left: 6px;
+    font-size: 320%;
+    color: red;
+}
+#layout1 #left .mauSac .boMau .fa:hover{
+    cursor: pointer;
 }
 #layout1 #left .apDung{
     width: 100px;
@@ -544,6 +663,11 @@ body{
     clear: right;
     margin-top: 100px;
     margin-right: 10px;
+    color: white;
+}
+#layout1 #right #CacLoaiDoTrangTri .fa:hover {
+    cursor: pointer;
+    color: pink;
 }
 #layout1 #right #CacLoaiDoTrangTri .loai {
     width: 170px;
@@ -555,6 +679,15 @@ body{
     margin-top: 25px;
     margin-right: 20px;
     background: white;
+}
+#layout1 #right #CacLoaiDoTrangTri   a {
+    color: black;
+    text-decoration: none;
+}
+#layout1 #right #CacLoaiDoTrangTri .loai:hover {
+    cursor: pointer;
+    background: pink;
+    color: white;
 }
 #layout1 #right #CacLoaiDoTrangTri .loai .anh {
     width: 150px;
@@ -590,16 +723,41 @@ body{
     clear: right;
     margin-right: 20px;
 }
-#layout1 #right #sapXep .tenKieu .fa-circle-o {
+#layout1 #right #sapXep .tenKieu .fa-check-circle {
     float: left;
     clear: right;
     margin-right: 15px;
     margin-top: 20px;
+    border: 1px solid black;
+    color: white;
+    border-radius: 50%;
 }
+#layout1 #right #sapXep .tenKieu .fa-circle {
+    float: left;
+    clear: right;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 20px;
+    font-size: 150%;
+    border: 1px solid black;
+    color: white;
+    background: white;
+    border-radius: 140%;
+    height: 24px;
+    width: 24px;
+}
+#layout1 #right #sapXep .tenKieu .fa-circle:hover {
+    border: 1px solid black;
+    color: orange;
+    background: red;
+    cursor: pointer;
+}
+
 #layout1 #right #sapXep .tenKieu .noiDungSapXep {
     float: left;
     clear: right;
     margin-right: 20px;
+    margin-top: 25px;
 }
 
 #layout1 #right #CacSanPham .sanPham .sanPhamNoiThat{
