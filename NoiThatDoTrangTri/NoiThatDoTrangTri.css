@@ -525,7 +525,7 @@ body{
     margin-top: 50px;
 }
 #layout1 #left .mauSac .khung  {
-    width: 295px;
+    width: 297px;
     height: 50px;
     background: mediumturquoise;
 }
@@ -541,115 +541,167 @@ body{
     height: 50px;
     margin-right: 10px;
 }
+
 #layout1 #left .mauSac .boMau .fa{
     float: left;
     clear: right;
-    margin-right: 10px;
-    font-size: 300%;
-}
+    margin-right: 5px;
+    font-size: 270%;
 
-#layout1 #left .mauSac .boMau .fa-circle{
+    text-align: center;
+    width: 45px;
+    height: 44px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+#layout1 #left .mauSac .boMau #fa1{
     float: left;
     clear: right;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-left: 6px;
-    font-size: 320%;
+    font-size: 280%;
     color: pink;
+    margin-top: 0px;
+}
+#layout1 #left .mauSac .boMau #fa1:hover {
+    border: 1px solid black;
 }
 #layout1 #left .mauSac .boMau #fa2{
     float: left;
     clear: right;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-left: 6px;
-    font-size: 320%;
+    font-size: 270%;
     color: yellow;
+}
+#layout1 #left .mauSac .boMau #fa2:hover {
+    border: 1px solid black;
 }
 #layout1 #left .mauSac .boMau #fa3{
     float: left;
     clear: right;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-left: 6px;
-    font-size: 320%;
+    font-size: 270%;
     color: #b0bec5;
+}
+#layout1 #left .mauSac .boMau #fa3:hover {
+    border: 1px solid black;
 }
 #layout1 #left .mauSac .boMau #fa4{
     float: left;
     clear: right;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-left: 6px;
-    font-size: 320%;
+    font-size: 270%;
     color: #6394F8;
+}
+#layout1 #left .mauSac .boMau #fa4:hover {
+    border: 1px solid black;
 }
 #layout1 #left .mauSac .boMau #fa5{
     float: left;
     clear: right;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-left: 6px;
-    font-size: 320%;
+    font-size: 270%;
     color: mediumspringgreen;
+}
+#layout1 #left .mauSac .boMau #fa5:hover {
+    border: 1px solid black;
 }
 #layout1 #left .mauSac .boMau #fa6{
     float: left;
     clear: right;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-left: 6px;
-    font-size: 320%;
+    font-size: 270%;
     color: #ef5f43;
+    margin-top: 5px;
+}
+#layout1 #left .mauSac .boMau #fa6:hover {
+    border: 1px solid black;
 }
 #layout1 #left .mauSac .boMau #fa7{
     float: left;
     clear: right;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-left: 6px;
-    font-size: 320%;
+    font-size: 270%;
     color: cyan;
+    margin-top: 5px;
+}
+#layout1 #left .mauSac .boMau #fa7:hover {
+    border: 1px solid black;
 }
 #layout1 #left .mauSac .boMau #fa8{
     float: left;
     clear: right;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-left: 6px;
-    font-size: 320%;
+    font-size: 270%;
     color: black;
+    margin-top: 5px;
+}
+#layout1 #left .mauSac .boMau #fa8:hover {
+    border: 1px solid black;
 }
 #layout1 #left .mauSac .boMau #fa9{
     float: left;
     clear: right;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-left: 6px;
-    font-size: 320%;
+    font-size: 270%;
     color: darkorchid;
+    margin-top: 5px;
+}
+#layout1 #left .mauSac .boMau #fa9:hover {
+    border: 1px solid black;
 }
 #layout1 #left .mauSac .boMau #fa10{
     float: left;
     clear: right;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-left: 6px;
-    font-size: 320%;
+    font-size: 270%;
     color: red;
+    margin-top: 5px;
+}
+#layout1 #left .mauSac .boMau #fa10:hover {
+    border: 1px solid black;
 }
 #layout1 #left .mauSac .boMau .fa:hover{
     cursor: pointer;
 }
 #layout1 #left .apDung{
-    width: 100px;
-    height: 30px;
+    width: 125px;
+    height: 45px;
     margin-top: 25px;
-    background: orange;
-    margin-left: 200px;
+    background: white;
+    margin-left: 175px;
     border-radius: 25px;
+    border: 2px solid black;
 }
 #layout1 #left .apDung .tenApDung{
     text-align: center;
-    vertical-align: bottom;
-    margin-top: 0px;
+    margin-top: 7px;
+    color: darkorange;
+    font-size: 150%;
+}
+#layout1 #left .apDung:hover {
+    cursor: pointer;
+    background: darkorange;
+    color: white;
+}
+#layout1 #left .apDung:hover .tenApDung{
+    cursor: pointer;
     color: white;
 }
 #layout1 #right{
     float: left;
     clear: right;
     margin-left: 420px;
-    margin-top: -1240px;
+    margin-top: -1260px;
 }
 #layout1 #right #CacLoaiDoTrangTri{
     width: 1050px;
@@ -687,7 +739,7 @@ body{
 #layout1 #right #CacLoaiDoTrangTri .loai:hover {
     cursor: pointer;
     background: pink;
-    color: white;
+    color: black;
 }
 #layout1 #right #CacLoaiDoTrangTri .loai .anh {
     width: 150px;
@@ -770,6 +822,11 @@ body{
     border: 1px solid #1fb5d4;
     background: white;
 }
+#layout1 #right #CacSanPham .sanPham .sanPhamNoiThat:hover{
+    cursor: pointer;
+    background: skyblue;
+    color: white;
+}
 #layout1 #right #CacSanPham .sanPham .anhDoTrangTri .anh{
     width: 230px;
     height: 180px;
@@ -786,8 +843,11 @@ body{
 #layout1 #right #CacSanPham .sanPham .noiDungDoTrangTri .gia{
     text-align: center;
     font-size: 100%;
-    margin-top: -20px;
+    margin-top: -10px;
     color: #1fb5d4;
+}
+#layout1 #right #CacSanPham .sanPham .sanPhamNoiThat:hover .noiDungDoTrangTri .gia {
+    color: yellow;
 }
 #layout1 #right #themTrangMoi {
    margin-left: 550px;
@@ -801,6 +861,11 @@ body{
     height: 50px;
     margin-right: 20px;
     background: #666666;
+}
+#layout1 #right #themTrangMoi .khung:hover{
+    cursor: pointer;
+    background: coral;
+    color: white;
 }
 #layout1 #right #themTrangMoi .khung .fa {
     font-size: 150%;
@@ -818,6 +883,11 @@ body{
     margin-right: 20px;
     background: coral;
 }
+#layout1 #right #themTrangMoi .khung2:hover{
+    cursor: pointer;
+    background: coral;
+    color: white;
+}
 #layout1 #right #themTrangMoi .khung2 .fa2 {
     font-size: 150%;
     color: white;
@@ -830,9 +900,39 @@ body{
     margin-top: 10px;
     margin-left: 20px;
 }
+#layout1 #right #themTrangMoi .khung1:hover   {
+    cursor: pointer;
+    background: white;
+    color: black;
+}
 #layout1 #right #themTrangMoi .khung1 .fa-angle-double-left {
     color: black;
     background: white;
+}
+#layout1 #right #themTrangMoi .khung3  {
+    float: left;
+    clear: right;
+    border: 1px solid #666666;
+    margin-top: 25px;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    color: white;
+    background: #666666;
+}
+#layout1 #right #themTrangMoi .khung3 .fa-angle-double-right {
+    font-size: 150%;
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#layout1 #right #themTrangMoi .khung3:hover   {
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+#layout1 #right #themTrangMoi .khung3:hover .fa-angle-double-right {
+    color: black;
 }
 #layout1 #right #themTrangMoi .khung1  {
     float: left;
