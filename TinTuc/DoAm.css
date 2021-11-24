@@ -367,7 +367,8 @@ a{
     text-align: center;
     position: absolute;
     z-index: 1;
-    color: darkorange;
+    color: #0099aa;
+    font-weight: bold;
     margin-left: 400px;
     margin-top: 80px;
     font-size: 150%;
