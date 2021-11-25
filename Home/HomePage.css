@@ -516,7 +516,7 @@
           margin-top: 50px;
       }
       #SanPhamNoiBat #BanLamViec:hover{
-          background: pink;
+          background:  mediumturquoise;
           cursor: pointer;
           color: white;
       }
@@ -607,14 +607,14 @@
       }
 
       #tenCacSanPhamNoiBat #TuHaBu:hover {
-          background: #76c9bd;
+          background: skyblue;
           color: white;
           cursor: pointer;
       }
       #tenCacSanPhamNoiBat #TuHaBu:hover #anh_TuHaBu {
           width: 230px;
           height: 130px;
-          background: #76c9bd;
+          background: skyblue;
           color: white;
           margin-left: 10px;
           margin-top: 20px;
@@ -650,7 +650,7 @@
       }
 
       #tenCacSanPhamNoiBat #SofaBangBella:hover {
-          background: #76c9bd;
+          background: skyblue;
           color: white;
           cursor: pointer;
       }
@@ -692,7 +692,7 @@
           margin-top: -10px;
       }
       #tenCacSanPhamNoiBat #keTuHoBu:hover {
-          background: #76c9bd;
+          background: skyblue;
           color: white;
           cursor: pointer;
       }
@@ -734,7 +734,7 @@
           margin-top: -10px;
       }
       #tenCacSanPhamNoiBat #keTreoPoplar:hover {
-          background: #76c9bd;
+          background: skyblue;
           color: white;
           cursor: pointer;
       }
@@ -777,7 +777,7 @@
           margin-top: -10px;
       }
       #tenCacSanPhamNoiBat #keTiViHoBu:hover {
-          background: #76c9bd;
+          background: skyblue;
           color: white;
           cursor: pointer;
       }
@@ -821,7 +821,7 @@
           margin-top: -10px;
       }
       #tenCacSanPhamNoiBat #gheEuro:hover {
-          background: #76c9bd;
+          background: skyblue;
           color: white;
           cursor: pointer;
       }
@@ -923,7 +923,7 @@
           margin-top: 100px;
       }
       #SanPhamHot #gheGoBapBenhIconic:hover {
-          background: #76c9bd;
+          background: mediumturquoise;
           color: white;
           cursor: pointer;
       }
@@ -959,7 +959,7 @@
           margin-top: -10px;
       }
       #SanPhamHot #ghePhongKhachArctander:hover {
-          background: #76c9bd;
+          background: mediumturquoise;
           color: white;
           cursor: pointer;
       }
@@ -993,7 +993,7 @@
           color: mediumturquoise;
       }
       #SanPhamHot #BanAillen03:hover {
-          background: #76c9bd;
+          background: mediumturquoise;
           color: white;
           cursor: pointer;
       }
@@ -1027,7 +1027,7 @@
           color: mediumturquoise;
       }
       #SanPhamHot #banBinas:hover {
-          background: #76c9bd;
+          background: mediumturquoise;
           color: white;
           cursor: pointer;
       }
@@ -1064,7 +1064,7 @@
       }
 
       #SanPhamMoi #Kozoka_trysil:hover {
-          background: pink;
+          background: mediumturquoise;
           color: white;
           cursor: pointer;
       }
@@ -1143,7 +1143,7 @@
           margin-bottom: -10px;
       }
       #tenCacSanPhamMoi #dongHoMiso:hover {
-          background: #76c9bd;
+          background: skyblue;
           color: white;
           cursor: pointer;
       }
@@ -1181,7 +1181,7 @@
           margin-top: -10px;
       }
       #tenCacSanPhamMoi #dongHoTabu:hover {
-          background: #76c9bd;
+          background: skyblue;
           color: white;
           cursor: pointer;
       }
@@ -1218,7 +1218,7 @@
           margin-top: -10px;
       }
       #tenCacSanPhamMoi #GiuongILBRO_BASIC:hover {
-          background: #76c9bd;
+          background: skyblue;
           color: white;
           cursor: pointer;
       }
@@ -1256,7 +1256,7 @@
           margin-top: -10px;
       }
       #tenCacSanPhamMoi #GoSoIBIE_DRVICESO:hover {
-          background: #76c9bd;
+          background: skyblue;
           color: white;
           cursor: pointer;
       }
@@ -1294,7 +1294,7 @@
           margin-top: -10px;
       }
       #tenCacSanPhamMoi #TuQuanAo:hover {
-          background: #76c9bd;
+          background: skyblue;
           color: white;
           cursor: pointer;
       }
@@ -1333,7 +1333,7 @@
           margin-top: -10px;
       }
       #tenCacSanPhamMoi #LotLy:hover {
-          background: #76c9bd;
+          background: skyblue;
           color: white;
           cursor: pointer;
       }
@@ -1443,7 +1443,7 @@
       }
 
       #layout5 .sanPham  .cacSanPham:hover {
-          background: pink;
+          background: skyblue;
           cursor: pointer;
       }
       #layout5 .sanPham  .cacSanPham   .anh5:hover{
@@ -1535,7 +1535,7 @@
           border: 1px solid mediumturquoise ;
       }
       #layout5 .sanPham1  .cacSanPham:hover {
-          background: pink;
+          background: skyblue;
           cursor: pointer;
       }
       #layout5 .sanPham1  .cacSanPham   .anh5:hover{
@@ -1582,10 +1582,30 @@
       #layout5 .sanPham1  .cacSanPham:hover   .moTa .giaCu{
           color: white;
       }
+      .gioHang {
+          height: 45px;
+          width: 250px;
+          margin-left: 50px;
+          background: #1fb5d4;
+      }
+      .gioHang .fa-shopping-cart{
+          float: left;
+          clear: right;
+          color: pink;
+          font-size: 50px;
+      }
+      .gioHang .chu_giohang{
+          float: left;
+          clear: right;
+          color: pink;
+          margin-top: -50px;
+          margin-left: 50px;
+          font-size: 30px;
+      }
       #layout6 {
           width: 100%;
           height: 550px;
-          background: pink ;
+          background: lightpink ;
       }
       #layout6 .TieuDe .ten{
           float: left;
