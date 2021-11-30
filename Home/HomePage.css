@@ -1584,23 +1584,143 @@
       }
       .gioHang {
           height: 45px;
-          width: 250px;
-          margin-left: 50px;
-          background: #1fb5d4;
+          width: 300px;
+          margin-left: 25px;
+          background: lightpink;
+          border-radius: 5%;
       }
       .gioHang .fa-shopping-cart{
           float: left;
           clear: right;
-          color: pink;
-          font-size: 50px;
+          color: white;
+          font-size: 45px;
       }
       .gioHang .chu_giohang{
           float: left;
           clear: right;
-          color: pink;
-          margin-top: -50px;
-          margin-left: 50px;
+          color: white;
+          margin-top: -40px;
+          margin-left: 65px;
+          font-size: 25px;
+      }
+      .gioHang:hover {
+          cursor: pointer;
+          color: #1fb5d4;
+          background: white;
+      }
+      .gioHang:hover .fa-shopping-cart {
+          color: lightcoral;
+      }
+      .gioHang:hover .chu_giohang {
+          color: lightcoral;
+      }
+
+      #layout5 .tenCacSanPham  .gioHang {
+          height: 45px;
+          width: 230px;
+          margin-left: 270px;
+          background: lightpink ;
+          border-radius: 5%;
+          margin-top: 140px;
+      }
+      #layout5 .tenCacSanPham  .gioHang .fa-shopping-cart{
+          float: left;
+          clear: right;
+          color: white;
+          margin-left: 5px;
+          margin-top: 7px;
           font-size: 30px;
+      }
+      #layout5 .tenCacSanPham  .gioHang .chu_giohang{
+          float: left;
+          clear: right;
+          color: white;
+          margin-top: -27px;
+          margin-left: 50px;
+          font-size: 20px;
+      }
+      #layout5 .tenCacSanPham .gioHang:hover {
+          cursor: pointer;
+          color: #1fb5d4;
+          background: white;
+      }
+      #layout5 .tenCacSanPham  .gioHang:hover .fa-shopping-cart {
+          color: lightcoral;
+      }
+      #layout5 .tenCacSanPham  .gioHang:hover .chu_giohang {
+          color: lightcoral;
+      }
+
+      #layout5 .tenCacSanPham  .gioHang1 {
+          height: 45px;
+          width: 230px;
+          margin-left: 270px;
+          background: lightpink ;
+          border-radius: 5%;
+          margin-top: 140px;
+      }
+      #layout5 .tenCacSanPham  .gioHang1 .fa-shopping-cart{
+          float: left;
+          clear: right;
+          color: white;
+          margin-left: -100px;
+          margin-top: 7px;
+          font-size: 30px;
+      }
+      #layout5 .tenCacSanPham  .gioHang1 .chu_giohang{
+          float: left;
+          clear: right;
+          color: white;
+          margin-top: 5px;
+          margin-left: 50px;
+          font-size: 20px;
+      }
+      #layout5 .tenCacSanPham .gioHang1:hover {
+          cursor: pointer;
+          color: #1fb5d4;
+          background: white;
+      }
+      #layout5 .tenCacSanPham  .gioHang1:hover .fa-shopping-cart {
+          color: lightcoral;
+      }
+      #layout5 .tenCacSanPham  .gioHang1:hover .chu_giohang {
+          color: lightcoral;
+      }
+
+      #layout5 .tenCacSanPham  .gioHang2 {
+          height: 45px;
+          width: 230px;
+          margin-left: 270px;
+          background: lightpink ;
+          border-radius: 5%;
+          margin-top: 140px;
+      }
+      #layout5 .tenCacSanPham  .gioHang2 .fa-shopping-cart{
+          float: left;
+          clear: right;
+          color: white;
+          margin-left: -90px;
+          margin-top: 7px;
+          font-size: 30px;
+      }
+      #layout5 .tenCacSanPham  .gioHang2 .chu_giohang{
+          float: left;
+          clear: right;
+          color: white;
+          margin-top: 5px;
+          margin-left: 50px;
+          font-size: 20px;
+      }
+      #layout5 .tenCacSanPham .gioHang2:hover {
+          cursor: pointer;
+          color: #1fb5d4;
+          background: white;
+      }
+      #layout5 .tenCacSanPham  .gioHang2:hover .fa-shopping-cart {
+          color: lightcoral;
+      }
+      #layout5 .tenCacSanPham  .gioHang2:hover .chu_giohang {
+          color: lightcoral;
       }
       #layout6 {
           width: 100%;
