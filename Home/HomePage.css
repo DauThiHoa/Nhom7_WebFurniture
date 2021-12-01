@@ -1586,7 +1586,7 @@
           height: 45px;
           width: 300px;
           margin-left: 25px;
-          background: lightpink;
+          background: lightcoral;
           border-radius: 5%;
       }
       .gioHang .fa-shopping-cart{
@@ -1619,7 +1619,7 @@
           height: 45px;
           width: 230px;
           margin-left: 270px;
-          background: lightpink ;
+          background: lightcoral ;
           border-radius: 5%;
           margin-top: 140px;
       }
@@ -1655,7 +1655,7 @@
           height: 45px;
           width: 230px;
           margin-left: 270px;
-          background: lightpink ;
+          background: lightcoral ;
           border-radius: 5%;
           margin-top: 140px;
       }
@@ -1691,7 +1691,7 @@
           height: 45px;
           width: 230px;
           margin-left: 270px;
-          background: lightpink ;
+          background: lightcoral ;
           border-radius: 5%;
           margin-top: 140px;
       }
@@ -1721,6 +1721,55 @@
       }
       #layout5 .tenCacSanPham  .gioHang2:hover .chu_giohang {
           color: lightcoral;
+      }
+      .sao {
+          float: left;
+          clear: right;
+          margin-right: 30px;
+          margin-left: 265px;
+          margin-top: -130px;
+          color: yellow;
+      }
+      .sao .fa-star {
+            color: yellow;
+        }
+      .DiemDen .chuDiemDenMoi {
+           text-align: center;
+           color: #0099aa;
+           font-weight: bold;
+      }
+      .DiemDen .SanPhamDiemDenMoi {
+          width: 250px;
+          height: 350px;
+          background: white;
+          border: 1px solid #0099aa;
+      }
+      .DiemDen:hover .SanPhamDiemDenMoi {
+          width: 250px;
+          height: 350px;
+          background: #0099aa;
+          border: 1px solid #0099aa;
+          cursor: pointer;
+      }
+      .DiemDen .SanPhamDiemDenMoi .anh{
+          width: 200px;
+          height: 200px;
+          margin-top: 30px;
+          margin-left: 25px;
+      }
+      .DiemDen .SanPhamDiemDenMoi .ten{
+          text-align: center;
+          color: #0099aa;
+      }
+      .DiemDen:hover .SanPhamDiemDenMoi .ten{
+          color: white;
+      }
+      .DiemDen .SanPhamDiemDenMoi .gia{
+          text-align: center;
+          color: #0099aa;
+      }
+      .DiemDen:hover .SanPhamDiemDenMoi .gia{
+          color: white;
       }
       #layout6 {
           width: 100%;
