@@ -558,7 +558,7 @@
           width: 252px;
           margin-left: 25px;
           margin-top: -12px;
-          background: lightcoral;
+          background: #ef5f43;
 
       }
       .gioHang4 .fa-shopping-cart{
@@ -581,13 +581,13 @@
           cursor: pointer;
           color: #1fb5d4;
           background: white;
-          border: 1px solid lightcoral ;
+          border: 1px solid #ef5f43 ;
       }
       .gioHang4:hover .fa-shopping-cart {
-          color: lightcoral;
+          color: #ef5f43;
       }
       .gioHang4:hover .chu_giohang {
-          color: lightcoral;
+          color: #ef5f43;
       }
       #SanPhamNoiBat #BanLamViec:hover #blv #giaBLV{
           cursor: pointer;
@@ -630,7 +630,7 @@
           width: 252px;
           margin-left: -1px;
           margin-top: -48px;
-          background: lightcoral;
+          background: #ef5f43;
           display: none;
       }
       .gioHang5 .fa-shopping-cart{
@@ -653,13 +653,13 @@
           cursor: pointer;
           color: #1fb5d4;
           background: white;
-          border: 1px solid lightcoral ;
+          border: 1px solid #ef5f43 ;
       }
       .gioHang5:hover .fa-shopping-cart {
-          color: lightcoral;
+          color: #ef5f43;
       }
       .gioHang5:hover .chu_giohang {
-          color: lightcoral;
+          color: #ef5f43;
       }
       #tenCacSanPhamNoiBat{
           background: #e0ffff ;
@@ -1760,7 +1760,7 @@
           height: 45px;
           width: 300px;
           margin-left: 25px;
-          background: lightcoral;
+          background: #ef5f43;
           border-radius: 5%;
       }
       .gioHang .fa-shopping-cart{
@@ -1783,17 +1783,17 @@
           background: white;
       }
       .gioHang:hover .fa-shopping-cart {
-          color: lightcoral;
+          color: #ef5f43;
       }
       .gioHang:hover .chu_giohang {
-          color: lightcoral;
+          color: #ef5f43;
       }
 
       #layout5 .tenCacSanPham  .gioHang {
           height: 45px;
           width: 230px;
           margin-left: 270px;
-          background: lightcoral ;
+          background: #ef5f43 ;
           border-radius: 5%;
           margin-top: 140px;
       }
@@ -1819,17 +1819,17 @@
           background: white;
       }
       #layout5 .tenCacSanPham  .gioHang:hover .fa-shopping-cart {
-          color: lightcoral;
+          color: #ef5f43;
       }
       #layout5 .tenCacSanPham  .gioHang:hover .chu_giohang {
-          color: lightcoral;
+          color: #ef5f43;
       }
 
       #layout5 .tenCacSanPham  .gioHang1 {
           height: 45px;
           width: 230px;
           margin-left: 270px;
-          background: lightcoral ;
+          background: #ef5f43 ;
           border-radius: 5%;
           margin-top: 140px;
       }
@@ -1855,17 +1855,17 @@
           background: white;
       }
       #layout5 .tenCacSanPham  .gioHang1:hover .fa-shopping-cart {
-          color: lightcoral;
+          color: #ef5f43;
       }
       #layout5 .tenCacSanPham  .gioHang1:hover .chu_giohang {
-          color: lightcoral;
+          color: #ef5f43;
       }
 
       #layout5 .tenCacSanPham  .gioHang2 {
           height: 45px;
           width: 230px;
           margin-left: 270px;
-          background: lightcoral ;
+          background: #ef5f43 ;
           border-radius: 5%;
           margin-top: 140px;
       }
@@ -1891,10 +1891,10 @@
           background: white;
       }
       #layout5 .tenCacSanPham  .gioHang2:hover .fa-shopping-cart {
-          color: lightcoral;
+          color: #ef5f43;
       }
       #layout5 .tenCacSanPham  .gioHang2:hover .chu_giohang {
-          color: lightcoral;
+          color: #ef5f43;
       }
       .sao {
           float: left;
@@ -1965,7 +1965,7 @@
           width: 252px;
           margin-left: -1px;
           margin-top: -5px;
-          background: lightcoral;
+          background: #ef5f43;
       }
       .gioHang3 .fa-shopping-cart{
           float: left;
@@ -1987,13 +1987,13 @@
           cursor: pointer;
           color: #1fb5d4;
           background: white;
-          border: 1px solid lightcoral ;
+          border: 1px solid #ef5f43 ;
       }
       .gioHang3:hover .fa-shopping-cart {
-          color: lightcoral;
+          color: #ef5f43;
       }
       .gioHang3:hover .chu_giohang {
-          color: lightcoral;
+          color: #ef5f43;
       }
 
       #layout6 {

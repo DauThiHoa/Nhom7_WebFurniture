@@ -389,8 +389,9 @@
 .trangChu_BanAilen_03 {
     float: left;
     clear: right;
-    color: pink;
+    color: #1fb5d4;
     margin-top: -100px;
+    font-size: 28px;
 }
 
 #thongTinSanPham {
