@@ -415,8 +415,9 @@ body{
 }
 
 #layout6 .meoVatHay .meoVat .anh {
-    width: 400px;
-    height: 520px;
+    width: 500px;
+    height: 500px;
+    margin-left: -61px;
 }
 
 
