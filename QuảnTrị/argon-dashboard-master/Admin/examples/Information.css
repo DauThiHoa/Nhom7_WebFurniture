@@ -1,0 +1,84 @@
+.infor3 {
+    margin-top: 50px;
+    width: 1050px;
+    height: 440px;
+    background: white;
+    border: 1px solid #d39e00;
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+.Address {
+    margin-left: 73px;
+    width: 750px;
+}
+.Browser {
+    margin-left: 15px;
+    width: 750px;
+}
+.order {
+    margin-left: 50px;
+    width: 750px;
+    float: left;
+    clear: right;
+}
+.Select_File {
+    margin-top: 25px;
+    height: 35px;
+    border-radius: 5px;
+    width: 150px;
+    color: white;
+    background: #1fb5d4;
+    margin-left: 50px;
+}
+.Select_File2 {
+    margin-top: 25px;
+    height: 35px;
+    border-radius: 5px;
+    width: 150px;
+    color: white;
+    background: #1fb5d4;
+    margin-left: 14px;
+}
+.Select_File:hover {
+    cursor: pointer;
+    color: #1fb5d4;
+    background:  white;
+}
+.Select_File2:hover {
+    cursor: pointer;
+    color: #1fb5d4;
+    background:  white;
+}
+.infor4 {
+    margin-top: 50px;
+    width: 1050px;
+    height: 600px;
+    background: white;
+    border: 1px solid #d39e00;
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+
+.information2 {
+    margin-top: 25px;
+    margin-left: 0px;
+}
+.JhonDoue {
+    margin-left: 40px;
+    width: 750px;
+}
+.Twitter {
+    margin-left: 26px;
+    width: 750px;
+}
+.Youtube {
+    margin-left: 15px;
+    width: 750px;
+}
+.Instagram {
+    margin-left: 0px;
+    width: 750px;
+}
+.information6 {
+    margin-top: 50px;
+}

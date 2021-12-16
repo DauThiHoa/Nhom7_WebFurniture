@@ -1,0 +1,97 @@
+.infor {
+    margin-top: 50px;
+    width: 1050px;
+    height: 250px;
+    background: white;
+    border: 1px solid #d39e00;
+    margin-left: 100px;
+}
+.information {
+    margin-top: 25px;
+    color:   #2aa198;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.information1 {
+    margin-top: 25px;
+}
+.Image {
+    float: left;
+    clear: right;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: black;
+}
+.type {
+    width: 750px;
+    float: left;
+    clear: right;
+    margin-right: 10px;
+}
+.Select {
+    color: white;
+    background: #2aa198;
+    border-radius: 10px;
+    margin-top: -70px;
+    width: 120px;
+    height: 40px;
+}
+.Select:hover {
+    cursor: pointer;
+    color: #2aa198;
+    background: white;
+    border: 2px solid #2aa198;
+}
+.Category {
+    float: left;
+    clear: right;
+    margin-right: 24px;
+    margin-left: 50px;
+    color: black;
+}
+.type1 {
+    width: 750px;
+    margin-right: 10px;
+}
+.information3 {
+    margin-top: 25px;
+}
+.Modules {
+    float: left;
+    clear: right;
+    margin-right: 25px;
+    margin-left: 50px;
+    color: black;
+}
+.type2 {
+    width: 750px;
+    margin-right: 10px;
+}
+.infor2 {
+    margin-top: 50px;
+    width: 1050px;
+    height: 350px;
+    background: white;
+    border: 1px solid #d39e00;
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+.information4 {
+    margin-top: 25px;
+}
+
+.information5 {
+    margin-top: 25px;
+}
+.checkin {
+    font-size: 20px;
+}
+.information6 {
+    margin-left: 350px;
+}
+.fa-floppy-o {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 5px;
+}

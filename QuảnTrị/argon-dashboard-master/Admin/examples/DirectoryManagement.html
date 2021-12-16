@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="DirectoryManagement.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="InterfaceManagement.css">
 
 </head>
 
@@ -70,21 +71,15 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="map.html">
-                <i class="ni ni-pin-3 text-primary"></i>
-                <span class="nav-link-text">Google</span>
+              <a class="nav-link " href="InterfaceManagement.html">
+                <i class="fa fa-list-alt" aria-hidden="true"></i>
+                <span class="nav-link-text">Interface Management</span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="profile.html">
                 <i class="ni ni-single-02 text-yellow"></i>
                 <span class="nav-link-text">Profile</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="tables.html">
-                <i class="ni ni-bullet-list-67 text-default"></i>
-                <span class="nav-link-text">Tables</span>
               </a>
             </li>
             <li class="nav-item">
@@ -99,51 +94,7 @@
                 <span class="nav-link-text">Register</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="upgrade.html">
-                <i class="ni ni-send text-dark"></i>
-                <span class="nav-link-text">Upgrade</span>
-              </a>
-            </li>
-          </ul>
-          <!-- Divider -->
-          <hr class="my-3">
-          <!-- Heading -->
-          <h6 class="navbar-heading p-0 text-muted">
-            <span class="docs-normal">Documentation</span>
-          </h6>
-          <!-- Navigation -->
-          <ul class="navbar-nav mb-md-3">
-            <li class="nav-item">
-              <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html" target="_blank">
-                <i class="ni ni-spaceship"></i>
-                <span class="nav-link-text">Getting started</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/foundation/colors.html" target="_blank">
-                <i class="ni ni-palette"></i>
-                <span class="nav-link-text">Foundation</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/components/alerts.html" target="_blank">
-                <i class="ni ni-ui-04"></i>
-                <span class="nav-link-text">Components</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/plugins/charts.html" target="_blank">
-                <i class="ni ni-chart-pie-35"></i>
-                <span class="nav-link-text">Plugins</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active active-pro" href="upgrade.html">
-                <i class="ni ni-send text-dark"></i>
-                <span class="nav-link-text">Upgrade to PRO</span>
-              </a>
-            </li>
+
           </ul>
         </div>
       </div>
@@ -480,26 +431,205 @@
 
     </div>
 
+    <a class="nav-link active" href="addDirectoryManagement.html">
       <button class="add">
         <i class="fa fa-plus-circle" aria-hidden="true"></i>
         Add
       </button>
+    </a>
 
     <table class="table">
-      <tr>
-        <th>Person 1</th>
-        <th>Person 2</th>
-        <th>Person 3</th>
+      <tr >
+        <th> <input type="checkbox" name="sport" value="check" id="checkBox"> </th>
+        <th>Numerical order</th>
+        <th>Category</th>
+        <th>Image</th>
+        <th>Modules</th>
+        <th>Home page</th>
+        <th>Category</th>
+        <th>Display</th>
+        <th>Change</th>
+        <th>Erase</th>
       </tr>
       <tr>
-        <td>Emil</td>
-        <td>Tobias</td>
-        <td>Linus</td>
+        <td> <input type="checkbox" name="sport" value="check"> </td>
+        <td> <input type="text" name="fname" value="                    1"><br></td>
+        <td>Home page</td>
+        <td><img src="../assets/img/Admin/img.png" class="image"/></td>
+        <td>Posts</td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
       </tr>
       <tr>
-        <td>16</td>
-        <td>14</td>
-        <td>10</td>
+        <td> <input type="checkbox" name="sport" value="check"> </td>
+        <td> <input type="text" name="fname" value="                    2"><br></td>
+        <td>Sign up</td>
+        <td><img src="../assets/img/Admin/img_1.png" class="image"/></td>
+        <td>Sign up</td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td> <input type="checkbox" name="sport" value="check"> </td>
+        <td> <input type="text" name="fname" value="                    3"><br></td>
+        <td>Log in</td>
+        <td><img src="../assets/img/Admin/img_2.png" class="image"/></td>
+        <td>Log in</td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td> <input type="checkbox" name="sport" value="check"> </td>
+        <td> <input type="text" name="fname" value="                    4"><br></td>
+        <td>Shop system</td>
+        <td><img src="../assets/img/Admin/img_3.png" class="image"/></td>
+        <td>Posts</td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td> <input type="checkbox" name="sport" value="check"> </td>
+        <td> <input type="text" name="fname" value="                    5"><br></td>
+        <td>Contact</td>
+        <td><img src="../assets/img/Admin/img_4.png" class="image"/></td>
+        <td>Posts</td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td> <input type="checkbox" name="sport" value="check"> </td>
+        <td> <input type="text" name="fname" value="                    6"><br></td>
+        <td>Cart</td>
+        <td><img src="../assets/img/Admin/img_5.png" class="image"/></td>
+        <td>Cart</td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td> <input type="checkbox" name="sport" value="check"> </td>
+        <td> <input type="text" name="fname" value="                    7"><br></td>
+        <td>Product details</td>
+        <td><img src="../assets/img/Admin/img_6.png" class="image"/></td>
+        <td>Product </td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td> <input type="checkbox" name="sport" value="check"> </td>
+        <td> <input type="text" name="fname" value="                    8"><br></td>
+        <td>The living room's furniture</td>
+        <td><img src="../assets/img/Admin/img_7.png" class="image"/></td>
+        <td>Product </td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td> <input type="checkbox" name="sport" value="check"> </td>
+        <td> <input type="text" name="fname" value="                    9"><br></td>
+        <td>Kitchen furniture</td>
+        <td><img src="../assets/img/Admin/img_8.png" class="image"/></td>
+        <td>Product </td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td> <input type="checkbox" name="sport" value="check"> </td>
+        <td> <input type="text" name="fname" value="                    10"><br></td>
+        <td>Bedroom furniture</td>
+        <td><img src="../assets/img/Admin/img_10.png" class="image"/></td>
+        <td>Product </td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td> <input type="checkbox" name="sport" value="check"> </td>
+        <td> <input type="text" name="fname" value="                    11"><br></td>
+        <td>Office furniture</td>
+        <td><img src="../assets/img/Admin/img_9.png" class="image"/></td>
+        <td>Product </td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td> <input type="checkbox" name="sport" value="check"> </td>
+        <td> <input type="text" name="fname" value="                    12"><br></td>
+        <td>Decorations</td>
+        <td><img src="../assets/img/Admin/img_11.png" class="image"/></td>
+        <td>Product </td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td> <input type="checkbox" name="sport" value="check"> </td>
+        <td> <input type="text" name="fname" value="                    13"><br></td>
+        <td>Tips</td>
+        <td><img src="../assets/img/Admin/img_12.png" class="image"/></td>
+        <td>Posts </td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td> <input type="checkbox" name="sport" value="check"> </td>
+        <td> <input type="text" name="fname" value="                    14"><br></td>
+        <td>News</td>
+        <td><img src="../assets/img/Admin/img_13.png" class="image"/></td>
+        <td>Posts </td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td> <input type="checkbox" name="sport" value="check"> </td>
+        <td> <input type="text" id="fname" name="fname" value="                  15"><br></td>
+        <td>Posts</td>
+        <td><img src="../assets/img/Admin/img_14.png" class="image"/></td>
+        <td>Posts </td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><input type="checkbox" name="sport" value="check"></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
       </tr>
     </table>
 
