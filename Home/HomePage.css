@@ -3,6 +3,11 @@
             overflow: auto;
             font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
+      .icon {
+          border-radius: 10px;
+          width: 30px;
+          height: 30px;
+      }
      #SanPhamNoiBat  a{
           color: black;
           text-decoration: none;

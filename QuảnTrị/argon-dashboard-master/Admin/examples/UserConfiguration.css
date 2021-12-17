@@ -1,0 +1,52 @@
+.infor5 {
+    margin-top: 50px;
+    width: 1050px;
+    height: 940px;
+    background: white;
+    border: 1px solid #d39e00;
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+.informationk {
+    margin-top: 25px;
+}
+.Username {
+    margin-left: 52px;
+    width: 750px;
+}
+.Name {
+    margin-left: 92px;
+    width: 750px;
+}
+.Password {
+    margin-left: 55px;
+    width: 750px;
+}
+.Enter {
+    margin-left: 10px;
+    width: 700px;
+}
+.information7 {
+    float: left;
+    clear: right;
+}
+.information3 {
+    margin-bottom: 50px;
+}
+.information4 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.left {
+    float: left;
+    clear: right;
+    margin-left: -100px;
+    margin-right: 80px;
+
+}
+.checkin {
+    font-size: 50px;
+}
+.information6 {
+    margin-top: 50px;
+}

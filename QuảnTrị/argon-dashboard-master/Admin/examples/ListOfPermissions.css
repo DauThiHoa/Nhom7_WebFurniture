@@ -1,0 +1,19 @@
+.anh {
+    color: #2dce89;
+    font-weight: bold;
+    width: 15px;
+    height: 15px;
+    margin-right: 17px;
+}
+.Owner {
+    color: #1fb5d4;
+    font-weight: bold;
+}
+.Restricted {
+    color: orange;
+    font-weight: bold;
+}
+.full {
+    color: #2dce89;
+    font-weight: bold;
+}
