@@ -252,3 +252,21 @@ footer a {
     color: #3c97bf;
     text-decoration: none;
 }
+/*Responsive*/
+/*Mobile*/
+@media screen and (max-width: 320px) {
+    .sign-in-container{
+        font-size: 9px;
+        left: 0;
+        width: 50%;
+        z-index: 2;
+        text-align: center;
+    }
+    .overlay-container{
+        display: none;
+    }
+}
+/*Tablet*/
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
+
+}
