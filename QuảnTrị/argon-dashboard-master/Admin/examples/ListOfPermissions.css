@@ -1,20 +1,19 @@
-.TieuDe {
-    color: black;
+.anh {
+    color: #2dce89;
     font-weight: bold;
+    width: 15px;
+    height: 15px;
+    margin-right: 17px;
 }
-.chiTiet {
+.Owner {
     color: #1fb5d4;
     font-weight: bold;
 }
-.DangGiao {
-    color: #34ce57;
+.Restricted {
+    color: orange;
     font-weight: bold;
 }
-.DaGiao {
-    color: red;
-    font-weight: bold;
-}
-.kiemHang {
+.full {
     color: orange;
     font-weight: bold;
 }
