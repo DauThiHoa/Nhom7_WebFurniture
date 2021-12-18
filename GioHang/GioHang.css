@@ -1197,6 +1197,48 @@ body{
         width: 140px;
     }
 
+    .TieuDeBangSanPham {
+        color: black;
+        font-weight: bold;
+        border: 2px solid #dd4b39;
+    }
+
+    .imageGioHang {
+        width: 25px;
+        height: 25px;
+    }
+    .table {
+        width: 100%;
+        border: 2px solid #dd4b39;
+    }
+
+    .khungTieuDe {
+        width: 100%;
+        border: 2px solid #dd4b39;
+        background: #2dce89;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /* */
     .gioHang {
         text-align: center;

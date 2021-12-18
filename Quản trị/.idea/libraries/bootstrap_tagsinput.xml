@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="bootstrap-tagsinput">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/argon-dashboard-master/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.zip!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
