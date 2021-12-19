@@ -15,3 +15,22 @@
     margin-top: -105px;
     margin-bottom: 10px;
 }
+/*
+Responsive
+Tablet
+ */
+@media screen and ( max-width: 736px ) {
+
+    .main:before, main :after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .main {
+        max-width: 100%;
+    }
+    .tab {
+        margin-top: 0%;
+    }
+}

@@ -11,6 +11,9 @@
     margin-left: 100px;
     margin-bottom: 25px;
 }
+.infor3 .information{
+    font-size: 150%;
+}
 .Address {
     margin-left: 73px;
     width: 750px;
@@ -62,7 +65,9 @@
     margin-left: 100px;
     margin-bottom: 25px;
 }
-
+.infor4 .information{
+    font-size: 150%;
+}
 .information2 {
     margin-top: 25px;
     margin-left: 0px;
@@ -85,4 +90,75 @@
 }
 .information6 {
     margin-top: 50px;
+}
+/*
+Responsive
+Tablet
+ */
+@media screen and ( max-width: 736px ) {
+
+    .main:before, main :after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .main {
+        max-width: 100%;
+    }
+    .infor3 {
+        width: 100%;
+        margin-left: 0px;
+        height: 600px;
+    }
+    .infor3 .information{
+        margin-left: 35%;
+    }
+    .infor3 .information3 .Address{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .infor3 .information4 .order{
+        margin-left: 0px;
+        width: 100%;
+    }
+   .Select_File{
+       margin-left: 55%;
+    }
+    .infor3 .information5 .Modules{
+        margin-left: 0px;
+    }
+    .infor3 .information5 .Browser{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .Select_File2 {
+        margin-left: 55%;
+    }
+
+    .infor4 {
+        width: 100%;
+        height: 840px;
+        margin-left: 0px;
+    }
+    .infor4 .information{
+        width: 100%;
+        margin-left: 23%;
+    }
+    .infor4 .information2 .JhonDoue{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .infor4 .information2 .Twitter{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .infor4 .information2 .Youtube{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .infor4 .information2 .Instagram{
+        margin-left: 0px;
+        width: 100%;
+    }
 }

@@ -18,3 +18,24 @@
     color: orange;
     font-weight: bold;
 }
+
+/*
+Responsive
+Tablet
+ */
+@media screen and ( max-width: 736px ) {
+
+    .main:before, main :after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .main {
+        max-width: 100%;
+    }
+    .tab {
+        margin-top: 0%;
+    }
+
+}

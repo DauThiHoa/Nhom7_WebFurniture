@@ -14,3 +14,39 @@
 .fa-address-book-o {
     color: #1fb5d4;
 }
+/*
+Responsive
+Tablet
+ */
+@media screen and ( max-width: 736px ) {
+
+    .main:before, main :after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .main {
+        max-width: 100%;
+    }
+    .container {
+        width: 18%;
+        height: 100px;
+        float: top;
+        clear: bottom;
+        font-size: 25%;
+        margin-left: -10px;
+        margin-bottom: -50px;
+    }
+    .container .btn-primary{
+        font-size: 300%;
+    }
+    .add {
+        width: 100%;
+        margin-left: 50%;
+        margin-top: 100px;
+    }
+    .tab {
+        margin-top: -50px;
+    }
+}
