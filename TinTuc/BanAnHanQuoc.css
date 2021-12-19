@@ -28,6 +28,10 @@ body{
     margin-left: 0px;
     margin-top: 21px;
 }
+#Thanh_cong_cu #Tim_Kiem .nuttim{
+    height: 40px;
+    width: 40px;
+}
 #Thanh_cong_cu #Hotline .fa-phone-square{
     float: left;
     font-size: 35px;
@@ -310,4 +314,171 @@ body{
     border-radius: 10px;
     margin-left: 420px;
     font-size: 190%;
+}
+/*Responsive*/
+/*Mobile*/
+@media screen and (max-width: 320px) {
+}
+/*Tablet*/
+@media screen and (max-width: 1024px) {
+    #Thanh_cong_cu #Ten_Web {
+        float: left;
+        margin-left: 16px;
+        font-size: 9px;
+    }
+    #Thanh_cong_cu input[type="text"] {
+        width: 160px;
+        height: 29px;
+        margin-left: -140px;
+        margin-top: 40px;
+    }
+    #Thanh_cong_cu #Tim_Kiem {
+        float: left;
+        margin-left: 3px;
+        margin-top: 41px;
+    }
+    #Thanh_cong_cu #Tim_Kiem .nuttim {
+        height: 25px;
+        width: 25px;
+    }
+    #Thanh_cong_cu #Hotline .fa-phone-square {
+        font-size: 37px;
+        margin-left: 36px;
+        margin-top: 34px;
+    }
+    #Thanh_cong_cu #Hotline #chu_HotLine {
+        margin-left: 10px;
+        margin-top: 17px;
+        margin-bottom: 10px;
+        font-size: 96%;
+    }
+    #Thanh_cong_cu #TaiKhoan .fa-user-circle {
+        font-size: 33px;
+        margin-left: 32px;
+        margin-top: 36px;
+    }
+    #Thanh_cong_cu #TaiKhoan #dangNhap_dangKy {
+        margin-left: 10px;
+        margin-top: 19px;
+        margin-bottom: 10px;
+        font-size: 90%;
+    }
+    #Thanh_cong_cu #gioHang .fa-shopping-cart {
+        font-size: 33px;
+        margin-left: 35px;
+        margin-top: 35px;
+    }
+    #Thanh_cong_cu #gioHang #chu_giohang {
+        margin-left: 10px;
+        margin-top: 29px;
+        font-size: 90%;
+    }
+    #trangChu_DanhMuc #danhMuc {
+        margin-left: -860px;
+        margin-top: 13px;
+    }
+    #trangChu_DanhMuc #chu_DanhMuc {
+       display: none;
+    }
+    #trangChu_DanhMuc #trangchu {
+        margin-left: -623px;
+        margin-top: -8px;
+        padding: 2px 5px;
+    }
+    #trangChu_DanhMuc #heThongCuaHang {
+        margin-left: -463px;
+        margin-top: -10px;
+        padding: 3px 5px;
+    }
+    #trangChu_DanhMuc #tinTuc {
+        margin-left: -205px;
+        margin-top: -9px;
+        padding: 2px 5px;
+    }
+    #trangChu_DanhMuc #lienHe {
+        float: left;
+        margin-left: 50px;
+        margin-top: -10px;
+    }
+    /* */
+    #khungTinTuc #anh_khungTinTuc {
+        width: 90%;
+        height: 336px;
+        margin-left: -700px;
+        padding: 0px 40px;
+    }
+    #khungTinTuc #tenTinTuc #trangChu_TinTuc {
+        margin-left: 12px;
+        margin-top: 402px;
+        font-size: 223%;
+    }
+    #tinTuc_2 #left {
+        width: 60%;
+        margin-left: 24px;
+    }
+    #tinTuc_2 #left .anh {
+        width: 400px;
+        height: 350px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    #tinTuc_2 {
+        margin-top: 517px;
+    }
+    #tinTuc_2 #right .baiVietMoi {
+        margin-left: 558px;
+    }
+    #tinTuc_2 #right .baiViet {
+        height: 90px;
+        width: 35%;
+        margin-left: 483px;
+        margin-top: 5px;
+    }
+    #tinTuc_3 {
+        margin-top: 3508px;
+    }
+    #tinTuc_3 #khung .tinTucMoiNhat .anhTinTucMoiNhat {
+        width: 100%;
+        height: 282px;
+    }
+    #tinTuc_3 #khung .tinTucMoiNhat {
+        width: 30%;
+        height: 456px;
+        margin-right: 14px;
+        margin-left: 8px;
+        font-size: 13px;
+    }
+    #tinTuc_3 #khung .tinTucMoiNhat .xemThem {
+        box-shadow: 0 2px black;
+        width: 27%;
+    }
+    /**/
+    #layout7 .thanhDuoi {
+        width: 100%;
+        height: 766px;
+        background: darkturquoise;
+        margin-top: 565px;
+        font-size: 15px;
+    }
+    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .nhanTin {
+         margin-left: 259px;
+         margin-top: 50px;
+     }
+    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left {
+        margin-left: 28px;
+        margin-top: -633px;
+    }
+    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left .mang {
+        width: 34px;
+        height: 34px;
+    }
+    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right {
+        margin-left: 27px;
+        margin-top: -537px;
+    }
+    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right .mang {
+        width: 40px;
+        height: 36px;
+    }
+
 }

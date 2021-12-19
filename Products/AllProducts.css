@@ -1109,10 +1109,97 @@ body{
 }
 /*Responsive*/
 /*Mobile*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 736px) {
+    body{
+        font-size: 14px;
+    }
+    #Thanh_cong_cu {
+        background: darkturquoise;
+        width: 100%;
+        height: 100px;
+    }
+    #Thanh_cong_cu #Ten_Web {
+        margin-left: 11px;
+        font-size: 9px;
+    }
+    #Thanh_cong_cu input[type="text"] {
+        width: 187px;
+        padding: 4px 14px;
+        margin-left: 165px;
+        margin-top: -36px;
+    }
+    #Tim_Kiem {
+        margin-left: 355px;
+        margin-top: -37px;
+        height: 25px;
+        width: 28px;
+    }
+    #Thanh_cong_cu .fa-search {
+        float: left;
+        margin-top: 4px;
+        margin-left: 7px;
+    }
+    #Thanh_cong_cu #Hotline .fa-phone-square {
+        font-size: 30px;
+        margin-left: 9px;
+        margin-top: 7px;
+    }
+    #Thanh_cong_cu #Hotline #chu_HotLine {
+        margin-left: 10px;
+        margin-top: -5px;
+        font-size: 88%;
+    }
+    #Thanh_cong_cu #TaiKhoan .fa-user-circle {
+        font-size: 28px;
+        margin-left: 25px;
+        margin-top: 6px;
+    }
+    #Thanh_cong_cu #TaiKhoan #dangNhap_dangKy {
+        margin-left: 7px;
+        margin-top: -7px;
+        font-size: 88%;
+    }
+    .taiKhoanCuaToi {
+        margin-left: -99px;
+        margin-top: 5px;
+        font-size: 88%;
+    }
+    #Thanh_cong_cu #gioHang .fa-shopping-cart {
+        font-size: 30px;
+        margin-left: 27px;
+        margin-top: 6px;
+    }
+    #Thanh_cong_cu #gioHang #chu_giohang {
+        margin-left: 14px;
+        margin-top: 0px;
+        font-size: 88%;
+    }
+    #trangChu_DanhMuc #danhMuc {
+        margin-left: 1px;
+        margin-top: 0px;
+    }
+    #trangChu_DanhMuc {
+        height: 45px;
+        margin-top: -10px;
+    }
+    #trangChu_DanhMuc #anh_danhMuc {
+        width: 45px;
+        height: 45px;
+    }
+    #trangChu_DanhMuc #chu_DanhMuc {
+        display: none;
+    }
+    #trangChu_DanhMuc #danhMuc #top {
+        margin-left: -3px;
+        margin-bottom: 50px;
+        margin-top: -20px;
+        width: 200px;
+    }
+
 }
+
 /*Tablet*/
-@media only screen and (min-width: 640px) and (max-width: 1024px) {
+@media screen and (min-width: 640px) and (max-width: 1024px) {
     h1 {
         font-size: 1em;
     }
