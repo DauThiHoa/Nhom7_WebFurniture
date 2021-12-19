@@ -5,17 +5,18 @@
 }
 .infor {
     margin-top: 50px;
-    width: 1050px;
+    width: 100%;
     height: 250px;
     background: white;
     border: 1px solid #d39e00;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 .information {
     margin-top: 25px;
     color:   #2aa198;
     font-weight: bold;
     margin-left: 50px;
+    font-size: 10px;
 }
 .information1 {
     margin-top: 25px;
@@ -99,4 +100,139 @@
     height: 20px;
     margin-right: 5px;
     border-radius: 5px;
+}
+
+/*
+Responsive
+Tablet
+ */
+@media screen and ( max-width: 736px ) {
+
+    .main:before, main :after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .main {
+        max-width: 100%;
+    }
+
+
+    .TieuDe {
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .infor {
+        margin-top: 50px;
+        width: 100%;
+        height: 400px;
+        background: white;
+        border: 1px solid #d39e00;
+        margin-left: 0px;
+    }
+    .information {
+        margin-top: 20px;
+        color:   #2aa198;
+        font-weight: bold;
+        margin-left: 85px;
+        font-size: 20px;
+    }
+    .information1 {
+        margin-top: 25px;
+    }
+    .Image {
+        float: left;
+        clear: right;
+        margin-right: 50px;
+        margin-left: 5px;
+        color: black;
+        margin-top: -20px;
+    }
+    .type {
+        width: 100%;
+        float: left;
+        clear: right;
+        margin-right: 10px;
+    }
+    .Select {
+        color: white;
+        background: #2aa198;
+        border-radius: 10px;
+        margin-top: 10px;
+        width: 120px;
+        height: 40px;
+        margin-left: 280px;
+    }
+    .Select:hover {
+        cursor: pointer;
+        color: #2aa198;
+        background: white;
+        border: 2px solid #2aa198;
+    }
+    .Category {
+        float: left;
+        clear: right;
+        margin-right: 24px;
+        margin-left: 5px;
+        color: black;
+    }
+    .type1 {
+        width: 100%;
+        margin-right: 10px;
+    }
+    .information3 {
+        margin-top: 25px;
+    }
+    .Modules {
+        float: left;
+        clear: right;
+        margin-right: 25px;
+        margin-left: 5px;
+        color: black;
+    }
+    .type2 {
+        width: 100%;
+        margin-right: 10px;
+    }
+    .infor2 {
+        margin-top: 50px;
+        width: 100%;
+        height: 500px;
+        background: white;
+        border: 1px solid #d39e00;
+        margin-left: 0px;
+        margin-bottom: 25px;
+    }
+    .infor2 .information {
+        margin-left: 140px;
+    }
+    .information4 {
+        margin-top: 25px;
+    }
+
+    .information5 {
+        margin-top: 25px;
+        margin-left: 5px;
+    }
+    .checkin {
+        font-size: 20px;
+    }
+    .information6 {
+        margin-left: -100px;
+        float: left;
+        clear: right;
+    }
+    .fa-floppy-o {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        border-radius: 5px;
+    }
+    .infor2 .information6 .Select{
+        float: left;
+        clear: right;
+    }
+
 }

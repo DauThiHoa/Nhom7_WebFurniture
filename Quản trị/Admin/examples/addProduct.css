@@ -54,3 +54,40 @@
 .From {
     margin-left: 170px;
 }
+
+/*
+Responsive
+Tablet
+ */
+@media screen and ( max-width: 736px ) {
+
+    .main:before, main :after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .main {
+        max-width: 100%;
+    }
+    .infor {
+        margin-top: 50px;
+        width: 100%;
+        height: 600px;
+        background: white;
+        border: 1px solid #d39e00;
+        margin-left: 0px;
+    }
+    .type3a {
+        width: 100%;
+        margin-left: 0px;
+        height: 50px;
+    }
+    .type3b {
+        width: 85%;
+    }
+    .infor2 {
+        height: 950px;
+    }
+
+}

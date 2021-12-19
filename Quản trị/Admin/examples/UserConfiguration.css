@@ -7,6 +7,9 @@
     margin-left: 100px;
     margin-bottom: 25px;
 }
+.infor5 .information {
+    font-size: 150%;
+}
 .informationk {
     margin-top: 25px;
 }
@@ -49,4 +52,42 @@
 }
 .information6 {
     margin-top: 50px;
+}
+/*
+Responsive
+Tablet
+ */
+@media screen and ( max-width: 736px ) {
+
+    .main:before, main :after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .main {
+        max-width: 100%;
+    }
+    .infor5 {
+        width: 100%;
+        margin-left: 0%;
+        height: 1250px;
+    }
+    .Username {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .Name {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .Password {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .Enter {
+        margin-left: 0%;
+        width: 100%;
+    }
+
 }

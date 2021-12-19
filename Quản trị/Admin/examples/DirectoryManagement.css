@@ -102,6 +102,47 @@ input[type=checkbox] {
 }
 
 
+/*
+Responsive
+Tablet
+ */
+@media screen and ( max-width: 736px ) {
+
+    .main:before, main :after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .main {
+        max-width: 100%;
+    }
+    .container {
+        width: 25%;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    .add {
+        width: 20%;
+        margin-left: 322px;
+        margin-top: 10px;
+        margin-bottom: -50px;
+    }
+table  td {
+    width: 50%;
+    color: #2aa198;
+}
+
+table {
+    margin-top: 10px;
+}
+    .tab {
+        margin-top: -500px;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+}
 
 
 
