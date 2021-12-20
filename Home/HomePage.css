@@ -2221,7 +2221,7 @@
  Responsive
  Tablet
   */
-      @media only screen  and ( max-width: 1024px){
+      @media only screen  and ( max-width: 736px){
 
           .main:before, main :after {
               content: "";
@@ -2239,20 +2239,26 @@
           }
 
           #Ten_Web {
-              max-width: 20%;
-              font-size: 50%;
-          }
-
-          #Thanh_cong_cu input[type="text"] {
-              font-size: 60%;
               max-width: 50%;
-              height: 35px;
+              font-size: 50%;
+              margin-left: -10px;
               margin-top: 10px;
           }
 
+          #Thanh_cong_cu input[type="text"] {
+              font-size: 35%;
+              max-width: 10%;
+              height: 30px;
+              margin-top: 10px;
+              float: left;
+              clear: right;
+          }
+
           #Tim_Kiem {
-              width: 8%;
-              height: 35px;
+              float: left;
+              clear: right;
+              width: 5%;
+              height: 30px;
               margin-top: 10px;
           }
 
@@ -2298,7 +2304,7 @@
               font-size: 10px;
               font-weight: bold;
               margin-top: 25px;
-              margin-left: 20px;
+              margin-left: 160px;
           }
           #Thanh_cong_cu #TaiKhoan  .cheo {
               font-size: 10px;
@@ -2314,7 +2320,7 @@
               font-size: 10px;
               font-weight: bold;
               margin-top: -20px;
-              margin-left: 150px;
+              margin-left: 172px;
               float: left;
               clear: right;
           }
@@ -4129,3 +4135,2042 @@
               margin-left: 7px;
           }
       }
+
+
+      /*
+ Responsive
+ Tablet
+  */
+      @media only screen  and ( max-width: 1024px) {
+
+          .main:before, main :after {
+              content: "";
+              display: table;
+              clear: both;
+          }
+
+          .main {
+              max-width: 100%;
+          }
+          #Thanh_cong_cu{
+              background: darkturquoise;
+              width: 100%;
+              height: 100px;
+          }
+          #Thanh_cong_cu input[type="text"] {
+              width: 20%;
+              box-sizing: border-box;
+              border: 1px solid black;
+              border-radius: 4px;
+              outline:none;
+              padding: 12px 14px;
+              float: left;
+              margin-left: -5px;
+              margin-top: 20px;
+          }
+          #Thanh_cong_cu #Ten_Web{
+              float: left;
+              margin-left: 10px;
+              width: 25%;
+              font-size: 70%;
+              margin-top: 10px;
+          }
+          #Thanh_cong_cu .fa-search{
+              float: left;
+              margin-top: 12px;
+              margin-left: 13px;
+          }
+          #Tim_Kiem {
+              border-radius: 5px;
+              float: left;
+              margin-left: 0px;
+              margin-top: 20px;
+              height :  40px;
+              width : 40px;
+              background: blue;
+              border: 1px solid #0a58ca;
+              color: white;
+          }
+          #Tim_Kiem:hover {
+              cursor: pointer;
+              background: blue;
+          }
+          #Thanh_cong_cu #Hotline a {
+              color: black;
+          }
+          #Thanh_cong_cu #Hotline .fa-phone-square{
+              font-size: 35px;
+              margin-left: 10px;
+              margin-top: 25px;
+          }
+          #Thanh_cong_cu #Hotline .fa-phone-square:hover{
+              color: white;
+              cursor: pointer;
+          }
+          #Thanh_cong_cu #Hotline #chu_HotLine{
+              float: left;
+              margin-left: 10px;
+              margin-top: 20px;
+              margin-bottom: 10px;
+              font-size: 70%;
+          }
+          #Thanh_cong_cu #Hotline #chu_HotLine:hover{
+              color: white;
+              cursor: pointer;
+          }
+          #Thanh_cong_cu #TaiKhoan .fa-user-circle{
+              float: left;
+              font-size: 35px;
+              margin-left: 15px;
+              margin-top: 25px;
+          }
+          #Thanh_cong_cu #TaiKhoan a {
+              color: black;
+              text-decoration: none;
+          }
+          #Thanh_cong_cu #TaiKhoan .fa-user-circle:hover{
+              color: white;
+              cursor: pointer;
+          }
+          #Thanh_cong_cu #TaiKhoan #dangNhap_dangKy{
+              float: left;
+              margin-left: 10px;
+              margin-top: 20px;
+              font-size: 70%;
+          }
+          #Thanh_cong_cu #TaiKhoan #dangNhap_dangKy:hover .danhNhap:hover a {
+              color: white;
+              cursor: pointer;
+          }
+          .danhNhap{
+              float: left;
+              clear: right;
+          }
+          .danhNhap:hover a {
+              color: white;
+              cursor: pointer;
+          }
+          .cheo {
+              float: left;
+              clear: right;
+          }
+          .dangKi {
+              float: left;
+              clear: right;
+          }
+          .dangKi:hover {
+              color: white;
+              cursor: pointer;
+          }
+          .taiKhoanCuaToi {
+              float: left;
+              clear: right;
+              margin-left: 10px;
+              margin-top: -20px;
+              font-size: 70%;
+          }
+          .taiKhoanCuaToi a {
+              color: black;
+              text-decoration: none;
+          }
+          .taiKhoanCuaToi:hover a {
+              color: white;
+              cursor: pointer;
+          }
+          #Thanh_cong_cu #gioHang .fa-shopping-cart{
+              float: left;
+              font-size: 35px;
+              margin-left: 10px;
+              margin-top: -27px;
+          }
+          #Thanh_cong_cu #gioHang a {
+              color: black;
+          }
+          #Thanh_cong_cu #gioHang .fa-shopping-cart:hover{
+              color: white;
+              cursor: pointer;
+          }
+          #Thanh_cong_cu #gioHang #chu_giohang{
+              float: left;
+              margin-left: 10px;
+              margin-top: -35px;
+              margin-bottom: 10px;
+              font-size: 70%;
+          }
+          #Thanh_cong_cu #gioHang #chu_giohang:hover{
+              color: white;
+              cursor: pointer;
+          }
+
+          #trangChu_DanhMuc {
+              margin-top: -15px;
+          }
+
+          #trangChu_DanhMuc #danhMuc {
+              float: left;
+              clear: right;
+              margin-left: 0px;
+              margin-top: 0px;
+              height: 50px;
+              width: 0px;
+          }
+
+          #trangChu_DanhMuc #chu_DanhMuc {
+              display: none;
+          }
+
+          #trangChu_DanhMuc #danhMuc #top {
+              margin-left: 0px;
+              margin-bottom: 50px;
+              margin-top: 52px;
+              width: 260px;
+              display: none;
+              position: absolute;
+          }
+
+          #trangChu_DanhMuc #trangchu {
+              float: left;
+              clear: right;
+              margin-left: 53px;
+              margin-top: 0px;
+              height: 50px;
+              width: 150px;
+          }
+
+          #trangChu_DanhMuc #tinTuc {
+              float: left;
+              clear: right;
+              margin-left: 0px;
+              margin-top: 0px;
+              height: 50px;
+              width: 140px;
+          }
+
+          #trangChu_DanhMuc #lienHe {
+              float: left;
+              clear: right;
+              margin-left: 0px;
+              margin-top: 0px;
+              height: 50px;
+              width: 140px;
+          }
+
+          #trangKhung   {
+              width: 100%;
+              height: 300px;
+              margin: -1px;
+              margin-top: 0px;
+          }
+
+          #ThanhHoTro {
+              border: 1px solid black;
+              margin: -4px;
+              background: white;
+              width: 100%;
+              height: 50px;
+          }
+          #ThanhHoTro #chatLuong #anh_ChatLuong{
+              float: left;
+              clear: right;
+              margin-left: 20px;
+              margin-top: 5px;
+              width: 35px;
+              height: 40px;
+          }
+          #ThanhHoTro #chatLuong #bd{
+              float: left;
+              clear: right;
+              margin-left: 10px;
+              margin-top: 0px;
+              margin-right: 10px;
+              font-size: 70%;
+          }
+          #ThanhHoTro #chatLuong #sp{
+              float: left;
+              clear: right;
+              margin-left: -122px;
+              margin-top: 17px;
+              font-size: 70%;
+          }
+          #ThanhHoTro #giaoHang #anh_GiaoHang{
+              float: left;
+              clear: right;
+              margin-left: 25px;
+              margin-top: 5px;
+              width: 35px;
+              height: 40px;
+          }
+          #ThanhHoTro #giaoHang #mp{
+              float: left;
+              clear: right;
+              margin-left: 10px;
+              margin-top: 0px;
+              margin-right: 10px;
+              font-size: 70%;
+          }
+          #ThanhHoTro #giaoHang #dh{
+              float: left;
+              clear: right;
+              margin-left: -120px;
+              margin-top: 17px;
+              font-size: 70%;
+          }
+          #ThanhHoTro #hoTro #anh_HoTro{
+              float: left;
+              clear: right;
+              margin-left: 25px;
+              margin-top: 5px;
+              width: 35px;
+              height: 40px;
+          }
+          #ThanhHoTro #hoTro #ht{
+              float: left;
+              clear: right;
+              margin-left: 10px;
+              margin-top: 0px;
+              margin-right: 10px;
+              font-size: 70%;
+          }
+          #ThanhHoTro #hoTro #hl{
+              float: left;
+              clear: right;
+              margin-left: -80px;
+              margin-top: 17px;
+              font-size: 70%;
+          }
+          #ThanhHoTro #doiTra #anh_DoiTro{
+              float: left;
+              clear: right;
+              margin-left: 25px;
+              margin-top: 5px;
+              width: 35px;
+              height: 40px;
+          }
+          #ThanhHoTro #doiTra #dt{
+              float: left;
+              clear: right;
+              margin-left: 10px;
+              margin-top: 0px;
+              margin-right: 10px;
+              font-size: 70%;
+          }
+          #ThanhHoTro #doiTra #dk{
+              float: left;
+              clear: right;
+              margin-left: -72px;
+              margin-top: 17px;
+              font-size: 70%;
+          }
+          #hinh #hinh1{
+              margin-left: 40px;
+              margin-right: 10px;
+              margin-top: 20px;
+              width: 20%;
+              height: 170px;
+
+          }
+          #hinh #hinh2{
+              margin-left: 10px;
+              margin-right: 10px;
+              margin-top: 20px;
+              width: 20%;
+              height: 170px;
+          }
+          #hinh #hinh3{
+              margin-left: 10px;
+              margin-right: 10px;
+              margin-top: 20px;
+              width: 20%;
+              height: 170px;
+          }
+          #hinh #hinh4{
+              margin-left: 10px;
+              margin-right: 10px;
+              margin-top: 20px;
+              width: 20%;
+              height: 170px;
+          }
+
+          #SanPhamNoiBat #BanLamViec{
+              float: left;
+              clear: right;
+              border: 3px solid mediumturquoise;
+              width: 30%;
+              height: 350px;
+              margin-left: 25px;
+              margin-top: 50px;
+          }
+          #SanPhamNoiBat #BanLamViec:hover{
+              background:  mediumturquoise;
+              cursor: pointer;
+              color: white;
+          }
+          #SanPhamNoiBat #BanLamViec #anh_BanLamViec{
+              margin-left: 5px;
+              margin-top: 5px;
+              height: 60% ;
+              width :95%;
+          }
+          #SanPhamNoiBat #BanLamViec #blv{
+              text-align: center;
+          }
+          #SanPhamNoiBat #BanLamViec:hover #blv .chuBanLamViec{
+              cursor: pointer;
+              color: white;
+              margin-top: 10px;
+          }
+          #SanPhamNoiBat #BanLamViec #blv #giaBLV{
+              color: mediumturquoise;
+              margin-top: -20px;
+          }
+          #SanPhamNoiBat #BanLamViec:hover .gioHang {
+              display: none;
+          }
+          #SanPhamNoiBat #BanLamViec .gioHang {
+              display: none;
+          }
+
+          .sao3 {
+              text-align: center;
+              margin-bottom: -15px;
+              margin-top: -20px;
+          }
+          .sao3 .fa-star{
+              color: yellow;
+          }
+          .sao4 {
+              text-align: center;
+              margin-bottom: 15px;
+              margin-top: -15px;
+          }
+          .sao4 .fa-star{
+              color: yellow;
+          }
+          .gioHang4 {
+              height: 40px;
+              width: 252px;
+              margin-left: 25px;
+              margin-top: -12px;
+              background: #ef5f43;
+
+          }
+          .gioHang4 .fa-shopping-cart{
+              float: left;
+              clear: right;
+              color: white;
+              font-size: 35px;
+              margin-left: 5px;
+          }
+          .gioHang4 .chu_giohang{
+              float: left;
+              clear: right;
+              color: white;
+              margin-top: -26px;
+              margin-left: 55px;
+              font-size: 20px;
+          }
+          .gioHang4:hover {
+              width: 251px;
+              cursor: pointer;
+              color: #1fb5d4;
+              background: white;
+              border: 1px solid #ef5f43 ;
+          }
+          .gioHang4:hover .fa-shopping-cart {
+              color: #ef5f43;
+          }
+          .gioHang4:hover .chu_giohang {
+              color: #ef5f43;
+          }
+          #SanPhamNoiBat #BanLamViec:hover #blv #giaBLV{
+              cursor: pointer;
+              color: white;
+          }
+
+          #SanPhamNoiBat #chu_SanPhamNoiBat{
+              margin-left: 20px;
+              margin-top: 50px;
+              float: left;
+              clear: right;
+              border: 3px solid mediumturquoise;
+              background: mediumturquoise;
+              text-align: center;
+              color: white;
+              width: 45%;
+              height: 55px;
+          }
+          #SanPhamNoiBat #sangTraiPhaiSPNB #left{
+             display: none;
+          }
+          #SanPhamNoiBat #sangTraiPhaiSPNB #right{
+             display: none;
+          }
+          .gioHang5 {
+              position: absolute;
+              z-index: 1;
+              height: 40px;
+              width: 252px;
+              margin-left: -1px;
+              margin-top: -48px;
+              background: #ef5f43;
+              display: none;
+          }
+          .gioHang5 .fa-shopping-cart{
+              float: left;
+              clear: right;
+              color: white;
+              font-size: 35px;
+              margin-left: 5px;
+          }
+          .gioHang5 .chu_giohang{
+              float: left;
+              clear: right;
+              color: white;
+              margin-top: -26px;
+              margin-left: 55px;
+              font-size: 20px;
+          }
+          .gioHang5:hover {
+              width: 251px;
+              cursor: pointer;
+              color: #1fb5d4;
+              background: white;
+              border: 1px solid #ef5f43 ;
+          }
+          .gioHang5:hover .fa-shopping-cart {
+              color: #ef5f43;
+          }
+          .gioHang5:hover .chu_giohang {
+              color: #ef5f43;
+          }
+          #tenCacSanPhamNoiBat{
+              background: #e0ffff ;
+              float: left;
+              clear: right;
+              border: 3px solid mediumturquoise;
+              width: 60%;
+              height: 295px;
+              margin-left: 300px;
+              margin-top: -299px;
+          }
+          #tenCacSanPhamNoiBat #TuHaBu {
+              background: white;
+              margin-left: 10px;
+              margin-top: 45px;
+              float: left;
+              clear: right;
+              width: 30%;
+              height: 50%;
+              border: 1px solid black;
+          }
+          #tenCacSanPhamNoiBat #anh_TuHaBu {
+              float: left;
+              clear: right;
+              width: 100%;
+              height: 100%;
+          }
+
+          #tenCacSanPhamNoiBat #tu {
+              text-align: center;
+          }
+          #tenCacSanPhamNoiBat #tu #giaTuHaBu{
+              margin-top: -10px;
+              color: mediumturquoise;
+          }
+
+          #tenCacSanPhamNoiBat #TuHaBu:hover {
+              background: skyblue;
+              color: black;
+              cursor: pointer;
+          }
+          #tenCacSanPhamNoiBat #TuHaBu:hover #anh_TuHaBu {
+              float: left;
+              clear: right;
+              width: 100%;
+              height: 100%;
+              margin-top: 0px;
+              margin-left: 0px;
+          }
+          #tenCacSanPhamNoiBat #TuHaBu:hover .ten {
+              color: black;
+              margin-bottom: 20px;
+          }
+          #tenCacSanPhamNoiBat #TuHaBu:hover #tu #giaTuHaBu {
+              color: yellow;
+          }
+          #tenCacSanPhamNoiBat #TuHaBu:hover .gioHang5 {
+              display: none;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamNoiBat #SofaBangBella {
+              background: white;
+              margin-left: 15px;
+              margin-top: 45px;
+              float: left;
+              clear: right;
+              width: 30%;
+              height: 50%;
+              border: 1px solid black;
+          }
+          #tenCacSanPhamNoiBat #anh_SofaBangBella {
+              float: left;
+              clear: right;
+              width: 100%;
+              height: 100%;
+          }
+          #tenCacSanPhamNoiBat #bella {
+              text-align: center;
+          }
+          #tenCacSanPhamNoiBat #bella #giaBella{
+              color: mediumturquoise;
+              margin-top: -10px;
+          }
+
+          #tenCacSanPhamNoiBat #SofaBangBella:hover {
+              background: skyblue;
+              color: black;
+              cursor: pointer;
+          }
+          #tenCacSanPhamNoiBat #SofaBangBella:hover #anh_SofaBangBella {
+              float: left;
+              clear: right;
+              width: 100%;
+              height: 100%;
+              margin-top: 0px;
+              margin-left: 0px;
+          }
+          #tenCacSanPhamNoiBat #SofaBangBella:hover .ten {
+              color: black;
+          }
+          #tenCacSanPhamNoiBat #SofaBangBella:hover #bella #giaBella {
+              color: yellow;
+          }
+          #tenCacSanPhamNoiBat #SofaBangBella:hover .gioHang5 {
+              display: none;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamNoiBat #keTuHoBu {
+              background: white;
+              margin-left: 15px;
+              margin-top: 45px;
+              float: left;
+              clear: right;
+              width: 30%;
+              height: 50%;
+              border: 1px solid black;
+          }
+          #tenCacSanPhamNoiBat #anh_keTuHoBu {
+              float: left;
+              clear: right;
+              width: 100%;
+              height: 100%;
+          }
+          #tenCacSanPhamNoiBat #tuHoBu {
+              text-align: center;
+          }
+          #tenCacSanPhamNoiBat #tuHoBu #giaKeTuHoBu{
+              color: mediumturquoise;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamNoiBat #keTuHoBu:hover {
+              background: skyblue;
+              color: black;
+              cursor: pointer;
+          }
+          #tenCacSanPhamNoiBat #keTuHoBu:hover #anh_keTuHoBu {
+              float: left;
+              clear: right;
+              width: 100%;
+              height: 100%;
+              margin-top: 0px;
+              margin-left: 0px;
+          }
+          #tenCacSanPhamNoiBat #keTuHoBu:hover .ten {
+              color: black;
+          }
+          #tenCacSanPhamNoiBat #keTuHoBu:hover #tuHoBu #giaKeTuHoBu {
+              color: yellow;
+          }
+          #tenCacSanPhamNoiBat #keTuHoBu:hover .gioHang5 {
+              display: none;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamNoiBat #keTreoPoplar {
+              display: none;
+          }
+          #tenCacSanPhamNoiBat #anh_keTreoPoplar {
+              float: left;
+              clear: right;
+              width: 250px;
+              height: 150px;
+          }
+          #tenCacSanPhamNoiBat #poplar {
+              text-align: center;
+          }
+          #tenCacSanPhamNoiBat #poplar #giaKeTreoPoplar{
+              color: mediumturquoise;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamNoiBat #keTreoPoplar:hover {
+              background: skyblue;
+              color: white;
+              cursor: pointer;
+          }
+          #tenCacSanPhamNoiBat #keTreoPoplar:hover #anh_keTreoPoplar {
+              width: 230px;
+              height: 130px;
+              background: #76c9bd;
+              color: white;
+              margin-left: 10px;
+              margin-top: 5px;
+          }
+          #tenCacSanPhamNoiBat #keTreoPoplar:hover .ten {
+              color: white;
+          }
+          #tenCacSanPhamNoiBat #keTreoPoplar:hover #poplar #giaKeTreoPoplar {
+              color: yellow;
+              display: none;
+          }
+          #tenCacSanPhamNoiBat #keTreoPoplar:hover .gioHang5 {
+              display: none;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamNoiBat #keTiViHoBu {
+             display: none;
+          }
+          #tenCacSanPhamNoiBat #anh_keTiViHoBu {
+              float: left;
+              clear: right;
+              width: 250px;
+              height: 150px;
+          }
+          #tenCacSanPhamNoiBat #tivi {
+              text-align: center;
+          }
+          #tenCacSanPhamNoiBat #tivi #giaKeTiViHoBu{
+              color: mediumturquoise;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamNoiBat #keTiViHoBu:hover {
+              background: skyblue;
+              color: white;
+              cursor: pointer;
+          }
+          #tenCacSanPhamNoiBat #keTiViHoBu:hover #anh_keTiViHoBu {
+              width: 230px;
+              height: 130px;
+              background: #76c9bd;
+              color: white;
+              margin-left: 10px;
+              margin-top: 5px;
+          }
+          #tenCacSanPhamNoiBat #keTiViHoBu:hover .ten {
+              color: white;
+          }
+          #tenCacSanPhamNoiBat #keTiViHoBu:hover #tivi #giaKeTiViHoBu {
+              color: yellow;
+              display: none;
+          }
+
+          #tenCacSanPhamNoiBat #keTiViHoBu:hover .gioHang5 {
+              display: none;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamNoiBat #gheEuro {
+            display: none;
+          }
+          #tenCacSanPhamNoiBat #anh_gheEuro {
+              float: left;
+              clear: right;
+              width: 250px;
+              height: 150px;
+          }
+          #tenCacSanPhamNoiBat #euro {
+              text-align: center;
+          }
+          #tenCacSanPhamNoiBat #euro #giaGheEuro{
+              color: mediumturquoise;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamNoiBat #gheEuro:hover {
+              background: skyblue;
+              color: white;
+              cursor: pointer;
+          }
+          #tenCacSanPhamNoiBat #gheEuro:hover #anh_gheEuro {
+              width: 230px;
+              height: 130px;
+              background: #76c9bd;
+              color: white;
+              margin-left: 10px;
+              margin-top: 5px;
+          }
+          #tenCacSanPhamNoiBat #gheEuro:hover .ten {
+              color: white;
+          }
+          #tenCacSanPhamNoiBat #gheEuro:hover #euro #giaGheEuro {
+              color: yellow;
+              display: none;
+          }
+          #tenCacSanPhamNoiBat #gheEuro:hover .gioHang5 {
+              display: none;
+              margin-top: -10px;
+          }
+          #SanPhamHot  {
+              border: 1px solid black;
+              width: 100%;
+              height: 570px;
+              margin-top: 450px;
+          }
+          #SanPhamHot  #chu_SanPhamHot  {
+              text-align: center;
+          }
+          #SanPhamHot  #chu_SanPhamHot  #thanhKe2{
+              color: darkturquoise;
+              width: 75%;
+          }
+          #SanPhamHot  #chu_SanPhamHot  #chu{
+              margin-top: 0px;
+              text-align: center;
+              border: 3px solid mediumturquoise;
+              width: 250px;
+              height: 40px;
+              background: mediumturquoise;
+              color: white;
+              margin-left: 250px;
+
+          }
+          #SanPhamHot  #chu_SanPhamHot  #hot1{
+              margin: 0px;
+              float: left;
+              clear: right;
+              margin-left: 10px;
+              width: 30%;
+              color: mediumturquoise;
+          }
+          #SanPhamHot  #chu_SanPhamHot  #hot1:hover{
+              cursor: pointer;
+              color: #76c9bd;
+          }
+          #SanPhamHot  #chu_SanPhamHot  #hot2{
+              margin: 0px;
+              float: left;
+              clear: right;
+              margin-left: 10px;
+              width: 30%;
+          }
+          #SanPhamHot  #chu_SanPhamHot  #hot2:hover{
+              cursor: pointer;
+              color: #76c9bd;
+          }
+          #SanPhamHot  #chu_SanPhamHot  #hot3{
+              margin: 5px;
+              float: left;
+              clear: right;
+              margin-left: 10px;
+              width: 30%;
+          }
+          #SanPhamHot  #chu_SanPhamHot  #hot3:hover{
+              cursor: pointer;
+              color: #76c9bd;
+          }
+          #SanPhamHot #gheGoBapBenhIconic{
+              float: left;
+              clear: right;
+              border: 10px solid mediumturquoise;
+              width: 300px;
+              height: 360px;
+              margin-left: 30px;
+              margin-top: 35px;
+          }
+          #SanPhamHot #gheGoBapBenhIconic #anh_gheGoBapBenhIconic{
+              float: left;
+              clear: right;
+              margin-left: 25px;
+              margin-top: 30px;
+              height: 200px ;
+              width :250px;
+          }
+          #SanPhamHot #gheGoBapBenhIconic #iconic{
+              text-align: center;
+          }
+          #SanPhamHot #gheGoBapBenhIconic #iconic #giaIconic{
+              color: mediumturquoise;
+              margin-top: -10px;
+          }
+          #SanPhamHot #gheGoBapBenhIconic #iconic .ten{
+              margin-top: 100px;
+          }
+          #SanPhamHot #gheGoBapBenhIconic:hover {
+              background: mediumturquoise;
+              color: white;
+              cursor: pointer;
+          }
+          #SanPhamHot #gheGoBapBenhIconic:hover .ten {
+              color: white;
+          }
+          #SanPhamHot #gheGoBapBenhIconic:hover #iconic #giaIconic {
+              color: white;
+          }
+
+          #SanPhamHot #ghePhongKhachArctander{
+              float: left;
+              clear: right;
+              border: 10px solid mediumturquoise;
+              width: 300px;
+              height: 360px;
+              margin-left: 60px;
+              margin-top: 35px;
+          }
+          #SanPhamHot #ghePhongKhachArctander #anh_ghePhongKhachArctander{
+              float: left;
+              clear: right;
+              margin-left: 25px;
+              margin-top: 30px;
+              height: 200px ;
+              width :250px;
+          }
+          #SanPhamHot #ghePhongKhachArctander #Arctander{
+              text-align: center;
+          }
+          #SanPhamHot #ghePhongKhachArctander #Arctander #giaArctander{
+              color: mediumturquoise;
+              margin-top: -10px;
+          }
+          #SanPhamHot #ghePhongKhachArctander:hover {
+              background: mediumturquoise;
+              color: white;
+              cursor: pointer;
+          }
+          #SanPhamHot #ghePhongKhachArctander:hover .ten {
+              color: white;
+          }
+          #SanPhamHot #ghePhongKhachArctander:hover #Arctander #giaArctander {
+              color: white;
+          }
+          #SanPhamHot #BanAillen03{
+              float: left;
+              clear: right;
+              border: 10px solid mediumturquoise;
+              width: 300px;
+              height: 360px;
+              margin-left: 60px;
+              margin-top: 35px;
+          }
+          #SanPhamHot #BanAillen03 #anh_BanAillen03{
+              float: left;
+              clear: right;
+              margin-left: 25px;
+              margin-top: 30px;
+              height: 200px ;
+              width :250px;
+          }
+          #SanPhamHot #BanAillen03 #Aillen03{
+              text-align: center;
+          }
+          #SanPhamHot #BanAillen03 #Aillen03 #giaAillen03{
+              color: mediumturquoise;
+              margin-top: -10px;
+          }
+          #SanPhamHot #BanAillen03:hover {
+              background: mediumturquoise;
+              color: white;
+              cursor: pointer;
+          }
+          #SanPhamHot #BanAillen03:hover .ten {
+              color: white;
+          }
+          #SanPhamHot #BanAillen03:hover #Aillen03 #giaAillen03 {
+              color: white;
+          }
+          #SanPhamHot #banBinas{
+              float: left;
+              clear: right;
+              border: 10px solid mediumturquoise;
+              width: 300px;
+              height: 360px;
+              margin-left: 60px;
+              margin-top: 35px;
+          }
+          #SanPhamHot #banBinas #anh_banBinas{
+              float: left;
+              clear: right;
+              margin-left: 25px;
+              margin-top: 30px;
+              height: 200px ;
+              width :250px;
+          }
+          #SanPhamHot #banBinas #binas{
+              text-align: center;
+          }
+          #SanPhamHot #banBinas #binas #giaBinas{
+              color: mediumturquoise;
+              margin-top: -10px;
+          }
+          #SanPhamHot #banBinas:hover {
+              background: mediumturquoise;
+              color: white;
+              cursor: pointer;
+          }
+          #SanPhamHot #banBinas:hover .ten {
+              color: white;
+          }
+          #SanPhamHot #banBinas:hover #binas #giaBinas {
+              color: white;
+          }
+          #sangTraiPhaiSPH{
+              margin-left: 1400px;
+          }
+
+          #SanPhamMoi #Kozoka_trysil{
+              float: left;
+              clear: right;
+              border: 3px solid mediumturquoise;
+              width: 350px;
+              height: 550px;
+              margin-left: 60px;
+              margin-top: 50px;
+          }
+          #SanPhamMoi #Kozoka_trysil #anh_Kozoka_trysil{
+              margin-left: 25px;
+              margin-top: 30px;
+              height: 300px ;
+              width :300px;
+          }
+          #SanPhamMoi #Kozoka_trysil #Kozoka{
+              text-align: center;
+          }
+          #SanPhamMoi #Kozoka_trysil #Kozoka #giaKozoka{
+              color: mediumturquoise;
+          }
+
+          #SanPhamMoi #Kozoka_trysil:hover {
+              background: mediumturquoise;
+              color: white;
+              cursor: pointer;
+          }
+          #SanPhamMoi #Kozoka_trysil:hover .ten {
+              color: white;
+          }
+          #SanPhamMoi #Kozoka_trysil:hover #Kozoka #giaKozoka {
+              color: white;
+          }
+          #SanPhamMoi #chu_SamPhamMoi{
+              margin-left: 50px;
+              margin-top: 50px;
+              float: left;
+              clear: right;
+              border: 3px solid mediumturquoise;
+              background: mediumturquoise;
+              text-align: center;
+              color: white;
+              width: 300px;
+              height: 55px;
+          }
+          #SanPhamMoi #sangTraiPhaiSPM #left_SPM{
+              margin-left: 577px;
+              margin-top: 68px;
+              float: left;
+              clear: right;
+              border: 1px solid mediumturquoise;
+              height : 42px;
+              width : 40px;
+          }
+          #SanPhamMoi #sangTraiPhaiSPM #right_SPM{
+              margin-left: 974px;
+              margin-top: -45px;
+              float: left;
+              border: 1px solid mediumturquoise;
+              height : 42px;
+              width : 40px;
+          }
+
+          #tenCacSanPhamMoi{
+              background: #e0ffff ;
+              float: left;
+              clear: right;
+              border: 3px solid mediumturquoise;
+              width: 960px;
+              height: 490px;
+              margin-left: 466px;
+              margin-top: -496px;
+          }
+
+          #tenCacSanPhamMoi #dongHoMiso {
+              background: white;
+              margin-left: 55px;
+              margin-top: 15px;
+              float: left;
+              clear: right;
+              border: 3px solid white;
+              width: 250px;
+              height: 220px;
+          }
+          #tenCacSanPhamMoi #anh_dongHoMiso {
+              margin-left: 10px;
+              float: left;
+              clear: right;
+              width: 230px;
+              height: 150px;
+              margin-top: 10px;
+          }
+          #tenCacSanPhamMoi #Miso {
+              text-align: center;
+          }
+          #tenCacSanPhamMoi #Miso #giaMiso{
+              color: mediumturquoise;
+          }
+          #tenCacSanPhamMoi #dongHoMiso .ten {
+              margin-bottom: -10px;
+          }
+          #tenCacSanPhamMoi #dongHoMiso:hover {
+              background: skyblue;
+              color: white;
+              cursor: pointer;
+          }
+          #tenCacSanPhamMoi #dongHoMiso:hover .ten {
+              color: white;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamMoi #dongHoMiso:hover #Miso #giaMiso {
+              color: yellow;
+              display: none;
+          }
+          #tenCacSanPhamMoi #dongHoMiso:hover .gioHang5 {
+              display: block;
+              margin-top: 15px;
+          }
+          #tenCacSanPhamMoi:hover #anh_dongHoMiso {
+              margin-top: 5px;
+              height: 140px;
+          }
+
+          #tenCacSanPhamMoi #dongHoTabu {
+              background: white;
+              margin-left: 45px;
+              margin-top: 15px;
+              float: left;
+              clear: right;
+              border: 3px solid white;
+              width: 250px;
+              height: 220px;
+          }
+          #tenCacSanPhamMoi #anh_dongHoTabu {
+              margin-left: 10px;
+              float: left;
+              clear: right;
+              width: 230px;
+              height: 150px;
+              margin-top: 10px;
+          }
+          #tenCacSanPhamMoi #Tabu {
+              text-align: center;
+          }
+          #tenCacSanPhamMoi #Tabu #giaTaBu{
+              color: mediumturquoise;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamMoi #dongHoTabu:hover {
+              background: skyblue;
+              color: white;
+              cursor: pointer;
+          }
+          #tenCacSanPhamMoi #dongHoTabu:hover .ten {
+              color: white;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamMoi #dongHoTabu:hover #Tabu #giaTaBu {
+              color: yellow;
+              display: none;
+          }
+          #tenCacSanPhamMoi #dongHoTabu:hover .gioHang5 {
+              display: block;
+              margin-top: -15px;
+          }
+          #tenCacSanPhamMoi:hover #anh_dongHoTabu {
+              margin-top: 5px;
+              height: 140px;
+          }
+
+          #tenCacSanPhamMoi #GiuongILBRO_BASIC {
+              background: white;
+              margin-left: 45px;
+              margin-top: 15px;
+              float: left;
+              clear: right;
+              border: 3px solid white;
+              width: 250px;
+              height: 220px;
+          }
+          #tenCacSanPhamMoi #anh_GiuongILBRO_BASIC {
+              margin-left: 10px;
+              float: left;
+              clear: right;
+              width: 230px;
+              height: 150px;
+              margin-top: 10px;
+          }
+          #tenCacSanPhamMoi #Basic {
+              text-align: center;
+          }
+          #tenCacSanPhamMoi #Basic #giaBasic{
+              color: mediumturquoise;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamMoi #GiuongILBRO_BASIC:hover {
+              background: skyblue;
+              color: white;
+              cursor: pointer;
+          }
+          #tenCacSanPhamMoi #GiuongILBRO_BASIC:hover .ten {
+              color: white;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamMoi #GiuongILBRO_BASIC:hover #Basic #giaBasic {
+              color: yellow;
+              display: none;
+          }
+          #tenCacSanPhamMoi #GiuongILBRO_BASIC:hover .gioHang5 {
+              display: block;
+              margin-top: -15px;
+          }
+          #tenCacSanPhamMoi:hover #anh_GiuongILBRO_BASIC {
+              margin-top: 5px;
+              height: 140px;
+          }
+
+          #tenCacSanPhamMoi #GoSoIBIE_DRVICESO {
+              background: white;
+              margin-left: 55px;
+              margin-top: 15px;
+              float: left;
+              clear: right;
+              border: 3px solid white;
+              width: 250px;
+              height: 220px;
+          }
+          #tenCacSanPhamMoi #anh_GoSoIBIE_DRVICESO {
+              margin-left: 10px;
+              float: left;
+              clear: right;
+              width: 230px;
+              height: 150px;
+              margin-top: 10px;
+          }
+          #tenCacSanPhamMoi #DRVICESO {
+              text-align: center;
+          }
+          #tenCacSanPhamMoi #DRVICESO #giaDrviceso{
+              color: mediumturquoise;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamMoi #GoSoIBIE_DRVICESO:hover {
+              background: skyblue;
+              color: white;
+              cursor: pointer;
+          }
+          #tenCacSanPhamMoi #GoSoIBIE_DRVICESO:hover .ten {
+              color: white;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamMoi #GoSoIBIE_DRVICESO:hover #DRVICESO #giaDrviceso {
+              color: yellow;
+              display: none;
+          }
+          #tenCacSanPhamMoi #GoSoIBIE_DRVICESO:hover .gioHang5 {
+              display: block;
+              margin-top: -15px;
+          }
+          #tenCacSanPhamMoi:hover #anh_GoSoIBIE_DRVICESO {
+              margin-top: 5px;
+              height: 140px;
+          }
+          #tenCacSanPhamMoi #TuQuanAo {
+              background: white;
+              margin-left: 45px;
+              margin-top: 15px;
+              float: left;
+              clear: right;
+              border: 3px solid white;
+              width: 250px;
+              height: 220px;
+          }
+          #tenCacSanPhamMoi #anh_TuQuanAo {
+              margin-left: 10px;
+              float: left;
+              clear: right;
+              width: 230px;
+              height: 150px;
+              margin-top: 10px;
+          }
+          #tenCacSanPhamMoi #SDR20 {
+              text-align: center;
+          }
+          #tenCacSanPhamMoi #SDR20 #giaSDR20{
+              color: mediumturquoise;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamMoi #TuQuanAo:hover {
+              background: skyblue;
+              color: white;
+              cursor: pointer;
+          }
+          #tenCacSanPhamMoi #TuQuanAo:hover .ten {
+              color: white;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamMoi #TuQuanAo:hover #SDR20 #giaSDR20 {
+              color: yellow;
+              display: none;
+          }
+          #tenCacSanPhamMoi #TuQuanAo:hover .gioHang5 {
+              display: block;
+              margin-top: -15px;
+          }
+          #tenCacSanPhamMoi:hover #anh_TuQuanAo {
+              margin-top: 5px;
+              height: 140px;
+          }
+
+
+          #tenCacSanPhamMoi #LotLy {
+              background: white;
+              margin-left: 45px;
+              margin-top: 15px;
+              float: left;
+              clear: right;
+              border: 3px solid white;
+              width: 250px;
+              height: 220px;
+          }
+          #tenCacSanPhamMoi #anh_LotLy {
+              margin-left: 10px;
+              float: left;
+              clear: right;
+              width: 230px;
+              height: 150px;
+              margin-top: 10px;
+          }
+          #tenCacSanPhamMoi #NVH03 {
+              text-align: center;
+          }
+          #tenCacSanPhamMoi #NVH03 #giaNVH03{
+              color: mediumturquoise;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamMoi #LotLy:hover {
+              background: skyblue;
+              color: white;
+              cursor: pointer;
+          }
+          #tenCacSanPhamMoi #LotLy:hover .ten {
+              color: white;
+              margin-top: -10px;
+          }
+          #tenCacSanPhamMoi #LotLy:hover #NVH03 #giaNVH03 {
+              color: yellow;
+              display: none;
+          }
+          #tenCacSanPhamMoi #LotLy:hover .gioHang5 {
+              display: block;
+              margin-top: -15px;
+          }
+          #tenCacSanPhamMoi:hover #anh_LotLy {
+              margin-top: 5px;
+              height: 140px;
+          }
+          #layout4  {
+              width: 100%;
+              background: white;
+              height: 200px;
+              margin-top: 700px;
+          }
+          #layout4  .layout4_danhMucSanPham{
+              float: left;
+              clear: right;
+              margin-left: 13px;
+              margin-right: 15px;
+              width: 18%;
+              height: 200px;
+              border: 1px solid mediumturquoise;
+
+          }
+          #layout4  .layout4_danhMucSanPham .danhMucSanPham .anh{
+              width: 100%;
+              height: 200px;
+          }
+          #layout4  .layout4_danhMucSanPham .danhMucSanPham .noiThat {
+              margin-top: 0px;
+              color: #0099aa;
+              text-align: center;
+              margin-bottom: 40px;
+          }
+          #layout4  .layout4_danhMucSanPham .danhMucSanPham .noiThat .tenNoiThat{
+              text-align: center;
+              font-size: 170%;
+          }
+          #layout4  .layout4_danhMucSanPham .danhMucSanPham .noiThat .noiDung{
+              margin-top: -20px;
+          }
+          #layout4  a{
+              text-decoration: none;
+          }
+          #layout5 {
+              margin-top: 150px;
+              width: 100%;
+              height: 1100px;
+              background: white;
+          }
+          #layout5 .sanPham{
+              background: #e0ffff ;
+              float: left;
+              clear: right;
+              margin-left: 120px;
+              width: 600px;
+          }
+          #layout5 .sanPham .tieuDe{
+              width: 100%;
+              height: 80px;
+              background: white;
+          }
+          #layout5 .sanPham .tieuDe .left{
+              float: left;
+              clear: right;
+              margin-top: -20px;
+          }
+          #layout5 .sanPham .tieuDe .left .ten{
+              font-size: 250%;
+              color: darkturquoise;
+              margin-top: 0px;
+          }
+          #layout5 .sanPham .tieuDe .left .noiDung{
+              margin-top: -35px;
+          }
+          #layout5 .sanPham .tieuDe .right {
+              float: left;
+              clear: right;
+              margin-top: -57px;
+              margin-left: 500px;
+          }
+          #layout5 .sanPham  .tenCacSanPham {
+              border: 1px solid mediumturquoise;
+              width: 100%;
+              height: 950px;
+              background: #e0ffff ;
+          }
+          #layout5 .sanPham  .cacSanPham {
+              margin-top: 20px;
+              width: 95%;
+              height: 200px;
+              border: 5px solid mediumturquoise;
+              margin-left: 10px;
+              background: white;
+          }
+          #layout5 .sanPham  .cacSanPham   .anh5{
+              float: left;
+              clear: right;
+              width: 40%;
+              height: 150px;
+              margin-left: 10px;
+              margin-top: 20px;
+              border: 1px solid mediumturquoise ;
+          }
+
+          #layout5 .sanPham  .cacSanPham:hover {
+              background: mediumturquoise;
+              cursor: pointer;
+          }
+          #layout5 .sanPham  .cacSanPham   .anh5:hover{
+              cursor: pointer;
+              width: 40%;
+              height: 150px;
+          }
+          #layout5 .sanPham  .cacSanPham   .moTa .ten{
+              float: left;
+              clear: right;
+              margin-left: 25px;
+          }
+          #layout5 .sanPham  .cacSanPham:hover   .moTa .ten{
+              color: white;
+          }
+          #layout5 .sanPham  .cacSanPham   .moTa .gia{
+              color: mediumturquoise ;
+              float: left;
+              clear: right;
+              margin-left: 25px;
+
+          }
+          #layout5 .sanPham  .cacSanPham:hover   .moTa .gia{
+              color: white;
+          }
+          #layout5 .sanPham  .cacSanPham   .moTa .giaCu{
+              color: darkgray;
+              float: left;
+              clear: right;
+              margin-left: -100px;
+          }
+          #layout5 .sanPham  .cacSanPham:hover   .moTa .giaCu{
+              color: white;
+          }
+
+
+          #layout5 .sanPham1{
+              float: left;
+              clear: right;
+              margin-left: 80px;
+              width: 600px;
+              background: white;
+          }
+          #layout5 .sanPham1 .tieuDe{
+              width: 100%;
+              height: 80px;
+              background: white;
+          }
+          #layout5 .sanPham1 .tieuDe .left{
+              float: left;
+              clear: right;
+              margin-top: -20px;
+          }
+          #layout5 .sanPham1 .tieuDe .left .ten{
+              font-size: 250%;
+              color: darkturquoise;
+              margin-top: 0px;
+          }
+          #layout5 .sanPham1 .tieuDe .left .noiDung{
+              margin-top: -35px;
+          }
+          #layout5 .sanPham1 .tieuDe .right {
+              float: left;
+              clear: right;
+              margin-top: -57px;
+              margin-left: 500px;
+          }
+          #layout5 .sanPham1  .tenCacSanPham {
+              background: #e0ffff ;
+              border: 1px solid mediumturquoise;
+              width: 100%;
+              height: 950px;
+          }
+          #layout5 .sanPham1  .cacSanPham {
+              background: white;
+              margin-top: 20px;
+              width: 95%;
+              height: 200px;
+              border: 5px solid mediumturquoise;
+              margin-left: 10px;
+          }
+          #layout5 .sanPham1  .cacSanPham   .anh5{
+              float: left;
+              clear: right;
+              width: 40%;
+              height: 150px;
+              margin-top: 20px;
+              margin-left: 10px;
+              border: 1px solid mediumturquoise ;
+          }
+          #layout5 .sanPham1  .cacSanPham:hover {
+              background: mediumturquoise;
+              cursor: pointer;
+          }
+          #layout5 .sanPham1  .cacSanPham   .anh5:hover{
+              cursor: pointer;
+              width: 40%;
+              height: 150px;
+          }
+          #layout5 .sanPham1  .cacSanPham   .moTa .ten{
+              float: left;
+              clear: right;
+              margin-left: 25px;
+          }
+
+          #layout5 .sanPham1  .cacSanPham:hover   .moTa .ten{
+              color: white;
+          }
+          #layout5 .sanPham1  .cacSanPham   .moTa .gia{
+              color: mediumturquoise ;
+              float: left;
+              clear: right;
+              margin-left: -165px;
+              margin-top: 100px;
+          }
+          #layout5 .sanPham1  .cacSanPham   .moTa .gia1{
+              color: mediumturquoise ;
+              float: left;
+              clear: right;
+              margin-left: -135px;
+              margin-top: 100px;
+          }
+          #layout5 .sanPham1  .cacSanPham:hover   .moTa .gia1{
+              color: white;
+          }
+          #layout5 .sanPham1  .cacSanPham:hover   .moTa .gia{
+              color: white;
+          }
+          #layout5 .sanPham1  .cacSanPham   .moTa .giaCu{
+              color: darkgray;
+              float: left;
+              clear: right;
+              margin-left: -165px;
+              margin-top: 80px;
+          }
+          #layout5 .sanPham1  .cacSanPham:hover   .moTa .giaCu{
+              color: white;
+          }
+          .gioHang {
+              height: 45px;
+              width: 300px;
+              margin-left: 25px;
+              background: #ef5f43;
+              border-radius: 5%;
+          }
+          .gioHang .fa-shopping-cart{
+              float: left;
+              clear: right;
+              color: white;
+              font-size: 45px;
+          }
+          .gioHang .chu_giohang{
+              float: left;
+              clear: right;
+              color: white;
+              margin-top: -40px;
+              margin-left: 65px;
+              font-size: 25px;
+          }
+          .gioHang:hover {
+              cursor: pointer;
+              color: #1fb5d4;
+              background: white;
+          }
+          .gioHang:hover .fa-shopping-cart {
+              color: #ef5f43;
+          }
+          .gioHang:hover .chu_giohang {
+              color: #ef5f43;
+          }
+
+          #layout5 .tenCacSanPham  .gioHang {
+              height: 45px;
+              width: 230px;
+              margin-left: 270px;
+              background: #ef5f43 ;
+              border-radius: 5%;
+              margin-top: 140px;
+          }
+          #layout5 .tenCacSanPham  .gioHang .fa-shopping-cart{
+              float: left;
+              clear: right;
+              color: white;
+              margin-left: 5px;
+              margin-top: 7px;
+              font-size: 30px;
+          }
+          #layout5 .tenCacSanPham  .gioHang .chu_giohang{
+              float: left;
+              clear: right;
+              color: white;
+              margin-top: -27px;
+              margin-left: 50px;
+              font-size: 20px;
+          }
+          #layout5 .tenCacSanPham .gioHang:hover {
+              cursor: pointer;
+              color: #1fb5d4;
+              background: white;
+          }
+          #layout5 .tenCacSanPham  .gioHang:hover .fa-shopping-cart {
+              color: #ef5f43;
+          }
+          #layout5 .tenCacSanPham  .gioHang:hover .chu_giohang {
+              color: #ef5f43;
+          }
+
+          #layout5 .tenCacSanPham  .gioHang1 {
+              height: 45px;
+              width: 230px;
+              margin-left: 270px;
+              background: #ef5f43 ;
+              border-radius: 5%;
+              margin-top: 140px;
+          }
+          #layout5 .tenCacSanPham  .gioHang1 .fa-shopping-cart{
+              float: left;
+              clear: right;
+              color: white;
+              margin-left: -100px;
+              margin-top: 7px;
+              font-size: 30px;
+          }
+          #layout5 .tenCacSanPham  .gioHang1 .chu_giohang{
+              float: left;
+              clear: right;
+              color: white;
+              margin-top: 5px;
+              margin-left: 50px;
+              font-size: 20px;
+          }
+          #layout5 .tenCacSanPham .gioHang1:hover {
+              cursor: pointer;
+              color: #1fb5d4;
+              background: white;
+          }
+          #layout5 .tenCacSanPham  .gioHang1:hover .fa-shopping-cart {
+              color: #ef5f43;
+          }
+          #layout5 .tenCacSanPham  .gioHang1:hover .chu_giohang {
+              color: #ef5f43;
+          }
+
+          #layout5 .tenCacSanPham  .gioHang2 {
+              height: 45px;
+              width: 230px;
+              margin-left: 270px;
+              background: #ef5f43 ;
+              border-radius: 5%;
+              margin-top: 140px;
+          }
+          #layout5 .tenCacSanPham  .gioHang2 .fa-shopping-cart{
+              float: left;
+              clear: right;
+              color: white;
+              margin-left: -90px;
+              margin-top: 7px;
+              font-size: 30px;
+          }
+          #layout5 .tenCacSanPham  .gioHang2 .chu_giohang{
+              float: left;
+              clear: right;
+              color: white;
+              margin-top: 5px;
+              margin-left: 50px;
+              font-size: 20px;
+          }
+          #layout5 .tenCacSanPham .gioHang2:hover {
+              cursor: pointer;
+              color: #1fb5d4;
+              background: white;
+          }
+          #layout5 .tenCacSanPham  .gioHang2:hover .fa-shopping-cart {
+              color: #ef5f43;
+          }
+          #layout5 .tenCacSanPham  .gioHang2:hover .chu_giohang {
+              color: #ef5f43;
+          }
+          .sao {
+              float: left;
+              clear: right;
+              margin-right: 30px;
+              margin-left: 265px;
+              margin-top: -130px;
+              color: yellow;
+          }
+          .sao .fa-star {
+              color: yellow;
+          }
+          .DiemDen .chuDiemDenMoi {
+              text-align: center;
+              color: #0099aa;
+              font-weight: bold;
+              margin-bottom: 10px;
+          }
+          .DiemDen .SanPhamDiemDenMoi {
+              width: 250px;
+              height: 350px;
+              background: white;
+              border: 1px solid #0099aa;
+              float: left;
+              clear: right;
+              margin-left: 90px;
+              margin-right: 20px;
+              margin-bottom: 150px;
+          }
+          .DiemDen .SanPhamDiemDenMoi .anh{
+              width: 200px;
+              height: 200px;
+              margin-top: 30px;
+              margin-left: 25px;
+          }
+          .DiemDen .SanPhamDiemDenMoi .ten{
+              text-align: center;
+              color: #0099aa;
+          }
+          .DiemDen .SanPhamDiemDenMoi .gia{
+              margin-top: 5px;
+              text-align: center;
+              color: #0099aa;
+          }
+          .SanPhamDiemDenMoi:hover {
+              width: 250px;
+              height: 350px;
+              background: #0099aa;
+              border: 1px solid #0099aa;
+              cursor: pointer;
+          }
+          .SanPhamDiemDenMoi:hover .gia{
+              color: white;
+          }
+          .SanPhamDiemDenMoi:hover .ten{
+              color: white;
+          }
+          .sao1 {
+              margin-top: -10px;
+              text-align: center;
+          }
+          .sao1 .fa-star{
+              color: yellow;
+          }
+
+          .gioHang3 {
+              height: 40px;
+              width: 252px;
+              margin-left: -1px;
+              margin-top: -5px;
+              background: #ef5f43;
+          }
+          .gioHang3 .fa-shopping-cart{
+              float: left;
+              clear: right;
+              color: white;
+              font-size: 35px;
+              margin-left: 5px;
+          }
+          .gioHang3 .chu_giohang{
+              float: left;
+              clear: right;
+              color: white;
+              margin-top: -26px;
+              margin-left: 55px;
+              font-size: 20px;
+          }
+          .gioHang3:hover {
+              width: 251px;
+              cursor: pointer;
+              color: #1fb5d4;
+              background: white;
+              border: 1px solid #ef5f43 ;
+          }
+          .gioHang3:hover .fa-shopping-cart {
+              color: #ef5f43;
+          }
+          .gioHang3:hover .chu_giohang {
+              color: #ef5f43;
+          }
+
+          #layout6 {
+              width: 100%;
+              height: 560px;
+              background: white ;
+              margin-top: 525px;
+              border: 1px solid black;
+              margin-bottom: 100px;
+          }
+          #layout6 .TieuDe .ten{
+              float: left;
+              clear: right;
+              font-size: 260%;
+              margin-top: -1px;
+              width: 250px;
+              height: 60px;
+              color: white;
+              background: turquoise;
+          }
+          #layout6 .TieuDe .right{
+              float: left;
+              clear: right;
+              margin-left: 1400px;
+              margin-top: -60px;
+          }
+          #layout6 .TieuDe .thanhKe{
+              margin-top: 50px;
+          }
+          #layout6 .meoVatHay  {
+              margin-left: -10px;
+          }
+          #layout6 .meoVatHay .meoVat {
+              float: left;
+              clear: right;
+              width: 400px;
+              height: 440px;
+              margin-right: 30px;
+              margin-left: 70px;
+              background: #6db9d7;
+          }
+          #layout6 .meoVatHay .meoVat .anh {
+              width: 400px;
+              height: 250px;
+          }
+          #layout6 .meoVatHay .meoVat:hover .anh {
+              width: 350px;
+              height: 200px;
+              margin-top: 25px;
+              margin-left: 25px;
+          }
+          #layout6 .meoVatHay .meoVat .lich{
+              width: 400px;
+              height: 50px;
+              background: skyblue;
+              margin-top: -4px;
+          }
+          #layout6 .meoVatHay .meoVat .lich .fa-calendar-check-o {
+              float: left;
+              clear: right;
+              font-size: 200%;
+              margin-top: 7px;
+              margin-left: 10px;
+          }
+          #layout6 .meoVatHay .meoVat .lich .ngay {
+              float: left;
+              clear: right;
+              margin-top: 15px;
+              margin-left: 10px;
+          }
+          #layout6 .meoVatHay .meoVat .ten{
+              margin-left: 10px;
+              color: white;
+          }
+          #layout6 .meoVatHay .meoVat .noiDung{
+              margin-left: 10px;
+              color: white;
+          }
+          #layout6 .meoVatHay .meoVat:hover {
+              cursor: pointer;
+              background: #6db9d7 ;
+              color: white;
+          }
+          #layout6 .meoVatHay .meoVat:hover .ten {
+              color: white;
+          }
+
+          #layout7 .thanhDuoi {
+              width: 100%;
+              height: 500px;
+              background: darkturquoise;
+              margin-top: 50px;
+          }
+          #layout7 .thanhDuoi .tenWeb{
+              margin-left: 30px;
+              float: left;
+              clear: right;
+              width: 300px;
+              margin-right: 70px;
+          }
+          #layout7 .thanhDuoi .tenWeb .hotline .fa-phone-square {
+              float: left;
+              clear: right;
+              font-size: 200%;
+              margin-right: 10px;
+          }
+          #layout7 .thanhDuoi .tenWeb .hotline  a {
+              color: black;
+          }
+          #layout7 .thanhDuoi .tenWeb .hotline .fa-phone-square:hover {
+              color: white;
+              cursor: pointer;
+          }
+          #layout7 .thanhDuoi .tenWeb .hotline .line {
+              font-size: 150%;
+              color: white;
+          }
+
+          #layout7 .thanhDuoi .thongTin{
+              float: left;
+              clear: right;
+              margin-right: 50px;
+          }
+          #layout7 .thanhDuoi .thongTin .right .fa{
+              float : left;
+              clear: right;
+              margin-right: 10px;
+          }
+          #layout7 .thanhDuoi .thongTin .right .noiDung{
+              margin-left: 20px;
+          }
+          #layout7 .thanhDuoi .NoiDung .hoTro .chucNang{
+              float: left;
+              clear: right;
+              margin-right: 100px;
+          }
+          #layout7 .thanhDuoi .NoiDung .hoTro .chucNang a {
+              color: black;
+              text-decoration: none;
+          }
+          #layout7 .thanhDuoi .NoiDung .hoTro .chucNang a:hover{
+              color: white;
+              cursor: pointer;
+          }
+
+          #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left{
+              float: left;
+              clear: right;
+              margin-top: 220px;
+          }
+          #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left{
+              float: left;
+              clear: right;
+              margin-left: -1450px;
+          }
+          #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left .mang{
+              border-radius: 100px;
+              margin-right: 10px;
+              width: 53px;
+              height: 53px;
+          }
+          #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left .mang:hover{
+              cursor: pointer;
+              color: white;
+          }
+          #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right{
+              float: left;
+              clear: right;
+              margin-left: -1450px;
+              margin-top: 110px;
+          }
+          #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right .mang{
+              border-radius: 5px;
+              margin-right: 10px;
+          }
+          #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right .mang:hover{
+              cursor: pointer;
+              color: white;
+          }
+          #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .nhanTin {
+              float: left;
+              clear: right;
+              margin-right: 30px;
+              margin-left: 200px;
+              margin-top: 50px;
+          }
+          #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .email{
+              float: left;
+              clear: right;
+              width: 400px;
+              height: 50px;
+              background: white;
+              margin-top: 100px;
+              border-radius: 10px;
+              margin-left: -310px;
+          }
+          #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .fromDangKi{
+              float: left;
+              clear: right;
+              width: 120px;
+              height: 50px;
+              background: white;
+              color: black;
+              margin-top: -55px;
+              border-radius: 10px;
+              margin-left: 1280px;
+              font-size: 190%;
+              border: 1px solid black;
+          }
+          #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .fromDangKi:hover {
+              background: blue;
+              color: white;
+          }
+          #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .fromDangKi .dangKi{
+              margin-top: 8px;
+              margin-left: 15px;
+          }
+
+      }
+
