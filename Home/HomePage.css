@@ -2217,10 +2217,7 @@
           margin-left: 15px;
       }
 
- /*
- Responsive
- Tablet
-  */
+ /* Responsive Mobile */
       @media only screen and ( min-width: 0px) and ( max-width: 736px){
 
           .main:before, main :after {
@@ -4137,10 +4134,7 @@
       }
 
 
-      /*
- Responsive
- Tablet
-  */
+      /* Responsive Tablet */
       @media only screen and ( min-width: 737px) and ( max-width: 1024px) {
 
           .main:before, main :after {
@@ -4766,7 +4760,7 @@
           }
           #tenCacSanPhamNoiBat #keTuHoBu {
               background: white;
-              margin-left: 15px;
+              margin-left: 8px;
               margin-top: 45px;
               float: left;
               clear: right;
