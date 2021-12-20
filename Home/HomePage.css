@@ -2221,7 +2221,7 @@
  Responsive
  Tablet
   */
-      @media only screen  and ( max-width: 736px){
+      @media only screen and ( min-width: 0px) and ( max-width: 736px){
 
           .main:before, main :after {
               content: "";
@@ -2246,8 +2246,8 @@
           }
 
           #Thanh_cong_cu input[type="text"] {
-              font-size: 35%;
-              max-width: 10%;
+              font-size: 70%;
+              max-width: 40%;
               height: 30px;
               margin-top: 10px;
               float: left;
@@ -2257,7 +2257,7 @@
           #Tim_Kiem {
               float: left;
               clear: right;
-              width: 5%;
+              width: 7%;
               height: 30px;
               margin-top: 10px;
           }
@@ -2298,29 +2298,29 @@
               float: left;
               font-size: 20px;
               margin-top: 57px;
-              margin-left: -200px;
+              margin-left: -190px;
           }
           #Thanh_cong_cu #TaiKhoan .danhNhap{
               font-size: 10px;
               font-weight: bold;
-              margin-top: 25px;
-              margin-left: 160px;
+              margin-top: 20px;
+              margin-left: 150px;
           }
           #Thanh_cong_cu #TaiKhoan  .cheo {
               font-size: 10px;
               font-weight: bold;
-              margin-top: 25px;
+              margin-top: 20px;
           }
           #Thanh_cong_cu #TaiKhoan  .dangKi {
               font-size: 10px;
               font-weight: bold;
-              margin-top: 25px;
+              margin-top: 20px;
           }
           .taiKhoanCuaToi {
               font-size: 10px;
               font-weight: bold;
-              margin-top: -20px;
-              margin-left: 172px;
+              margin-top: -22px;
+              margin-left: 165px;
               float: left;
               clear: right;
           }
@@ -4141,7 +4141,7 @@
  Responsive
  Tablet
   */
-      @media only screen  and ( max-width: 1024px) {
+      @media only screen and ( min-width: 737px) and ( max-width: 1024px) {
 
           .main:before, main :after {
               content: "";
@@ -4513,15 +4513,21 @@
           }
           #SanPhamNoiBat #BanLamViec #blv{
               text-align: center;
+
+          }
+          #SanPhamNoiBat #BanLamViec #blv .chuBanLamViec{
+              margin-top: 10px;
+              margin-bottom: 25px;
           }
           #SanPhamNoiBat #BanLamViec:hover #blv .chuBanLamViec{
               cursor: pointer;
               color: white;
               margin-top: 10px;
+              margin-bottom: 15px;
           }
           #SanPhamNoiBat #BanLamViec #blv #giaBLV{
               color: mediumturquoise;
-              margin-top: -20px;
+              margin-top: -10px;
           }
           #SanPhamNoiBat #BanLamViec:hover .gioHang {
               display: none;
@@ -4668,6 +4674,7 @@
               clear: right;
               width: 100%;
               height: 100%;
+              margin-bottom: 15px;
           }
 
           #tenCacSanPhamNoiBat #tu {
@@ -4695,8 +4702,14 @@
               color: black;
               margin-bottom: 20px;
           }
+          #tenCacSanPhamNoiBat #TuHaBu .ten {
+              color: black;
+              margin-bottom: 20px;
+              margin-top: 50px;
+          }
           #tenCacSanPhamNoiBat #TuHaBu:hover #tu #giaTuHaBu {
-              color: yellow;
+              color: #2dce89;
+              display: block;
           }
           #tenCacSanPhamNoiBat #TuHaBu:hover .gioHang5 {
               display: none;
@@ -4717,13 +4730,14 @@
               clear: right;
               width: 100%;
               height: 100%;
+              margin-bottom: 15px;
           }
           #tenCacSanPhamNoiBat #bella {
               text-align: center;
           }
           #tenCacSanPhamNoiBat #bella #giaBella{
               color: mediumturquoise;
-              margin-top: -10px;
+              margin-top: 10px;
           }
 
           #tenCacSanPhamNoiBat #SofaBangBella:hover {
@@ -4743,7 +4757,8 @@
               color: black;
           }
           #tenCacSanPhamNoiBat #SofaBangBella:hover #bella #giaBella {
-              color: yellow;
+              color: #2dce89;
+              display: block;
           }
           #tenCacSanPhamNoiBat #SofaBangBella:hover .gioHang5 {
               display: none;
@@ -4764,13 +4779,14 @@
               clear: right;
               width: 100%;
               height: 100%;
+              margin-bottom: 15px;
           }
           #tenCacSanPhamNoiBat #tuHoBu {
               text-align: center;
           }
           #tenCacSanPhamNoiBat #tuHoBu #giaKeTuHoBu{
               color: mediumturquoise;
-              margin-top: -10px;
+              margin-top: 10px;
           }
           #tenCacSanPhamNoiBat #keTuHoBu:hover {
               background: skyblue;
@@ -4789,7 +4805,8 @@
               color: black;
           }
           #tenCacSanPhamNoiBat #keTuHoBu:hover #tuHoBu #giaKeTuHoBu {
-              color: yellow;
+              color: #2dce89;
+              display: block;
           }
           #tenCacSanPhamNoiBat #keTuHoBu:hover .gioHang5 {
               display: none;
@@ -4828,8 +4845,8 @@
               color: white;
           }
           #tenCacSanPhamNoiBat #keTreoPoplar:hover #poplar #giaKeTreoPoplar {
-              color: yellow;
-              display: none;
+              color: #2dce89;
+              display: block;
           }
           #tenCacSanPhamNoiBat #keTreoPoplar:hover .gioHang5 {
               display: none;
@@ -4868,8 +4885,8 @@
               color: white;
           }
           #tenCacSanPhamNoiBat #keTiViHoBu:hover #tivi #giaKeTiViHoBu {
-              color: yellow;
-              display: none;
+              color: #2dce89;
+              display: block;
           }
 
           #tenCacSanPhamNoiBat #keTiViHoBu:hover .gioHang5 {
@@ -4919,7 +4936,7 @@
           #SanPhamHot  {
               border: 1px solid black;
               width: 100%;
-              height: 570px;
+              height: 450px;
               margin-top: 450px;
           }
           #SanPhamHot  #chu_SanPhamHot  {
@@ -4978,28 +4995,31 @@
               float: left;
               clear: right;
               border: 10px solid mediumturquoise;
-              width: 300px;
-              height: 360px;
-              margin-left: 30px;
+              width: 25%;
+              height: 260px;
+              margin-left: 40px;
               margin-top: 35px;
           }
           #SanPhamHot #gheGoBapBenhIconic #anh_gheGoBapBenhIconic{
               float: left;
               clear: right;
-              margin-left: 25px;
-              margin-top: 30px;
-              height: 200px ;
-              width :250px;
+              margin-left: 0px;
+              margin-top: 0px;
+              height: 60% ;
+              width :100%;
+              margin-bottom: 10px;
           }
           #SanPhamHot #gheGoBapBenhIconic #iconic{
               text-align: center;
+              margin-bottom: -10px;
           }
           #SanPhamHot #gheGoBapBenhIconic #iconic #giaIconic{
               color: mediumturquoise;
-              margin-top: -10px;
+              margin-top: -15px;
           }
           #SanPhamHot #gheGoBapBenhIconic #iconic .ten{
               margin-top: 100px;
+              margin-bottom: 16px;
           }
           #SanPhamHot #gheGoBapBenhIconic:hover {
               background: mediumturquoise;
@@ -5017,18 +5037,19 @@
               float: left;
               clear: right;
               border: 10px solid mediumturquoise;
-              width: 300px;
-              height: 360px;
-              margin-left: 60px;
+              width: 25%;
+              height: 260px;
+              margin-left: 25px;
               margin-top: 35px;
           }
           #SanPhamHot #ghePhongKhachArctander #anh_ghePhongKhachArctander{
               float: left;
               clear: right;
-              margin-left: 25px;
-              margin-top: 30px;
-              height: 200px ;
-              width :250px;
+              margin-left: 0px;
+              margin-top: 0px;
+              height: 60% ;
+              width :100%;
+              margin-bottom: 10px;
           }
           #SanPhamHot #ghePhongKhachArctander #Arctander{
               text-align: center;
@@ -5042,8 +5063,13 @@
               color: white;
               cursor: pointer;
           }
+          #SanPhamHot #ghePhongKhachArctander .ten {
+              margin-bottom: 15px;
+          }
           #SanPhamHot #ghePhongKhachArctander:hover .ten {
               color: white;
+              margin-top: 100px;
+              margin-bottom: 10px;
           }
           #SanPhamHot #ghePhongKhachArctander:hover #Arctander #giaArctander {
               color: white;
@@ -5052,18 +5078,19 @@
               float: left;
               clear: right;
               border: 10px solid mediumturquoise;
-              width: 300px;
-              height: 360px;
-              margin-left: 60px;
+              width: 25%;
+              height: 260px;
+              margin-left: 25px;
               margin-top: 35px;
           }
           #SanPhamHot #BanAillen03 #anh_BanAillen03{
               float: left;
               clear: right;
-              margin-left: 25px;
-              margin-top: 30px;
-              height: 200px ;
-              width :250px;
+              margin-left: 0px;
+              margin-top: 0px;
+              height: 60% ;
+              width :100%;
+              margin-bottom: 10px;
           }
           #SanPhamHot #BanAillen03 #Aillen03{
               text-align: center;
@@ -5080,17 +5107,16 @@
           #SanPhamHot #BanAillen03:hover .ten {
               color: white;
           }
-          #SanPhamHot #BanAillen03:hover #Aillen03 #giaAillen03 {
+          #SanPhamHot #BanAillen03 .ten {
+              margin-bottom: 25px;
+          }
+          #SanPhamHot #BanAillen03:hover #Aillen03 .giaAillen03 {
               color: white;
+              margin-top: 100px;
+              display: none;
           }
           #SanPhamHot #banBinas{
-              float: left;
-              clear: right;
-              border: 10px solid mediumturquoise;
-              width: 300px;
-              height: 360px;
-              margin-left: 60px;
-              margin-top: 35px;
+             display: none;
           }
           #SanPhamHot #banBinas #anh_banBinas{
               float: left;
@@ -5120,22 +5146,23 @@
           }
           #sangTraiPhaiSPH{
               margin-left: 1400px;
+              display: none;
           }
 
           #SanPhamMoi #Kozoka_trysil{
               float: left;
               clear: right;
               border: 3px solid mediumturquoise;
-              width: 350px;
-              height: 550px;
-              margin-left: 60px;
+              width: 30%;
+              height: 350px;
+              margin-left: 25px;
               margin-top: 50px;
           }
           #SanPhamMoi #Kozoka_trysil #anh_Kozoka_trysil{
-              margin-left: 25px;
-              margin-top: 30px;
-              height: 300px ;
-              width :300px;
+              margin-left: 5px;
+              margin-top: 5px;
+              height: 60% ;
+              width :95%;
           }
           #SanPhamMoi #Kozoka_trysil #Kozoka{
               text-align: center;
@@ -5152,11 +5179,16 @@
           #SanPhamMoi #Kozoka_trysil:hover .ten {
               color: white;
           }
+          #SanPhamMoi #Kozoka_trysil .ten {
+              margin-bottom: 30px;
+          }
+
           #SanPhamMoi #Kozoka_trysil:hover #Kozoka #giaKozoka {
               color: white;
           }
+
           #SanPhamMoi #chu_SamPhamMoi{
-              margin-left: 50px;
+              margin-left: 20px;
               margin-top: 50px;
               float: left;
               clear: right;
@@ -5164,25 +5196,14 @@
               background: mediumturquoise;
               text-align: center;
               color: white;
-              width: 300px;
+              width: 45%;
               height: 55px;
           }
           #SanPhamMoi #sangTraiPhaiSPM #left_SPM{
-              margin-left: 577px;
-              margin-top: 68px;
-              float: left;
-              clear: right;
-              border: 1px solid mediumturquoise;
-              height : 42px;
-              width : 40px;
+              display: none;
           }
           #SanPhamMoi #sangTraiPhaiSPM #right_SPM{
-              margin-left: 974px;
-              margin-top: -45px;
-              float: left;
-              border: 1px solid mediumturquoise;
-              height : 42px;
-              width : 40px;
+              display: none;
           }
 
           #tenCacSanPhamMoi{
@@ -5190,38 +5211,42 @@
               float: left;
               clear: right;
               border: 3px solid mediumturquoise;
-              width: 960px;
-              height: 490px;
-              margin-left: 466px;
-              margin-top: -496px;
+              width: 60%;
+              height: 295px;
+              margin-left: 300px;
+              margin-top: -299px;
           }
 
           #tenCacSanPhamMoi #dongHoMiso {
               background: white;
-              margin-left: 55px;
-              margin-top: 15px;
+              margin-left: 10px;
+              margin-top: 35px;
               float: left;
               clear: right;
-              border: 3px solid white;
-              width: 250px;
-              height: 220px;
+              width: 30%;
+              height: 50%;
+              border: 1px solid black;
           }
           #tenCacSanPhamMoi #anh_dongHoMiso {
-              margin-left: 10px;
               float: left;
               clear: right;
-              width: 230px;
-              height: 150px;
-              margin-top: 10px;
+              width: 100%;
+              height: 100%;
+              margin-left: 0px;
+              margin-top: 0px;
+              margin-bottom: 20px;
           }
           #tenCacSanPhamMoi #Miso {
               text-align: center;
           }
           #tenCacSanPhamMoi #Miso #giaMiso{
+              margin-top: 10px;
               color: mediumturquoise;
+
           }
           #tenCacSanPhamMoi #dongHoMiso .ten {
-              margin-bottom: -10px;
+              margin-bottom: 10px;
+
           }
           #tenCacSanPhamMoi #dongHoMiso:hover {
               background: skyblue;
@@ -5229,46 +5254,52 @@
               cursor: pointer;
           }
           #tenCacSanPhamMoi #dongHoMiso:hover .ten {
-              color: white;
+              color: black;
               margin-top: -10px;
           }
           #tenCacSanPhamMoi #dongHoMiso:hover #Miso #giaMiso {
-              color: yellow;
-              display: none;
+              display: block;
+              color: #2aa198;
           }
           #tenCacSanPhamMoi #dongHoMiso:hover .gioHang5 {
-              display: block;
+              display: none;
               margin-top: 15px;
           }
           #tenCacSanPhamMoi:hover #anh_dongHoMiso {
-              margin-top: 5px;
-              height: 140px;
+              float: left;
+              clear: right;
+              width: 100%;
+              height: 100%;
+              margin-top: 0px;
+              margin-left: 0px;
+
           }
 
           #tenCacSanPhamMoi #dongHoTabu {
               background: white;
-              margin-left: 45px;
-              margin-top: 15px;
+              margin-left: 10px;
+              margin-top: 35px;
               float: left;
               clear: right;
-              border: 3px solid white;
-              width: 250px;
-              height: 220px;
+              width: 30%;
+              height: 50%;
+              border: 1px solid black;
           }
           #tenCacSanPhamMoi #anh_dongHoTabu {
-              margin-left: 10px;
               float: left;
               clear: right;
-              width: 230px;
-              height: 150px;
-              margin-top: 10px;
+              width: 100%;
+              height: 100%;
+              margin-left: 0px;
+              margin-top: 0px;
+              margin-bottom: 20px;
           }
           #tenCacSanPhamMoi #Tabu {
               text-align: center;
           }
           #tenCacSanPhamMoi #Tabu #giaTaBu{
+              margin-top: 12px;
               color: mediumturquoise;
-              margin-top: -10px;
           }
           #tenCacSanPhamMoi #dongHoTabu:hover {
               background: skyblue;
@@ -5276,109 +5307,84 @@
               cursor: pointer;
           }
           #tenCacSanPhamMoi #dongHoTabu:hover .ten {
-              color: white;
-              margin-top: -10px;
+              color: black;
+              margin-bottom: 20px;
           }
           #tenCacSanPhamMoi #dongHoTabu:hover #Tabu #giaTaBu {
-              color: yellow;
-              display: none;
+              display: block;
+              color: #2aa198;
           }
           #tenCacSanPhamMoi #dongHoTabu:hover .gioHang5 {
-              display: block;
+              display: none;
               margin-top: -15px;
           }
           #tenCacSanPhamMoi:hover #anh_dongHoTabu {
-              margin-top: 5px;
-              height: 140px;
+              float: left;
+              clear: right;
+              width: 100%;
+              height: 100%;
+              margin-top: 0px;
+              margin-left: 0px;
           }
 
           #tenCacSanPhamMoi #GiuongILBRO_BASIC {
               background: white;
-              margin-left: 45px;
-              margin-top: 15px;
+              margin-left: 10px;
+              margin-top: 35px;
               float: left;
               clear: right;
-              border: 3px solid white;
-              width: 250px;
-              height: 220px;
+              width: 30%;
+              height: 50%;
+              border: 1px solid black;
           }
           #tenCacSanPhamMoi #anh_GiuongILBRO_BASIC {
-              margin-left: 10px;
               float: left;
               clear: right;
-              width: 230px;
-              height: 150px;
-              margin-top: 10px;
+              width: 100%;
+              height: 100%;
+              margin-left: 0px;
+              margin-top: 0px;
+              margin-bottom: 20px;
           }
           #tenCacSanPhamMoi #Basic {
               text-align: center;
           }
           #tenCacSanPhamMoi #Basic #giaBasic{
+              margin-top: 10px;
               color: mediumturquoise;
-              margin-top: -10px;
           }
           #tenCacSanPhamMoi #GiuongILBRO_BASIC:hover {
               background: skyblue;
-              color: white;
+              color: black;
               cursor: pointer;
           }
           #tenCacSanPhamMoi #GiuongILBRO_BASIC:hover .ten {
-              color: white;
-              margin-top: -10px;
+              color: black;
+              margin-bottom: 20px;
           }
           #tenCacSanPhamMoi #GiuongILBRO_BASIC:hover #Basic #giaBasic {
-              color: yellow;
-              display: none;
+              display: block;
+              color: #2aa198;
           }
           #tenCacSanPhamMoi #GiuongILBRO_BASIC:hover .gioHang5 {
-              display: block;
+              display: none;
               margin-top: -15px;
           }
           #tenCacSanPhamMoi:hover #anh_GiuongILBRO_BASIC {
-              margin-top: 5px;
-              height: 140px;
+              float: left;
+              clear: right;
+              width: 100%;
+              height: 100%;
+              margin-top: 0px;
+              margin-left: 0px;
           }
 
           #tenCacSanPhamMoi #GoSoIBIE_DRVICESO {
-              background: white;
-              margin-left: 55px;
-              margin-top: 15px;
-              float: left;
-              clear: right;
-              border: 3px solid white;
-              width: 250px;
-              height: 220px;
+             display: none;
           }
-          #tenCacSanPhamMoi #anh_GoSoIBIE_DRVICESO {
-              margin-left: 10px;
-              float: left;
-              clear: right;
-              width: 230px;
-              height: 150px;
-              margin-top: 10px;
-          }
-          #tenCacSanPhamMoi #DRVICESO {
-              text-align: center;
-          }
-          #tenCacSanPhamMoi #DRVICESO #giaDrviceso{
-              color: mediumturquoise;
-              margin-top: -10px;
-          }
-          #tenCacSanPhamMoi #GoSoIBIE_DRVICESO:hover {
-              background: skyblue;
-              color: white;
-              cursor: pointer;
-          }
-          #tenCacSanPhamMoi #GoSoIBIE_DRVICESO:hover .ten {
-              color: white;
-              margin-top: -10px;
-          }
-          #tenCacSanPhamMoi #GoSoIBIE_DRVICESO:hover #DRVICESO #giaDrviceso {
-              color: yellow;
-              display: none;
-          }
+
           #tenCacSanPhamMoi #GoSoIBIE_DRVICESO:hover .gioHang5 {
-              display: block;
+              display: none;
               margin-top: -15px;
           }
           #tenCacSanPhamMoi:hover #anh_GoSoIBIE_DRVICESO {
@@ -5386,45 +5392,11 @@
               height: 140px;
           }
           #tenCacSanPhamMoi #TuQuanAo {
-              background: white;
-              margin-left: 45px;
-              margin-top: 15px;
-              float: left;
-              clear: right;
-              border: 3px solid white;
-              width: 250px;
-              height: 220px;
+             display: none;
           }
-          #tenCacSanPhamMoi #anh_TuQuanAo {
-              margin-left: 10px;
-              float: left;
-              clear: right;
-              width: 230px;
-              height: 150px;
-              margin-top: 10px;
-          }
-          #tenCacSanPhamMoi #SDR20 {
-              text-align: center;
-          }
-          #tenCacSanPhamMoi #SDR20 #giaSDR20{
-              color: mediumturquoise;
-              margin-top: -10px;
-          }
-          #tenCacSanPhamMoi #TuQuanAo:hover {
-              background: skyblue;
-              color: white;
-              cursor: pointer;
-          }
-          #tenCacSanPhamMoi #TuQuanAo:hover .ten {
-              color: white;
-              margin-top: -10px;
-          }
-          #tenCacSanPhamMoi #TuQuanAo:hover #SDR20 #giaSDR20 {
-              color: yellow;
-              display: none;
-          }
+
           #tenCacSanPhamMoi #TuQuanAo:hover .gioHang5 {
-              display: block;
+              display: none;
               margin-top: -15px;
           }
           #tenCacSanPhamMoi:hover #anh_TuQuanAo {
@@ -5434,99 +5406,68 @@
 
 
           #tenCacSanPhamMoi #LotLy {
-              background: white;
-              margin-left: 45px;
-              margin-top: 15px;
-              float: left;
-              clear: right;
-              border: 3px solid white;
-              width: 250px;
-              height: 220px;
-          }
-          #tenCacSanPhamMoi #anh_LotLy {
-              margin-left: 10px;
-              float: left;
-              clear: right;
-              width: 230px;
-              height: 150px;
-              margin-top: 10px;
-          }
-          #tenCacSanPhamMoi #NVH03 {
-              text-align: center;
-          }
-          #tenCacSanPhamMoi #NVH03 #giaNVH03{
-              color: mediumturquoise;
-              margin-top: -10px;
-          }
-          #tenCacSanPhamMoi #LotLy:hover {
-              background: skyblue;
-              color: white;
-              cursor: pointer;
-          }
-          #tenCacSanPhamMoi #LotLy:hover .ten {
-              color: white;
-              margin-top: -10px;
-          }
-          #tenCacSanPhamMoi #LotLy:hover #NVH03 #giaNVH03 {
-              color: yellow;
               display: none;
           }
+
           #tenCacSanPhamMoi #LotLy:hover .gioHang5 {
-              display: block;
+              display: none;
               margin-top: -15px;
           }
-          #tenCacSanPhamMoi:hover #anh_LotLy {
-              margin-top: 5px;
-              height: 140px;
+          #SanPhamMoi #Kozoka_trysil  .gioHang {
+              display: none;
           }
+
           #layout4  {
               width: 100%;
               background: white;
               height: 200px;
-              margin-top: 700px;
+              margin-top: 450px;
           }
           #layout4  .layout4_danhMucSanPham{
               float: left;
               clear: right;
-              margin-left: 13px;
-              margin-right: 15px;
+              margin-left: 11px;
+              margin-right: 0px;
               width: 18%;
-              height: 200px;
+              height: 100px;
               border: 1px solid mediumturquoise;
 
           }
           #layout4  .layout4_danhMucSanPham .danhMucSanPham .anh{
               width: 100%;
-              height: 200px;
+              height: 100px;
           }
           #layout4  .layout4_danhMucSanPham .danhMucSanPham .noiThat {
               margin-top: 0px;
               color: #0099aa;
               text-align: center;
               margin-bottom: 40px;
+              font-size: 60%;
           }
           #layout4  .layout4_danhMucSanPham .danhMucSanPham .noiThat .tenNoiThat{
               text-align: center;
-              font-size: 170%;
+              font-size: 200%;
+              margin-bottom: 15px;
           }
           #layout4  .layout4_danhMucSanPham .danhMucSanPham .noiThat .noiDung{
-              margin-top: -20px;
+              margin-top: -10px;
+              font-size: 150%;
           }
           #layout4  a{
               text-decoration: none;
           }
           #layout5 {
-              margin-top: 150px;
+              margin-top: 50px;
               width: 100%;
-              height: 1100px;
+              height: 600px;
               background: white;
           }
           #layout5 .sanPham{
               background: #e0ffff ;
               float: left;
               clear: right;
-              margin-left: 120px;
-              width: 600px;
+              margin-left: 10px;
+              width: 45%;
           }
           #layout5 .sanPham .tieuDe{
               width: 100%;
@@ -5539,29 +5480,26 @@
               margin-top: -20px;
           }
           #layout5 .sanPham .tieuDe .left .ten{
-              font-size: 250%;
+              font-size: 200%;
               color: darkturquoise;
               margin-top: 0px;
           }
           #layout5 .sanPham .tieuDe .left .noiDung{
-              margin-top: -35px;
+              margin-top: 10px;
           }
           #layout5 .sanPham .tieuDe .right {
-              float: left;
-              clear: right;
-              margin-top: -57px;
-              margin-left: 500px;
+              display: none;
           }
           #layout5 .sanPham  .tenCacSanPham {
               border: 1px solid mediumturquoise;
               width: 100%;
-              height: 950px;
+              height: 250px;
               background: #e0ffff ;
           }
           #layout5 .sanPham  .cacSanPham {
               margin-top: 20px;
-              width: 95%;
-              height: 200px;
+              width: 90%;
+              height: 100px;
               border: 5px solid mediumturquoise;
               margin-left: 10px;
               background: white;
@@ -5570,9 +5508,9 @@
               float: left;
               clear: right;
               width: 40%;
-              height: 150px;
-              margin-left: 10px;
-              margin-top: 20px;
+              height: 100%;
+              margin-left: 0px;
+              margin-top: 0px;
               border: 1px solid mediumturquoise ;
           }
 
@@ -5583,12 +5521,14 @@
           #layout5 .sanPham  .cacSanPham   .anh5:hover{
               cursor: pointer;
               width: 40%;
-              height: 150px;
+              height: 100%;
           }
           #layout5 .sanPham  .cacSanPham   .moTa .ten{
               float: left;
               clear: right;
-              margin-left: 25px;
+              margin-left: 150px;
+              font-size: 90%;
+              margin-top: -90px;
           }
           #layout5 .sanPham  .cacSanPham:hover   .moTa .ten{
               color: white;
@@ -5597,17 +5537,14 @@
               color: mediumturquoise ;
               float: left;
               clear: right;
-              margin-left: 25px;
-
+              margin-left: 150px;
+              margin-top: -50px;
           }
           #layout5 .sanPham  .cacSanPham:hover   .moTa .gia{
               color: white;
           }
           #layout5 .sanPham  .cacSanPham   .moTa .giaCu{
-              color: darkgray;
-              float: left;
-              clear: right;
-              margin-left: -100px;
+             display: none;
           }
           #layout5 .sanPham  .cacSanPham:hover   .moTa .giaCu{
               color: white;
@@ -5615,11 +5552,12 @@
 
 
           #layout5 .sanPham1{
+              background: #e0ffff ;
               float: left;
               clear: right;
-              margin-left: 80px;
-              width: 600px;
-              background: white;
+              margin-left: 52px;
+              width: 45%;
+              height: 100%;
           }
           #layout5 .sanPham1 .tieuDe{
               width: 100%;
@@ -5632,40 +5570,37 @@
               margin-top: -20px;
           }
           #layout5 .sanPham1 .tieuDe .left .ten{
-              font-size: 250%;
+              font-size: 200%;
               color: darkturquoise;
               margin-top: 0px;
           }
           #layout5 .sanPham1 .tieuDe .left .noiDung{
-              margin-top: -35px;
+              margin-top: 10px;
           }
           #layout5 .sanPham1 .tieuDe .right {
-              float: left;
-              clear: right;
-              margin-top: -57px;
-              margin-left: 500px;
+              display: none;
           }
           #layout5 .sanPham1  .tenCacSanPham {
-              background: #e0ffff ;
               border: 1px solid mediumturquoise;
               width: 100%;
-              height: 950px;
+              height: 250px;
+              background: #e0ffff ;
           }
           #layout5 .sanPham1  .cacSanPham {
-              background: white;
               margin-top: 20px;
-              width: 95%;
-              height: 200px;
+              width: 90%;
+              height: 100px;
               border: 5px solid mediumturquoise;
               margin-left: 10px;
+              background: white;
           }
           #layout5 .sanPham1  .cacSanPham   .anh5{
               float: left;
               clear: right;
               width: 40%;
-              height: 150px;
-              margin-top: 20px;
-              margin-left: 10px;
+              height: 100%;
+              margin-left: 0px;
+              margin-top: 0px;
               border: 1px solid mediumturquoise ;
           }
           #layout5 .sanPham1  .cacSanPham:hover {
@@ -5675,12 +5610,14 @@
           #layout5 .sanPham1  .cacSanPham   .anh5:hover{
               cursor: pointer;
               width: 40%;
-              height: 150px;
+              height: 100%;
           }
           #layout5 .sanPham1  .cacSanPham   .moTa .ten{
               float: left;
               clear: right;
-              margin-left: 25px;
+              margin-left: 150px;
+              font-size: 90%;
+              margin-top: -90px;
           }
 
           #layout5 .sanPham1  .cacSanPham:hover   .moTa .ten{
@@ -5690,15 +5627,15 @@
               color: mediumturquoise ;
               float: left;
               clear: right;
-              margin-left: -165px;
-              margin-top: 100px;
+              margin-left: 150px;
+              margin-top: -50px;
           }
           #layout5 .sanPham1  .cacSanPham   .moTa .gia1{
               color: mediumturquoise ;
               float: left;
               clear: right;
-              margin-left: -135px;
-              margin-top: 100px;
+              margin-left: 150px;
+              margin-top: -50px;
           }
           #layout5 .sanPham1  .cacSanPham:hover   .moTa .gia1{
               color: white;
@@ -5707,162 +5644,32 @@
               color: white;
           }
           #layout5 .sanPham1  .cacSanPham   .moTa .giaCu{
-              color: darkgray;
-              float: left;
-              clear: right;
-              margin-left: -165px;
-              margin-top: 80px;
+              display: none;
           }
           #layout5 .sanPham1  .cacSanPham:hover   .moTa .giaCu{
               color: white;
           }
           .gioHang {
-              height: 45px;
-              width: 300px;
-              margin-left: 25px;
-              background: #ef5f43;
-              border-radius: 5%;
+             display: none;
           }
-          .gioHang .fa-shopping-cart{
-              float: left;
-              clear: right;
-              color: white;
-              font-size: 45px;
-          }
-          .gioHang .chu_giohang{
-              float: left;
-              clear: right;
-              color: white;
-              margin-top: -40px;
-              margin-left: 65px;
-              font-size: 25px;
-          }
-          .gioHang:hover {
-              cursor: pointer;
-              color: #1fb5d4;
-              background: white;
-          }
-          .gioHang:hover .fa-shopping-cart {
-              color: #ef5f43;
-          }
-          .gioHang:hover .chu_giohang {
-              color: #ef5f43;
-          }
+
 
           #layout5 .tenCacSanPham  .gioHang {
-              height: 45px;
-              width: 230px;
-              margin-left: 270px;
-              background: #ef5f43 ;
-              border-radius: 5%;
-              margin-top: 140px;
+             display: none;
           }
-          #layout5 .tenCacSanPham  .gioHang .fa-shopping-cart{
-              float: left;
-              clear: right;
-              color: white;
-              margin-left: 5px;
-              margin-top: 7px;
-              font-size: 30px;
-          }
-          #layout5 .tenCacSanPham  .gioHang .chu_giohang{
-              float: left;
-              clear: right;
-              color: white;
-              margin-top: -27px;
-              margin-left: 50px;
-              font-size: 20px;
-          }
-          #layout5 .tenCacSanPham .gioHang:hover {
-              cursor: pointer;
-              color: #1fb5d4;
-              background: white;
-          }
-          #layout5 .tenCacSanPham  .gioHang:hover .fa-shopping-cart {
-              color: #ef5f43;
-          }
-          #layout5 .tenCacSanPham  .gioHang:hover .chu_giohang {
-              color: #ef5f43;
-          }
+
 
           #layout5 .tenCacSanPham  .gioHang1 {
-              height: 45px;
-              width: 230px;
-              margin-left: 270px;
-              background: #ef5f43 ;
-              border-radius: 5%;
-              margin-top: 140px;
-          }
-          #layout5 .tenCacSanPham  .gioHang1 .fa-shopping-cart{
-              float: left;
-              clear: right;
-              color: white;
-              margin-left: -100px;
-              margin-top: 7px;
-              font-size: 30px;
-          }
-          #layout5 .tenCacSanPham  .gioHang1 .chu_giohang{
-              float: left;
-              clear: right;
-              color: white;
-              margin-top: 5px;
-              margin-left: 50px;
-              font-size: 20px;
-          }
-          #layout5 .tenCacSanPham .gioHang1:hover {
-              cursor: pointer;
-              color: #1fb5d4;
-              background: white;
-          }
-          #layout5 .tenCacSanPham  .gioHang1:hover .fa-shopping-cart {
-              color: #ef5f43;
-          }
-          #layout5 .tenCacSanPham  .gioHang1:hover .chu_giohang {
-              color: #ef5f43;
+             display: none;
           }
 
+
           #layout5 .tenCacSanPham  .gioHang2 {
-              height: 45px;
-              width: 230px;
-              margin-left: 270px;
-              background: #ef5f43 ;
-              border-radius: 5%;
-              margin-top: 140px;
+             display: none;
           }
-          #layout5 .tenCacSanPham  .gioHang2 .fa-shopping-cart{
-              float: left;
-              clear: right;
-              color: white;
-              margin-left: -90px;
-              margin-top: 7px;
-              font-size: 30px;
-          }
-          #layout5 .tenCacSanPham  .gioHang2 .chu_giohang{
-              float: left;
-              clear: right;
-              color: white;
-              margin-top: 5px;
-              margin-left: 50px;
-              font-size: 20px;
-          }
-          #layout5 .tenCacSanPham .gioHang2:hover {
-              cursor: pointer;
-              color: #1fb5d4;
-              background: white;
-          }
-          #layout5 .tenCacSanPham  .gioHang2:hover .fa-shopping-cart {
-              color: #ef5f43;
-          }
-          #layout5 .tenCacSanPham  .gioHang2:hover .chu_giohang {
-              color: #ef5f43;
-          }
+
           .sao {
-              float: left;
-              clear: right;
-              margin-right: 30px;
-              margin-left: 265px;
-              margin-top: -130px;
-              color: yellow;
+             display: none;
           }
           .sao .fa-star {
               color: yellow;
@@ -5871,28 +5678,30 @@
               text-align: center;
               color: #0099aa;
               font-weight: bold;
-              margin-bottom: 10px;
+              margin-bottom: 20px;
           }
           .DiemDen .SanPhamDiemDenMoi {
               width: 250px;
-              height: 350px;
+              height: 300px;
               background: white;
               border: 1px solid #0099aa;
               float: left;
               clear: right;
-              margin-left: 90px;
-              margin-right: 20px;
-              margin-bottom: 150px;
+              margin-left: 80px;
+              margin-right: 25px;
+              margin-bottom: 50px;
+              margin-top: -5px;
           }
           .DiemDen .SanPhamDiemDenMoi .anh{
               width: 200px;
-              height: 200px;
-              margin-top: 30px;
+              height: 150px;
+              margin-top: 25px;
               margin-left: 25px;
           }
           .DiemDen .SanPhamDiemDenMoi .ten{
               text-align: center;
               color: #0099aa;
+              margin-bottom: 10px;
           }
           .DiemDen .SanPhamDiemDenMoi .gia{
               margin-top: 5px;
@@ -5901,7 +5710,7 @@
           }
           .SanPhamDiemDenMoi:hover {
               width: 250px;
-              height: 350px;
+              height: 300px;
               background: #0099aa;
               border: 1px solid #0099aa;
               cursor: pointer;
@@ -5911,6 +5720,9 @@
           }
           .SanPhamDiemDenMoi:hover .ten{
               color: white;
+          }
+          .sao {
+              display: none;
           }
           .sao1 {
               margin-top: -10px;
@@ -5958,11 +5770,11 @@
 
           #layout6 {
               width: 100%;
-              height: 560px;
+              height: 520px;
               background: white ;
-              margin-top: 525px;
+              margin-top: 725px;
               border: 1px solid black;
-              margin-bottom: 100px;
+              margin-bottom: 50px;
           }
           #layout6 .TieuDe .ten{
               float: left;
@@ -5989,24 +5801,25 @@
           #layout6 .meoVatHay .meoVat {
               float: left;
               clear: right;
-              width: 400px;
-              height: 440px;
-              margin-right: 30px;
-              margin-left: 70px;
+              width: 30%;
+              height: 200px;
+              margin-right: 10px;
+              margin-left: 15px;
               background: #6db9d7;
+              margin-top: -25px;
           }
           #layout6 .meoVatHay .meoVat .anh {
-              width: 400px;
-              height: 250px;
+              width: 100%;
+              height: 100%;
           }
           #layout6 .meoVatHay .meoVat:hover .anh {
-              width: 350px;
-              height: 200px;
-              margin-top: 25px;
-              margin-left: 25px;
+              width: 100%;
+              height: 100%;
+              margin-top: 0px;
+              margin-left: 0px;
           }
           #layout6 .meoVatHay .meoVat .lich{
-              width: 400px;
+              width: 100%;
               height: 50px;
               background: skyblue;
               margin-top: -4px;
@@ -6021,29 +5834,32 @@
           #layout6 .meoVatHay .meoVat .lich .ngay {
               float: left;
               clear: right;
-              margin-top: 15px;
-              margin-left: 10px;
+              margin-top: -30px;
+              margin-left: 50px;
+              color: white;
           }
           #layout6 .meoVatHay .meoVat .ten{
               margin-left: 10px;
-              color: white;
+              color: black;
+              font-size: 100%;
+              margin-top: 25px;
           }
           #layout6 .meoVatHay .meoVat .noiDung{
               margin-left: 10px;
-              color: white;
+              color: black;
           }
           #layout6 .meoVatHay .meoVat:hover {
               cursor: pointer;
               background: #6db9d7 ;
-              color: white;
+              color: black;
           }
           #layout6 .meoVatHay .meoVat:hover .ten {
-              color: white;
+              color: black;
           }
 
           #layout7 .thanhDuoi {
               width: 100%;
-              height: 500px;
+              height: 750px;
               background: darkturquoise;
               margin-top: 50px;
           }
@@ -6088,7 +5904,8 @@
           #layout7 .thanhDuoi .NoiDung .hoTro .chucNang{
               float: left;
               clear: right;
-              margin-right: 100px;
+              margin-right: 50px;
+              margin-left: 50px;
           }
           #layout7 .thanhDuoi .NoiDung .hoTro .chucNang a {
               color: black;
@@ -6102,7 +5919,8 @@
           #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left{
               float: left;
               clear: right;
-              margin-top: 220px;
+              margin-top: 200px;
+              margin-left: 10px;
           }
           #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left{
               float: left;
@@ -6122,12 +5940,12 @@
           #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right{
               float: left;
               clear: right;
-              margin-left: -1450px;
-              margin-top: 110px;
+              margin-left: 15px;
+              margin-top: -575px;
           }
           #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right .mang{
               border-radius: 5px;
-              margin-right: 10px;
+              margin-right: 6px;
           }
           #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right .mang:hover{
               cursor: pointer;
@@ -6137,8 +5955,8 @@
               float: left;
               clear: right;
               margin-right: 30px;
-              margin-left: 200px;
-              margin-top: 50px;
+              margin-left: -350px;
+              margin-top: 0px;
           }
           #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .email{
               float: left;
@@ -6146,7 +5964,7 @@
               width: 400px;
               height: 50px;
               background: white;
-              margin-top: 100px;
+              margin-top: 40px;
               border-radius: 10px;
               margin-left: -310px;
           }
@@ -6157,9 +5975,9 @@
               height: 50px;
               background: white;
               color: black;
-              margin-top: -55px;
+              margin-top: 40px;
               border-radius: 10px;
-              margin-left: 1280px;
+              margin-left: 30px;
               font-size: 190%;
               border: 1px solid black;
           }
@@ -6172,5 +5990,23 @@
               margin-left: 15px;
           }
 
+          .gioHang4 {
+              display: none;
+          }
+          h1 {
+              font-size: 150%;
+          }
+          h2 {
+              font-size: 120%;
+              margin-top: 10px;
+              margin-bottom: 5px;
+          }
+          #Thanh_cong_cu #Ten_Web{
+              float: left;
+              margin-left: 10px;
+              width: 25%;
+              font-size: 70%;
+              margin-top: 10px;
+          }
       }
 
