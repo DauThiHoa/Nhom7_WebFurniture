@@ -427,11 +427,71 @@ body{
     margin-left: -60px;
 }
 
+
+
+#layout6 {
+    width: 100%;
+    height: 550px;
+    background: #e1ffdb ;
+    margin-top: 100px;
+}
+#layout6 .TieuDe .ten{
+    float: left;
+    clear: right;
+    font-size: 250%;
+    margin-top: 5px;
+    width: 180px;
+    height: 50px;
+    color: white;
+    background: lightpink;
+    text-align: center;
+}
+
+#layout6 .TieuDe .thanhKe{
+    margin-top: 50px;
+}
+#layout6 .meoVatHay  {
+    margin-left: -10px;
+}
+#layout6 .meoVatHay .meoVat {
+    float: left;
+    clear: right;
+    width: 375px;
+    height: 265px;
+    margin-right: 30px;
+    margin-left: 101px;
+}
+#layout6 .meoVatHay .meoVat1 {
+    float: left;
+    clear: right;
+    width: 500px;
+    height: 500px;
+    margin-right: 50px;
+    margin-left: 28px;
+    margin-top: 40px;
+}
+#layout6 .meoVatHay .meoVat .anh {
+    width: 500px;
+    height: 500px;
+    margin-left: -61px;
+}
+#layout6 .meoVatHay .meoVat .ten {
+    margin-top: 10px;
+    width: 900px;
+    font-size: 150%;
+}
+.noiDung {
+    font-size: 120%;
+    width: 570px;
+}
+
 #layout6 .meoVatHay .meoVat .noiDung_1 i{
     margin-top: 2px;
     color: dodgerblue;
     float: left;
     clear: right;
+    font-size: 150%;
+    margin-right: 20px;
 }
 #layout6 .meoVatHay .meoVat .noiDung_1 p {
     margin-left: 25px;
@@ -441,25 +501,35 @@ body{
     height: 200px;
 }
 #layout6 .meoVatHay .meoVat .noiDung_2 .input_1 {
-    margin-top: 15px;
-    width: 100%;
-    height: 30px;
-    background-color: #e0ffff;
-    border: 1px solid #88cf81;
+    margin-top: 5px;
+    width: 150%;
+    height: 40px;
+    background-color: white;
+    border: 2px solid #2aa198;
+    font-weight: bold;
 }
 #layout6 .meoVatHay .meoVat .noiDung_2 .input_2 {
     margin-top: 15px;
-    width: 100%;
+    width: 150%;
     height: 80px;
-    background-color: #e0ffff;
-    border: 1px solid #88cf81;
+    background-color: white;
+    border: 2px solid #2aa198;
+    font-weight: bold;
 }
 #layout6 .meoVatHay .meoVat .noiDung_3 .btn {
-    margin-top: 20px;
     width: 200px;
-    height: 30px;
-    background-color: #0a58ca;
-    border: 1px solid;
+    height: 45px;
+    font-size: 100%;
+    font-weight: bold;
+    background: #dd4b39;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+#layout6 .meoVatHay .meoVat .noiDung_3 .btn:hover {
+    background: white;
+    color: #dd4b39;
+    cursor: pointer;
 }
 
 

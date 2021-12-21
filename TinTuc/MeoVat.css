@@ -1243,6 +1243,7 @@ Tablet
     .main {
         max-width: 100%;
     }
+
     #Thanh_cong_cu{
         background: darkturquoise;
         width: 100%;
@@ -1490,15 +1491,12 @@ Tablet
     #tinTuc_2 #right{
         display: none;
     }
-   p {
-       font-size: 120%;
-   }
 
     #layout6 {
         width: 100%;
         height: 520px;
         background: white ;
-        margin-top: 2050px;
+        margin-top: 1900px;
         border: 1px solid black;
         margin-bottom: 50px;
     }
