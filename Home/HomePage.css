@@ -2255,7 +2255,7 @@
               float: left;
               clear: right;
               width: 7%;
-              height: 30px;
+              height: 29px;
               margin-top: 10px;
           }
 
@@ -2265,6 +2265,11 @@
               margin-left: -25px;
               margin-top: -25px;
               font-size: 100%;
+
+          }
+          #Thanh_cong_cu #Tim_Kiem .fa-search {
+              margin-left: 7px;
+              margin-top: 7px;
           }
           #Hotline {
               float: left;
@@ -2295,7 +2300,7 @@
               float: left;
               font-size: 20px;
               margin-top: 57px;
-              margin-left: -190px;
+              margin-left: -180px;
           }
           #Thanh_cong_cu #TaiKhoan .danhNhap{
               font-size: 10px;
@@ -2307,11 +2312,13 @@
               font-size: 10px;
               font-weight: bold;
               margin-top: 20px;
+              margin-left: 5px;
           }
           #Thanh_cong_cu #TaiKhoan  .dangKi {
               font-size: 10px;
               font-weight: bold;
               margin-top: 20px;
+              margin-left: 5px;
           }
           .taiKhoanCuaToi {
               font-size: 10px;
@@ -2335,6 +2342,8 @@
           #trangChu_DanhMuc {
               max-width: 100%;
               height: 30px;
+              margin-top: 0px;
+              margin-left: -2px;
           }
           #trangChu_DanhMuc #danhMuc {
               width: 70%;
@@ -3946,6 +3955,8 @@
               height: 20px;
               background: skyblue;
               margin-top: -4px;
+              float: left;
+              clear: right;
           }
           #layout6 .meoVatHay .meoVat .lich .fa-calendar-check-o {
               float: left;
@@ -3966,11 +3977,14 @@
               margin-left: 10px;
               color: black;
               font-size: 7px;
+              float: left;
+              clear: right;
           }
           #layout6 .meoVatHay .meoVat .noiDung{
               margin-left: 10px;
               color: black;
               font-size: 7px;
+
           }
           #layout6 .meoVatHay .meoVat:hover {
               cursor: pointer;
@@ -4128,8 +4142,9 @@
               color: white;
           }
           #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .fromDangKi .dangKi{
-              margin-top: 4px;
-              margin-left: 7px;
+              margin-top: 5px;
+              margin-left: 12px;
+              font-size: 70%;
           }
       }
 
@@ -4297,7 +4312,9 @@
           }
 
           #trangChu_DanhMuc {
-              margin-top: -15px;
+              margin-top: 0px;
+              width: 100%;
+              margin-left: -2px;
           }
 
           #trangChu_DanhMuc #danhMuc {
