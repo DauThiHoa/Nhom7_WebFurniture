@@ -6,37 +6,35 @@
     <link rel="stylesheet" href="ThanhToan.css">
 </head>
 <body>
-<h1 style="text-align: center;">Responsive Checkout Form</h1>
+<h1 style="text-align: center;">NỘI THẤT HANA | NOITHATHANA.COM</h1>
+<p style="text-align: left; margin-left: 160px; font-family: Tahoma">Giỏ hàng > Thông tin vận chuyển > Phương thức thanh toán</p>
 <div class="Fields">
     <div>
         <div class="formContainer">
             <form>
                 <div class="Fields">
                     <div>
-                        <h3>Billing Address</h3>
-                        <label for="fname">Full Name</label>
+                        <h3>Thông Tin </h3>
+                        <label for="fname">Họ Và Tên</label>
                         <input type="text" id="fname" name="firstname" />
                         <label for="email"> Email</label>
                         <input type="text" id="email" name="email" />
-                        <label for="adr"> Address</label>
+                        <label for="adr"> Số Điện Thoại </label>
                         <input type="text" id="adr" name="address" />
                     </div>
                     <div>
-                        <h3>Payment</h3>
-                        <label for="cname">Name on Card</label>
+                        <h3>Thanh Toán</h3>
+                        <label for="cname">Loại Thẻ </label>
                         <input type="text" id="cname" name="cardname" />
-                        <label for="ccnum">Credit card number</label>
+                        <label for="ccnum">Số Thẻ</label>
                         <input type="text" id="ccnum" name="cardnumber" />
-                        <div class="Fields">
-                            <div>
-                                <label for="expyear">Exp Year</label>
-                                <input type="text" id="expyear" name="expyear" />
-                            </div>
-                            <div>
-                                <label for="cvv">CVV</label>
-                                <input type="text" id="cvv" name="cvv" />
-                            </div>
-                        </div>
+                    </div>
+                    <div>
+                        <h3 style="margin-left: 20px">Phương Thức Nhận Hàng</h3>
+                        <label for="cname">Giao Hàng</label>
+                        <input type="checkbox" id="cname" name="cardname" style="margin-left: 20px"/>
+                        <label for="ccnum" style="margin-top: 55px">Nhận Tại Cửa Hàng</label>
+                        <input type="checkbox" id="ccnum" name="cardnumber" style="margin-left: 20px"/>
                     </div>
                 </div>
                 <input
@@ -47,24 +45,42 @@
             </form>
         </div>
     </div>
-    <div>
-        <div class="formContainer">
-            <h4>
-                Cart <span class="price" style="color:black"><b>2</b></span>
-            </h4>
-            <p>
-                <a style="text-decoration: none;" href="#">Product 1</a>
-                <span class="price">$10</span>
-            </p>
-            <p>
-                <a style="text-decoration: none;" href="#">Product 2</a>
-                <span class="price">$10</span>
-            </p>
-            <p>
-                Total <span class="price" style="color:black"><b>$20</b></span>
-            </p>
-        </div>
-    </div>
+    <span style="color:#000000;"><span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;"><div class="container">
+  <div class="shopping-cart">
+    <div class="shopping-cart-header">
+      <i class="fa fa-shopping-cart cart-icon"></i><span class="badge">3</span>
+      <div class="shopping-cart-total">
+        <span class="lighter-text">Tổng Cộng: </span>
+        <span class="main-color-text">2.200.000đ</span>
+      </div>
+    </div> <!--end shopping-cart-header -->
+
+    <ul class="shopping-cart-items">
+      <li class="clearfix">
+        <img src="../Home/Image/BanLamViec.PNG" height="70" width="70" alt="item1"/>
+        <span class="item-name">Bàn Trang Điểm</span>
+        <span class="item-price">2.400.000đ</span>
+        <span class="item-quantity">Số Lượng: 01</span>
+      </li>
+
+      <li class="clearfix">
+        <img src="../NoiThatDoTrangTri/Image_Den/den7.PNG" height="70" width="70" alt="item1" />
+        <span class="item-name">Đèn ngủ cao cấp thiết kế</span>
+        <span class="item-price">1.590.000đ</span>
+        <span class="item-quantity">Số Lượng: 01</span>
+      </li>
+
+      <li class="clearfix">
+        <img src="../ImageProduct/Giuong_doi_ngan_duoi.webp" height="70" width="70" alt="item1" />
+        <span class="item-name">Giường đôi ngăn dưới</span>
+        <span class="item-price">8.700.000</span>
+        <span class="item-quantity">Số Lượng: 01</span>
+      </li>
+    </ul>
+
+    <a href="#" class="button">Checkout</a>
+  </div> <!--end shopping-cart -->
+</div>
 </div>
 </body>
 </html>
