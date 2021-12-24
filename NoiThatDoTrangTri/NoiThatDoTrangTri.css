@@ -465,36 +465,23 @@ body{
     border: 1px solid darkgray;
     margin-left: -1px;
 }
-#layout1 #left .khung1 .noiDung .gia .khungGia{
+#layout1 #left .khung1 .noiDung .gia .khungGia .check{
     float: left;
     clear: right;
     margin-right: 15px;
     margin-left: 10px;
-    margin-top: 12px;
+    margin-top: 0px;
     color: #ef5f43;
     border: 3px solid black;
     border-radius: 20%;
     height: 25px;
     width: 25px;
-}
-#layout1 #left .khung1 .noiDung .gia .fa-check-square{
-    float: left;
-    clear: right;
-    font-size: 200%;
-    margin-right: 0px;
-    margin-left: -1px;
-    margin-top: -3px;
-    color: white;
-    border-radius: 20%;
+
 }
 #layout1 #left .tuKhoa  {
     width: 300px;
     height: 120px;
     border: 1px solid darkgray;
-}
-#layout1 #left .khung1 .noiDung .gia .fa-check-square:hover{
-    cursor: pointer;
-    color: #ef5f43;
 }
 #layout1 #left .tuKhoa .khung  {
     width: 297px;
@@ -786,8 +773,8 @@ body{
 #layout1 #right #sapXep {
     float: left;
     clear: right;
-    margin-top: 55px;
-    margin-left: -685px;
+    margin-top: 0px;
+    margin-left: 0px;
     width: 1045px;
     height: 100px;
     border: 1px solid white;
@@ -802,7 +789,7 @@ body{
     clear: right;
     margin-right: 20px;
 }
-#layout1 #right #sapXep .tenKieu .fa-check-circle {
+#layout1 #right #sapXep .tenKieu .SapXep {
     float: left;
     clear: right;
     margin-right: 15px;
@@ -811,7 +798,7 @@ body{
     color: white;
     border-radius: 50%;
 }
-#layout1 #right #sapXep .tenKieu .fa-circle {
+#layout1 #right #sapXep .tenKieu .SapXep{
     float: left;
     clear: right;
     text-align: center;
@@ -822,10 +809,10 @@ body{
     color: white;
     background: white;
     border-radius: 140%;
-    height: 24px;
-    width: 24px;
+    height: 20px;
+    width: 20px;
 }
-#layout1 #right #sapXep .tenKieu .fa-circle:hover {
+#layout1 #right #sapXep .tenKieu .SapXep:hover {
     border: 1px solid black;
     color: orange;
     background: red;
@@ -835,8 +822,8 @@ body{
 #layout1 #right #sapXep .tenKieu .noiDungSapXep {
     float: left;
     clear: right;
-    margin-right: 20px;
-    margin-top: 25px;
+    margin-right: 17px;
+    margin-top: 20px;
 }
 
 #layout1 #right #CacSanPham .sanPham .sanPhamNoiThat{
