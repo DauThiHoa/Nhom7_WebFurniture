@@ -893,7 +893,10 @@ body{
     margin-top: 20px;
     color: #1fb5d4;
 }
-
+#layout1 #right #CacSanPham .sanPham .nutgiohang {
+    margin-left: 78px;
+    margin-top: -13px;
+}
 #layout1 #right #CacSanPham .sanPham .sanPhamNoiThat:hover .noiDungDoTrangTri .gia {
     color: yellow;
 }
@@ -1599,7 +1602,7 @@ body{
     }
     #layout1 #right #CacSanPham .sanPham .noiDungDoTrangTri {
         margin-top: -112px;
-        margin-left: 275px;
+        margin-left: 291px;
     }
     #layout1 #right #CacSanPham .sanPham .sanPhamNoiThat {
         width: 739px;
