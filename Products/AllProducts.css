@@ -866,6 +866,10 @@ body{
     margin-top: -10px;
     color: #1fb5d4;
 }
+#layout1 #right #CacSanPham .sanPham .nutgiohang {
+    margin-left: 78px;
+    margin-top: -13px;
+}
 #layout1 #right #CacSanPham .sanPham .sanPhamNoiThat:hover .noiDungDoTrangTri .gia {
     color: yellow;
 }
@@ -1279,7 +1283,11 @@ body{
     }
     #layout1 #right #CacSanPham .sanPham .anhDoTrangTri .anh {
         width: 170px;
-        height: 175px;
+        height: 160px;
+    }
+    #layout1 #right #CacSanPham .sanPham .nutgiohang {
+        margin-left: 55px;
+        margin-top: -13px;
     }
     #layout1 #right #themTrangMoi .khung1 {
         display: none;
@@ -1531,7 +1539,7 @@ body{
     }
     #layout1 #right #CacSanPham .sanPham .anhDoTrangTri .anh {
         width: 218px;
-        height: 180px;
+        height: 160px;
         margin-top: 10px;
         margin-left: 10px;
     }

@@ -830,7 +830,7 @@ body{
     float: left;
     clear: right;
     width: 250px;
-    height: 280px;
+    height: 300px;
     margin-right: 11px;
     margin-top: 20px;
     border: 1px solid #1fb5d4;
@@ -859,6 +859,10 @@ body{
     font-size: 100%;
     margin-top: -10px;
     color: #1fb5d4;
+}
+#layout1 #right #CacSanPham .sanPham .nutgiohang {
+    margin-left: 78px;
+    margin-top: -13px;
 }
 #layout1 #right #CacSanPham .sanPham .sanPhamNoiThat:hover .noiDungDoTrangTri .gia {
     color: yellow;
@@ -964,7 +968,7 @@ body{
     width: 100%;
     height: 500px;
     background: darkturquoise;
-    margin-top: 2350px;
+    margin-top: 2500px;
 }
 #layout7 .thanhDuoi .tenWeb{
     margin-left: 30px;
@@ -1267,13 +1271,18 @@ body{
     }
     #layout1 #right #CacSanPham .sanPham .sanPhamNoiThat {
         width: 200px;
-        height: 258px;
+        height: 245px;
         margin-right: 6px;
         margin-top: 20px;
+        font-size: 12px;
     }
     #layout1 #right #CacSanPham .sanPham .anhDoTrangTri .anh {
         width: 170px;
-        height: 175px;
+        height: 144px;
+    }
+    #layout1 #right #CacSanPham .sanPham .nutgiohang {
+        margin-left: 56px;
+        margin-top: -12px;
     }
     #layout1 #right #themTrangMoi .khung1 {
         display: none;
@@ -1295,7 +1304,7 @@ body{
     #layout7 .thanhDuoi {
         width: 100%;
         height: 495px;
-        margin-top: 3493px;
+        margin-top: 3350px;
     }
     #layout7 .thanhDuoi .tenWeb {
         margin-left: 4px;
@@ -1526,7 +1535,7 @@ body{
     }
     #layout1 #right #CacSanPham .sanPham .anhDoTrangTri .anh {
         width: 213px;
-        height: 180px;
+        height: 157px;
         margin-top: 10px;
         margin-left: 10px;
     }
