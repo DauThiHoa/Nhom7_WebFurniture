@@ -934,6 +934,7 @@ body{
     margin-left: 78px;
     margin-top: -13px;
 }
+
 #layout1 #right #CacSanPham .sanPham .sanPhamNoiThat:hover .noiDungDoTrangTri .gia {
     color: yellow;
 }
@@ -1037,7 +1038,7 @@ body{
     width: 100%;
     height: 500px;
     background: darkturquoise;
-    margin-top: 2750px;
+    margin-top: 2800px;
 }
 #layout7 .thanhDuoi .tenWeb{
     margin-left: 30px;
@@ -1163,6 +1164,7 @@ body{
     margin-top: 8px;
     margin-left: 15px;
 }
+
 /*Responsive*/
 /*Mobile*/
 @media screen and (max-width: 736px) {
@@ -1410,7 +1412,7 @@ body{
     #layout7 .thanhDuoi {
         width: 100%;
         height: 495px;
-        margin-top: 3190px;
+        margin-top: 3814px;
     }
     #layout7 .thanhDuoi .tenWeb {
         margin-left: 4px;
@@ -1603,7 +1605,7 @@ body{
         font-size: 146%;
     }
     #khungTinTuc #tenTinTuc .trangChu_TinTuc {
-        margin-left: 6px;
+        margin-left: 25px;
         margin-right: 20px;
         margin-top: 78px;
     }
@@ -1634,15 +1636,11 @@ body{
         display: none;
     }
     #layout1 #right #tieuDe .noiThatTrangtri {
-        margin-left: 302px;
+        margin-left: 269px;
         font-size: 24px;
     }
-    #layout1 #right #CacSanPham .sanPham .noiDungDoTrangTri {
-        margin-top: -112px;
-        margin-left: 291px;
-    }
     #layout1 #right #CacSanPham .sanPham .sanPhamNoiThat {
-        width: 739px;
+        width: 732px;
         height: 171px;
         margin-right: 11px;
         margin-top: 5px;
@@ -1655,6 +1653,12 @@ body{
         margin-top: 10px;
         margin-left: 10px;
     }
+    #layout1 #right #CacSanPham .sanPham .noiDungDoTrangTri {
+        float: left;
+        clear: right;
+        margin-top: 42px;
+        margin-left: 44px;
+    }
     #layout1 #right #themTrangMoi {
         margin-left: 241px;
     }
@@ -1663,7 +1667,7 @@ body{
     /* Thanh duoi*/
     #layout7 .thanhDuoi {
         height: 785px;
-        margin-top: 3963px;
+        margin-top: 4671px;
     }
 
     #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left {
