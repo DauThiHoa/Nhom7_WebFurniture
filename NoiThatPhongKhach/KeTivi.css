@@ -894,8 +894,44 @@ body{
     color: #1fb5d4;
 }
 #layout1 #right #CacSanPham .sanPham .nutgiohang {
-    margin-left: 78px;
+    margin-left: 0%;
     margin-top: -13px;
+}
+.btnAddToCart {
+    background: white;
+    color: #dd4b39;
+    border: 2px solid #dd4b39;
+    font-size: 100%;
+}
+.btnAddToCart:hover {
+    cursor: pointer;
+    background: #dd4b39;
+    color: white;
+    border: 2px solid white;
+}
+.btnQuickView {
+    background: white;
+    color: #34ce57;
+    border: 2px solid #34ce57;
+    font-size: 100%;
+}
+.btnQuickView:hover {
+    cursor: pointer;
+    background: #34ce57;
+    color: white;
+    border: 2px solid white;
+}
+.btnBuyNow {
+    background: white;
+    color: palevioletred;
+    border: 2px solid palevioletred;
+    font-size: 100%;
+}
+.btnBuyNow:hover {
+    cursor: pointer;
+    background: palevioletred;
+    color: white;
+    border: 2px solid white;
 }
 #layout1 #right #CacSanPham .sanPham .sanPhamNoiThat:hover .noiDungDoTrangTri .gia {
     color: yellow;
@@ -1516,8 +1552,8 @@ body{
         margin-left: 10px;
     }
     #layout1 #right #CacSanPham .sanPham .noiDungDoTrangTri {
-        margin-top: 44px;
-        margin-left: 98px;
+        margin-top: -94px;
+        margin-left: 159px;
     }
     #layout1 #right #themTrangMoi {
         margin-left: 241px;
