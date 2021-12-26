@@ -1,3 +1,4 @@
+
 #SanPhamNoiBat  a{
     color: black;
     text-decoration: none;
@@ -415,7 +416,6 @@
 
 }
 #thongTinSanPham .trai .anh_BanLamViec{
-    width: 92%;
     height: 350px;
     margin-left: 20px;
     margin-top: 30px;
@@ -428,10 +428,12 @@
     border: 5px solid pink;
 }
 #thongTinSanPham .trai .anh_BanLamViec_min{
+    float: left;
+    clear: right;
     width: 100px;
     height: 100px;
-    margin-left: 23px;
-    margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 440px;
     border: 3px solid #1fb5d4;
 }
 #thongTinSanPham .trai .anh_BanLamViec_min:hover{
@@ -439,12 +441,13 @@
     background: #eeeeee;
     border: 3px solid pink;
 }
+
 #thongTinSanPham .phai {
     float: left;
     clear: right;
     width: 60%;
     height: 620px;
-    background: white;
+    background: white
 }
 #thongTinSanPham .phai .tieuDe .ten {
     font-size: 300%;
@@ -638,7 +641,7 @@
     width: 50px;
     height: 50px;
     background: darkorange;
-    border: 2px solid coral;
+    border: 2px solid black;
     margin-top: 45px;
     margin-left: -496px;
 }

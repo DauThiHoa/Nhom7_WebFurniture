@@ -635,7 +635,7 @@
           width: 252px;
           margin-left: 25px;
           margin-top: -12px;
-          background: #ef5f43;
+          background: darkorange;
 
       }
       .gioHang4 .fa-shopping-cart{
@@ -658,13 +658,13 @@
           cursor: pointer;
           color: #1fb5d4;
           background: white;
-          border: 1px solid #ef5f43 ;
+          border: 1px solid darkorange ;
       }
       .gioHang4:hover .fa-shopping-cart {
-          color: #ef5f43;
+          color: darkorange;
       }
       .gioHang4:hover .chu_giohang {
-          color: #ef5f43;
+          color: darkorange;
       }
       #SanPhamNoiBat #BanLamViec:hover #blv #giaBLV{
           cursor: pointer;
@@ -708,7 +708,7 @@
           width: 252px;
           margin-left: -1px;
           margin-top: -48px;
-          background: #ef5f43;
+          background: darkorange;
           display: none;
       }
       .gioHang5 .fa-shopping-cart{
@@ -731,13 +731,13 @@
           cursor: pointer;
           color: #1fb5d4;
           background: white;
-          border: 1px solid #ef5f43 ;
+          border: 1px solid darkorange ;
       }
       .gioHang5:hover .fa-shopping-cart {
-          color: #ef5f43;
+          color: darkorange;
       }
       .gioHang5:hover .chu_giohang {
-          color: #ef5f43;
+          color: darkorange;
       }
       #tenCacSanPhamNoiBat{
           background: white ;
@@ -1314,289 +1314,6 @@
           margin-top: -496px;
       }
 
-      #tenCacSanPhamMoi #dongHoMiso {
-          background: white;
-          margin-left: 55px;
-          margin-top: 15px;
-          float: left;
-          clear: right;
-          border: 3px solid lightsalmon;
-          width: 250px;
-          height: 220px;
-      }
-      #tenCacSanPhamMoi #anh_dongHoMiso {
-          margin-left: 10px;
-          float: left;
-          clear: right;
-          width: 230px;
-          height: 150px;
-          margin-top: 10px;
-      }
-      #tenCacSanPhamMoi #Miso {
-          text-align: center;
-      }
-      #tenCacSanPhamMoi #Miso #giaMiso{
-          color: #0099aa;
-      }
-      #tenCacSanPhamMoi #dongHoMiso .ten {
-          margin-bottom: -10px;
-      }
-      #tenCacSanPhamMoi #dongHoMiso:hover {
-          background: #0099aa;
-          color: white;
-          cursor: pointer;
-      }
-      #tenCacSanPhamMoi #dongHoMiso:hover .ten {
-          color: white;
-          margin-top: -10px;
-      }
-      #tenCacSanPhamMoi #dongHoMiso:hover #Miso #giaMiso {
-          color: yellow;
-          display: none;
-      }
-      #tenCacSanPhamMoi #dongHoMiso:hover .gioHang5 {
-          display: block;
-          margin-top: 15px;
-      }
-      #tenCacSanPhamMoi:hover #anh_dongHoMiso {
-          margin-top: 5px;
-          height: 140px;
-      }
-
-      #tenCacSanPhamMoi #dongHoTabu {
-          background: white;
-          margin-left: 45px;
-          margin-top: 15px;
-          float: left;
-          clear: right;
-          border: 3px solid lightsalmon;
-          width: 250px;
-          height: 220px;
-      }
-      #tenCacSanPhamMoi #anh_dongHoTabu {
-          margin-left: 10px;
-          float: left;
-          clear: right;
-          width: 230px;
-          height: 150px;
-          margin-top: 10px;
-      }
-      #tenCacSanPhamMoi #Tabu {
-          text-align: center;
-      }
-      #tenCacSanPhamMoi #Tabu #giaTaBu{
-          color: #0099aa;
-          margin-top: -10px;
-      }
-      #tenCacSanPhamMoi #dongHoTabu:hover {
-          background: #0099aa;
-          color: white;
-          cursor: pointer;
-      }
-      #tenCacSanPhamMoi #dongHoTabu:hover .ten {
-          color: white;
-          margin-top: -10px;
-      }
-      #tenCacSanPhamMoi #dongHoTabu:hover #Tabu #giaTaBu {
-          color: yellow;
-          display: none;
-      }
-      #tenCacSanPhamMoi #dongHoTabu:hover .gioHang5 {
-          display: block;
-          margin-top: -15px;
-      }
-      #tenCacSanPhamMoi:hover #anh_dongHoTabu {
-          margin-top: 5px;
-          height: 140px;
-      }
-
-      #tenCacSanPhamMoi #GiuongILBRO_BASIC {
-          background: white;
-          margin-left: 45px;
-          margin-top: 15px;
-          float: left;
-          clear: right;
-          border: 3px solid lightsalmon;
-          width: 250px;
-          height: 220px;
-      }
-      #tenCacSanPhamMoi #anh_GiuongILBRO_BASIC {
-          margin-left: 10px;
-          float: left;
-          clear: right;
-          width: 230px;
-          height: 150px;
-          margin-top: 10px;
-      }
-      #tenCacSanPhamMoi #Basic {
-          text-align: center;
-      }
-      #tenCacSanPhamMoi #Basic #giaBasic{
-          color: #0099aa;
-          margin-top: -10px;
-      }
-      #tenCacSanPhamMoi #GiuongILBRO_BASIC:hover {
-          background: #0099aa;
-          color: white;
-          cursor: pointer;
-      }
-      #tenCacSanPhamMoi #GiuongILBRO_BASIC:hover .ten {
-          color: white;
-          margin-top: -10px;
-      }
-      #tenCacSanPhamMoi #GiuongILBRO_BASIC:hover #Basic #giaBasic {
-          color: yellow;
-          display: none;
-      }
-      #tenCacSanPhamMoi #GiuongILBRO_BASIC:hover .gioHang5 {
-          display: block;
-          margin-top: -15px;
-      }
-      #tenCacSanPhamMoi:hover #anh_GiuongILBRO_BASIC {
-          margin-top: 5px;
-          height: 140px;
-      }
-
-      #tenCacSanPhamMoi #GoSoIBIE_DRVICESO {
-          background: white;
-          margin-left: 55px;
-          margin-top: 15px;
-          float: left;
-          clear: right;
-          border: 3px solid lightsalmon;
-          width: 250px;
-          height: 220px;
-      }
-      #tenCacSanPhamMoi #anh_GoSoIBIE_DRVICESO {
-          margin-left: 10px;
-          float: left;
-          clear: right;
-          width: 230px;
-          height: 150px;
-          margin-top: 10px;
-      }
-      #tenCacSanPhamMoi #DRVICESO {
-          text-align: center;
-      }
-      #tenCacSanPhamMoi #DRVICESO #giaDrviceso{
-          color: #0099aa;
-          margin-top: -10px;
-      }
-      #tenCacSanPhamMoi #GoSoIBIE_DRVICESO:hover {
-          background: #0099aa;
-          color: white;
-          cursor: pointer;
-      }
-      #tenCacSanPhamMoi #GoSoIBIE_DRVICESO:hover .ten {
-          color: white;
-          margin-top: -10px;
-      }
-      #tenCacSanPhamMoi #GoSoIBIE_DRVICESO:hover #DRVICESO #giaDrviceso {
-          color: yellow;
-          display: none;
-      }
-      #tenCacSanPhamMoi #GoSoIBIE_DRVICESO:hover .gioHang5 {
-          display: block;
-          margin-top: -15px;
-      }
-      #tenCacSanPhamMoi:hover #anh_GoSoIBIE_DRVICESO {
-          margin-top: 5px;
-          height: 140px;
-      }
-      #tenCacSanPhamMoi #TuQuanAo {
-          background: white;
-          margin-left: 45px;
-          margin-top: 15px;
-          float: left;
-          clear: right;
-          border: 3px solid lightsalmon;
-          width: 250px;
-          height: 220px;
-      }
-      #tenCacSanPhamMoi #anh_TuQuanAo {
-          margin-left: 10px;
-          float: left;
-          clear: right;
-          width: 230px;
-          height: 150px;
-          margin-top: 10px;
-      }
-      #tenCacSanPhamMoi #SDR20 {
-          text-align: center;
-      }
-      #tenCacSanPhamMoi #SDR20 #giaSDR20{
-          color: #0099aa;
-          margin-top: -10px;
-      }
-      #tenCacSanPhamMoi #TuQuanAo:hover {
-          background: #0099aa;
-          color: white;
-          cursor: pointer;
-      }
-      #tenCacSanPhamMoi #TuQuanAo:hover .ten {
-          color: white;
-          margin-top: -10px;
-      }
-      #tenCacSanPhamMoi #TuQuanAo:hover #SDR20 #giaSDR20 {
-          color: yellow;
-          display: none;
-      }
-      #tenCacSanPhamMoi #TuQuanAo:hover .gioHang5 {
-          display: block;
-          margin-top: -15px;
-      }
-      #tenCacSanPhamMoi:hover #anh_TuQuanAo {
-          margin-top: 5px;
-          height: 140px;
-      }
-
-
-      #tenCacSanPhamMoi #LotLy {
-          background: white;
-          margin-left: 45px;
-          margin-top: 15px;
-          float: left;
-          clear: right;
-          border: 3px solid lightsalmon;
-          width: 250px;
-          height: 220px;
-      }
-      #tenCacSanPhamMoi #anh_LotLy {
-          margin-left: 10px;
-          float: left;
-          clear: right;
-          width: 230px;
-          height: 150px;
-          margin-top: 10px;
-      }
-      #tenCacSanPhamMoi #NVH03 {
-          text-align: center;
-      }
-      #tenCacSanPhamMoi #NVH03 #giaNVH03{
-          color: #0099aa;
-          margin-top: -10px;
-      }
-      #tenCacSanPhamMoi #LotLy:hover {
-          background: #0099aa;
-          color: white;
-          cursor: pointer;
-      }
-      #tenCacSanPhamMoi #LotLy:hover .ten {
-          color: white;
-          margin-top: -10px;
-      }
-      #tenCacSanPhamMoi #LotLy:hover #NVH03 #giaNVH03 {
-          color: yellow;
-          display: none;
-      }
-      #tenCacSanPhamMoi #LotLy:hover .gioHang5 {
-          display: block;
-          margin-top: -15px;
-      }
-      #tenCacSanPhamMoi:hover #anh_LotLy {
-          margin-top: 5px;
-          height: 140px;
-      }
       #layout4  {
           width: 100%;
            background: white;
@@ -1838,7 +1555,7 @@
           height: 45px;
           width: 300px;
           margin-left: 25px;
-          background: #ef5f43;
+          background: darkorange;
           border-radius: 5%;
       }
       .gioHang .fa-shopping-cart{
@@ -1861,17 +1578,17 @@
           background: white;
       }
       .gioHang:hover .fa-shopping-cart {
-          color: #ef5f43;
+          color: darkorange;
       }
       .gioHang:hover .chu_giohang {
-          color: #ef5f43;
+          color: darkorange;
       }
 
       #layout5 .tenCacSanPham  .gioHang {
           height: 45px;
           width: 230px;
           margin-left: 270px;
-          background: #ef5f43 ;
+          background: darkorange ;
           border-radius: 5%;
           margin-top: 140px;
       }
@@ -1897,17 +1614,17 @@
           background: white;
       }
       #layout5 .tenCacSanPham  .gioHang:hover .fa-shopping-cart {
-          color: #ef5f43;
+          color: darkorange;
       }
       #layout5 .tenCacSanPham  .gioHang:hover .chu_giohang {
-          color: #ef5f43;
+          color: darkorange;
       }
 
       #layout5 .tenCacSanPham  .gioHang1 {
           height: 45px;
           width: 230px;
           margin-left: 270px;
-          background: #ef5f43 ;
+          background: darkorange ;
           border-radius: 5%;
           margin-top: 140px;
       }
@@ -1933,17 +1650,17 @@
           background: white;
       }
       #layout5 .tenCacSanPham  .gioHang1:hover .fa-shopping-cart {
-          color: #ef5f43;
+          color: darkorange;
       }
       #layout5 .tenCacSanPham  .gioHang1:hover .chu_giohang {
-          color: #ef5f43;
+          color: darkorange;
       }
 
       #layout5 .tenCacSanPham  .gioHang2 {
           height: 45px;
           width: 230px;
           margin-left: 270px;
-          background: #ef5f43 ;
+          background: darkorange ;
           border-radius: 5%;
           margin-top: 140px;
       }
@@ -1969,10 +1686,10 @@
           background: white;
       }
       #layout5 .tenCacSanPham  .gioHang2:hover .fa-shopping-cart {
-          color: #ef5f43;
+          color: darkorange;
       }
       #layout5 .tenCacSanPham  .gioHang2:hover .chu_giohang {
-          color: #ef5f43;
+          color: darkorange;
       }
       .sao {
           float: left;
@@ -2043,7 +1760,7 @@
           width: 252px;
           margin-left: -1px;
           margin-top: -5px;
-          background: #ef5f43;
+          background: darkorange;
       }
       .gioHang3 .fa-shopping-cart{
           float: left;
@@ -2065,13 +1782,13 @@
           cursor: pointer;
           color: #1fb5d4;
           background: white;
-          border: 1px solid #ef5f43 ;
+          border: 1px solid darkorange ;
       }
       .gioHang3:hover .fa-shopping-cart {
-          color: #ef5f43;
+          color: darkorange;
       }
       .gioHang3:hover .chu_giohang {
-          color: #ef5f43;
+          color: darkorange;
       }
 
       #layout6 {
@@ -2090,7 +1807,7 @@
           width: 250px;
           height: 60px;
           color: white;
-          background: lightsalmon;
+          background: #0b90a8;
       }
       #layout6 .TieuDe .right{
           float: left;
@@ -2111,7 +1828,7 @@
           height: 440px;
           margin-right: 30px;
           margin-left: 70px;
-          background: #1fb5d4;
+          background: lightpink;
           color: white;
       }
       #layout6 .meoVatHay .meoVat .anh {
@@ -2145,19 +1862,19 @@
       }
       #layout6 .meoVatHay .meoVat .ten{
          margin-left: 10px;
-          color: white;
+          color: black;
       }
       #layout6 .meoVatHay .meoVat .noiDung{
          margin-left: 10px;
-          color: white;
+          color: black;
       }
       #layout6 .meoVatHay .meoVat:hover {
           cursor: pointer;
-          background: #1fb5d4;
-          color: white;
+          background: lightpink;
+          color: black;
       }
       #layout6 .meoVatHay .meoVat:hover .ten {
-          color: white;
+          color: black;
       }
 
     #layout7 .thanhDuoi {
@@ -2302,6 +2019,23 @@
 
           .main {
               max-width: 100%;
+          }
+
+          .khungtrang .fa-chevron-circle-left {
+              position: absolute;
+              z-index: 2;
+              color: #1fb5d4;
+              font-size: 100%;
+              margin-left: 2%;
+              margin-top: 15%;
+          }
+          .khungtrang .fa-chevron-circle-right {
+              position: absolute;
+              z-index: 2;
+              color: #1fb5d4;
+              font-size: 100%;
+              margin-left: -4%;
+              margin-top: 15%;
           }
 
           #Thanh_cong_cu {
