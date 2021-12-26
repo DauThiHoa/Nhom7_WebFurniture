@@ -1,5 +1,5 @@
 body {
-    font-family: Arial;
+    font-family: sans-serif, Verdana;
     font-size: 17px;
     padding: 8px;
 }
@@ -61,7 +61,7 @@ label {
 
 body {
     font: 14px/22px "Lato", Arial, sans-serif;
-    background: #0099cc;
+    background-color: #1fb5d4;
 }
 
 .lighter-text {
