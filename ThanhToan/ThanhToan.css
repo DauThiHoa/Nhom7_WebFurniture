@@ -3,6 +3,7 @@ body {
     font-size: 17px;
     padding: 8px;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -20,7 +21,7 @@ label {
 }
 .formContainer {
     margin: 10px;
-    background-color: #efffc9;
+    background-color: peachpuff;
     padding: 5px 20px 15px 20px;
     border: 1px solid rgb(191, 246, 250);
     border-radius: 3px;
@@ -43,25 +44,55 @@ label {
     font-size: 24px;
 }
 .checkout {
-    background-color: #0099cc;
-    color: white;
+    background-color: white;
+    color: #34ce57;
     padding: 12px;
     margin: 10px 0;
-    border: none;
     width: 100%;
     border-radius: 3px;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 150%;
+    font-weight: bold;
+    border: 2px solid #34ce57;
 }
-<span style="color:#000000;"><span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+.checkout:hover {
+    background-color: #34ce57;
+    color: white;
+}
+
+.tieuDe {
+    color: black;
+    font-size: 220%;
+}
+.duongDan {
+    color: black;
+    font-size: 120%;
+}
+h3 {
+    font-weight: bold;
+    color: black;
+    font-size: 150%;
+    text-align: center;
+}
+.from {
+    font-weight: bold;
+}
+#fname, #email , #address, #adr, #cardname,#cardnumber{
+    border: 2px solid black;
+}
+
+#adr {
+    width: 205%;
+}
+
+
 *, *:before, *:after {
     box-sizing: border-box;
 }
 
 body {
     font: 14px/22px "Lato", Arial, sans-serif;
-    background-color: #1fb5d4;
+    background-color: lightcyan;
 }
 
 .lighter-text {
@@ -192,9 +223,22 @@ nav ul li a:hover {
     content: "";
     display: table;
     clear: both;
-}</span></span></span>
-@media (max-width: 800px) {
-    .Fields {
-        flex-direction: column-reverse;
-    }
+}
+ul {
+    list-style-type: none; !important;
+    margin-left: -10%;
+}
+.formContainer .shopping-cart .shopping-cart-items .clearfix .item-price {
+    color: #34ce57;
+    font-weight: bold;
+}
+.formContainer .shopping-cart .shopping-cart-items .clearfix .item-name {
+    color: black;
+    font-weight: bold;
+}
+.formContainer .shopping-cart .shopping-cart-items .clearfix .item-quantity {
+    color: black;
+}
+.noiDung_2 .input_1 {
+    border: 2px solid black;
 }
