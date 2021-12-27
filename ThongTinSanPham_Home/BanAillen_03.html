@@ -132,7 +132,9 @@
 </div>
 <div id="thongTinSanPham">
     <div class="trai">
-        <div id = "anhDau" class="anh_BanLamViec" ></div>
+        <div id = "anhDau">
+            <img id = "anh" class="anh_BanLamViec" src="../Home/Image/BanAillen03_SPH.PNG"/>
+        </div>
         <img id = "anhDau1"  class="anh_BanLamViec_min" src="../Home/Image/BanAillen03_SPH.PNG" onclick="zoomount(this)"  alt="image"/>
         <img id = "anhDau2"  class="anh_BanLamViec_min1" src="Image_ThongTinSanPham_Home/gheaillen2.PNG" onclick="zoomount(this)"  alt="image"/>
         <img id = "anhDau3"  class="anh_BanLamViec_min2" src="Image_ThongTinSanPham_Home/gheaileen3.PNG" onclick="zoomount(this)"  alt="image"/>
@@ -182,9 +184,9 @@
                 <p class="soMau"> Màu đen , Màu gỗ , Màu trắng  </p>
             </div>
             <div class="bottom">
-                <img class="anh_BanLamViec_min" src="../Home/Image/BanAillen03_SPH.PNG"  />
-                <img class="anh_BanLamViec_min1" src="Image_ThongTinSanPham_Home/gheaillen2.PNG"/>
-                <img class="anh_BanLamViec_min2" src="Image_ThongTinSanPham_Home/gheaileen3.PNG"/>
+                <img class="anh_BanLamViec_min" src="../Home/Image/BanAillen03_SPH.PNG" onclick="zoomount(this)"  alt="image"  />
+                <img class="anh_BanLamViec_min1" src="Image_ThongTinSanPham_Home/gheaillen2.PNG" onclick="zoomount(this)"  alt="image"/>
+                <img class="anh_BanLamViec_min2" src="Image_ThongTinSanPham_Home/gheaileen3.PNG" onclick="zoomount(this)"  alt="image"/>
             </div>
         </div>
         <div class="chatLieu">
@@ -193,13 +195,13 @@
                 Mặt bàn: Gỗ MDF chống ẩm, sơn phủ PU . </p>
         </div>
         <div class="soLuongSanPham">
-            <div class="tru">
-                <h3 class="dauTru"> - </h3>
+            <div class="tru" onclick="tru(this)"  alt="giamSoLuong">
+                <h3 class="dauTru" > - </h3>
             </div>
             <div class="so">
-                <h3 class="soLuongDat"> 1 </h3>
+                <h3 class="soLuongDat" id="soLuong">1</h3>
             </div>
-            <div class="cong">
+            <div class="cong" onclick="cong(this)"  alt="tangSoLuong">
                 <h3 class="dauCong"> + </h3>
             </div>
             <a href="../GioHang/GioHang.html">

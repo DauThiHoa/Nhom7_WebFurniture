@@ -14,6 +14,7 @@
 <style>
 
 </style>
+    <script src="Home.js"></script>
 
 </head>
 <body>
@@ -126,10 +127,10 @@
 
 
    <div class="khungtrang">
-       <i class="fa fa-chevron-circle-left"  aria-hidden="true"></i>
+       <i class="fa fa-chevron-circle-left"  aria-hidden="true" onclick="zoomountLeft(this)"  alt="image"></i>
        <img id="trangKhung" src="Image/Capture.PNG"  />
-       <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
        <img id="trangKhung1" src="img_1.png" />
+       <i class="fa fa-chevron-circle-right" aria-hidden="true" onclick="zoomountRight(this)"  alt="image"></i>
    </div>
 
    <div id="ThanhHoTro">
@@ -204,12 +205,12 @@
            <h2 class="tenSanPhamNoBat">SẢN PHẨM NỔI BẬT</h2>
        </div>
        <div id="sangTraiPhaiSPNB">
-           <img id="left" src="Image/sangTrai.PNG" />
-           <img id="right" src="Image/sangPhai.PNG" />
+           <img id="left" src="Image/sangTrai.PNG" onclick="left(this)"  alt="left" />
+           <img id="right" src="Image/sangPhai.PNG" onclick="right(this)"  alt="right"/>
 
        </div>
        <div id="tenCacSanPhamNoiBat">
-           <div class="tensanpham">
+           <div class="tensanpham" id="khungsanpham">
                <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
                    <img class="anhSanPham" src="Image/TuHabu.PNG"  />
                </a>
@@ -229,7 +230,8 @@
                </div>
            </div>
 
-           <div class="tensanpham">
+
+           <div class="tensanpham" >
                <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
                    <img class="anhSanPham" src="Image/SofaBangBella.PNG"  />
                </a>
@@ -248,6 +250,7 @@
                    </a>
                </div>
            </div>
+
 
            <div class="tensanpham">
                <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
@@ -269,6 +272,7 @@
                </div>
            </div>
 
+
            <div class="tensanpham">
                <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
                    <img class="anhSanPham" src="Image/KeTreoPoplar.PNG"  />
@@ -289,6 +293,7 @@
                </div>
            </div>
 
+
            <div class="tensanpham">
                <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
                    <img class="anhSanPham" src="Image/KeTiViHoBu.PNG"  />
@@ -308,6 +313,7 @@
                    </a>
                </div>
            </div>
+
            <div class="tensanpham">
                <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
                    <img class="anhSanPham" src="Image/gheEuro.PNG"  />
@@ -327,6 +333,137 @@
                    </a>
                </div>
            </div>
+
+
+           <div class="tenCacSanPhamNoiBat1">
+               <!-- San Pham Bam nut chuyen -->
+               <div class="tensanpham1" >
+                   <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                       <img class="anhSanPham" src="http://localhost:63342/Nhom7_WebFurniture/ImageProduct/Goi-tua-lung-van-phong.webp"  />
+                   </a>
+                   <div class="sanpham">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                           <h2 class="ten">Gối tựa lưng</h2>
+                       </a>
+                       <h3 class="giasanpham">110.000đ</h3>
+                   </div>
+                   <div class="gioHang5">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                           <div  >
+                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                               <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                           </div>
+                       </a>
+                   </div>
+               </div>
+               <!-- San Pham Bam nut chuyen -->
+               <!-- San Pham Bam nut chuyen -->
+               <div class="tensanpham1" >
+                   <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                       <img class="anhSanPham" src="http://localhost:63342/Nhom7_WebFurniture/ImageProduct/Sofapk.jpg"  />
+                   </a>
+                   <div class="sanpham">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                           <h2 class="ten">Sofa phòng khách </h2>
+                       </a>
+                       <h3 class="giasanpham">2.280.000đ</h3>
+                   </div>
+                   <div class="gioHang5">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                           <div  >
+                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                               <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                           </div>
+                       </a>
+                   </div>
+               </div>
+               <!-- San Pham Bam nut chuyen -->
+               <!-- San Pham Bam nut chuyen -->
+               <div class="tensanpham1" >
+                   <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                       <img class="anhSanPham" src="http://localhost:63342/Nhom7_WebFurniture/ImageProduct/ban-tra-chong-tham-nuoc.jpg"  />
+                   </a>
+                   <div class="sanpham">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                           <h2 class="ten">Bàn trà</h2>
+                       </a>
+                       <h3 class="giasanpham">1.529.000đ</h3>
+                   </div>
+                   <div class="gioHang5">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                           <div  >
+                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                               <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                           </div>
+                       </a>
+                   </div>
+               </div>
+               <!-- San Pham Bam nut chuyen -->
+               <!-- San Pham Bam nut chuyen -->
+               <div class="tensanpham1" >
+                   <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                       <img class="anhSanPham" src="http://localhost:63342/Nhom7_WebFurniture/ImageProduct/Goi-tua-lung-sofa-phong-cach-hien-dai.webp"  />
+                   </a>
+                   <div class="sanpham">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                           <h2 class="ten">Gối Sofa hiện đại</h2>
+                       </a>
+                       <h3 class="giasanpham">160.000đ</h3>
+                   </div>
+                   <div class="gioHang5">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                           <div  >
+                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                               <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                           </div>
+                       </a>
+                   </div>
+               </div>
+               <!-- San Pham Bam nut chuyen -->
+               <!-- San Pham Bam nut chuyen -->
+               <div class="tensanpham1" >
+                   <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                       <img class="anhSanPham" src="http://localhost:63342/Nhom7_WebFurniture/ImageProduct/Dem-ngoi-hinh-vuong-phong-cach.webp"  />
+                   </a>
+                   <div class="sanpham">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                           <h2 class="ten">Đệm ngồi</h2>
+                       </a>
+                       <h3 class="giasanpham">120.000đ</h3>
+                   </div>
+                   <div class="gioHang5">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                           <div  >
+                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                               <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                           </div>
+                       </a>
+                   </div>
+               </div>
+               <!-- San Pham Bam nut chuyen -->
+               <!-- San Pham Bam nut chuyen -->
+               <div class="tensanpham1" >
+                   <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                       <img class="anhSanPham" src="http://localhost:63342/Nhom7_WebFurniture/ImageProduct/ban-tra-phong-khach.webp"  />
+                   </a>
+                   <div class="sanpham">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                           <h2 class="ten">Bàn trà phòng khách</h2>
+                       </a>
+                       <h3 class="giasanpham">1.280.000đ</h3>
+                   </div>
+                   <div class="gioHang5">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                           <div  >
+                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                               <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                           </div>
+                       </a>
+                   </div>
+               </div>
+               <!-- San Pham Bam nut chuyen -->
+
+           </div>
        </div>
    </div>
 
@@ -334,9 +471,242 @@
       <div id="chu_SanPhamHot">
               <h2 id="chu">SẢN PHẨM HOT</h2>
           <hr id="thanhKe2">
-              <p id="hot1"> Bàn , ghế thư giãn  </p>
-              <p id="hot2"> Đồ dùng văn phòng </p>
-              <p id="hot3"> Nội thất gỗ </p>
+              <p id="hot1" onclick="hot1( this)" alt ="hot1"> Bàn , ghế thư giãn  </p>
+              <p id="hot2" onclick="hot2( this)" alt ="hot2"> Đồ dùng văn phòng </p>
+          <!-- Do Dung Van Phong -->
+          <div class="DoDungVanPhong">
+          <div class="gheGoBapBenhIconic">
+              <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=5vff1fns2k7mbhommgu3i8t1op">
+                  <img class="anh_gheGoBapBenhIconic" src="http://localhost:63342/Nhom7_WebFurniture/NoiThatVanPhong/Image_vanphong/ban-lam-viec-chu-l-chan-sat.jpg"  />
+              </a>
+              <div class="iconic">
+                  <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=5vff1fns2k7mbhommgu3i8t1op">
+                      <h2 class="ten" > Bàn làm việc chữ L </h2>
+                  </a>
+                  <div class="sao4">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                  <h3 class="giaIconic">700.000đ</h3>
+                  <div class="gioHang4">
+                      <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                          <div  >
+                              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                              <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+          </div>
+              <!-- San pham -->
+              <div class="gheGoBapBenhIconic">
+                  <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=5vff1fns2k7mbhommgu3i8t1op">
+                      <img class="anh_gheGoBapBenhIconic" src="http://localhost:63342/Nhom7_WebFurniture/NoiThatVanPhong/Image_vanphong/dongho.jpg"  />
+                  </a>
+                  <div class="iconic">
+                      <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=5vff1fns2k7mbhommgu3i8t1op">
+                          <h2 class="ten" > Đồng hồ treo tường </h2>
+                      </a>
+                      <div class="sao4">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                      <h3 class="giaIconic">400.000đ</h3>
+                      <div class="gioHang4">
+                          <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                              <div  >
+                                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                  <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <!-- San pham -->
+
+              <!-- San pham -->
+              <div class="gheGoBapBenhIconic">
+                  <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=5vff1fns2k7mbhommgu3i8t1op">
+                      <img class="anh_gheGoBapBenhIconic" src="http://localhost:63342/Nhom7_WebFurniture/NoiThatVanPhong/Image_vanphong/den-led-de.jpg"  />
+                  </a>
+                  <div class="iconic">
+                      <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=5vff1fns2k7mbhommgu3i8t1op">
+                          <h2 class="ten" > Đèn led </h2>
+                      </a>
+                      <div class="sao4">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                      <h3 class="giaIconic">270.000đ</h3>
+                      <div class="gioHang4">
+                          <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                              <div  >
+                                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                  <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <!-- San pham -->
+
+              <!-- San pham -->
+              <div class="gheGoBapBenhIconic">
+                  <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=5vff1fns2k7mbhommgu3i8t1op">
+                      <img class="anh_gheGoBapBenhIconic" src="http://localhost:63342/Nhom7_WebFurniture/NoiThatVanPhong/Image_vanphong/ghe-van-phong-sofa.jpg"  />
+                  </a>
+                  <div class="iconic">
+                      <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=5vff1fns2k7mbhommgu3i8t1op">
+                          <h2 class="ten" > Ghế sofa văn phòng </h2>
+                      </a>
+                      <div class="sao4">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                      <h3 class="giaIconic">3.100.000đ</h3>
+                      <div class="gioHang4">
+                          <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                              <div  >
+                                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                  <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <!-- San pham -->
+          </div>
+          <!-- Do Dung Van Phong -->
+              <p id="hot3" onclick="hot3( this)" alt ="hot3"> Nội thất gỗ </p>
+
+          <!-- Do Dung Van Phong -->
+          <div class="NoiThatGo">
+              <div class="gheGoBapBenhIconic">
+                  <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=5vff1fns2k7mbhommgu3i8t1op">
+                      <img class="anh_gheGoBapBenhIconic" src="http://localhost:63342/Nhom7_WebFurniture/NoiThatPhongKhach/Image_NTTTPhongkhach/ban-tra.png"  />
+                  </a>
+                  <div class="iconic">
+                      <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=5vff1fns2k7mbhommgu3i8t1op">
+                          <h2 class="ten" >Bàn trà đơn giản</h2>
+                      </a>
+                      <div class="sao4">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                      <h3 class="giaIconic">990.000đ</h3>
+                      <div class="gioHang4">
+                          <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                              <div  >
+                                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                  <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <!-- San pham -->
+              <div class="gheGoBapBenhIconic">
+                  <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=5vff1fns2k7mbhommgu3i8t1op">
+                      <img class="anh_gheGoBapBenhIconic" src="http://localhost:63342/Nhom7_WebFurniture/NoiThatPhongKhach/Image_NTTTPhongkhach/ban-sofa.webp"  />
+                  </a>
+                  <div class="iconic">
+                      <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=5vff1fns2k7mbhommgu3i8t1op">
+                          <h2 class="ten" > Bàn trà sofa </h2>
+                      </a>
+                      <div class="sao4">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                      <h3 class="giaIconic">1.500.000đ</h3>
+                      <div class="gioHang4">
+                          <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                              <div  >
+                                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                  <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <!-- San pham -->
+
+              <!-- San pham -->
+              <div class="gheGoBapBenhIconic">
+                  <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=5vff1fns2k7mbhommgu3i8t1op">
+                      <img class="anh_gheGoBapBenhIconic" src="http://localhost:63342/Nhom7_WebFurniture/ImageProduct/Khung-tranh-de-ban.webp"  />
+                  </a>
+                  <div class="iconic">
+                      <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=5vff1fns2k7mbhommgu3i8t1op">
+                          <h2 class="ten" >Khung tranh để bàn</h2>
+                      </a>
+                      <div class="sao4">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                      <h3 class="giaIconic">150.000đ</h3>
+                      <div class="gioHang4">
+                          <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                              <div  >
+                                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                  <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <!-- San pham -->
+
+              <!-- San pham -->
+              <div class="gheGoBapBenhIconic">
+                  <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=5vff1fns2k7mbhommgu3i8t1op">
+                      <img class="anh_gheGoBapBenhIconic" src="http://localhost:63342/Nhom7_WebFurniture/NoiThatVanPhong/Image_vanphong/ban-van-phong.jpg"  />
+                  </a>
+                  <div class="iconic">
+                      <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=5vff1fns2k7mbhommgu3i8t1op">
+                          <h2 class="ten" >Bàn làm việc văn phòng </h2>
+                      </a>
+                      <div class="sao4">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                      <h3 class="giaIconic">2.080.000đ</h3>
+                      <div class="gioHang4">
+                          <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                              <div  >
+                                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                  <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <!-- San pham -->
+          </div>
+          <!-- Noi That Go -->
       </div>
        <div id="gheGoBapBenhIconic">
            <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=5vff1fns2k7mbhommgu3i8t1op">
@@ -443,8 +813,8 @@
            </div>
        </div>
        <div id="sangTraiPhaiSPH">
-           <img id="left_SPH" src="Image/sangTrai.PNG" />
-           <img id="right_SPH" src="Image/sangPhai.PNG" />
+           <img id="left_SPH" src="Image/sangTrai.PNG" onclick="left(this)"  alt="left" />
+           <img id="right_SPH" src="Image/sangPhai.PNG" onclick="right(this)"  alt="right"  />
        </div>
    </div>
 
@@ -480,8 +850,8 @@
            <h2>SẢN PHẨM MỚI</h2>
        </div>
        <div id="sangTraiPhaiSPM">
-           <img id="left_SPM" src="Image/sangTrai.PNG" />
-           <img id="right_SPM" src="Image/sangPhai.PNG" />
+           <img id="left_SPM" src="Image/sangTrai.PNG" onclick="left_SPM(this)" alt="SPM"/>
+           <img id="right_SPM" src="Image/sangPhai.PNG" onclick="right_SPM(this)" alt="SPM"/>
        </div>
        <div id="tenCacSanPhamMoi">
            <div class="tensanpham">
@@ -598,6 +968,137 @@
                    </a>
                </div>
            </div>
+
+           <div class="tenCacSanPhamMoi3">
+               <!-- San Pham Bam nut chuyen -->
+               <div class="tensanpham1" >
+                   <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                       <img class="anhSanPham" src="http://localhost:63342/Nhom7_WebFurniture/ImageProduct/tu-treo-quan-ao.webp"  />
+                   </a>
+                   <div class="sanpham">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                           <h2 class="ten">Tủ treo quần áo</h2>
+                       </a>
+                       <h3 class="giasanpham">1.700.000đ</h3>
+                   </div>
+                   <div class="gioHang5">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                           <div  >
+                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                               <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                           </div>
+                       </a>
+                   </div>
+               </div>
+               <!-- San Pham Bam nut chuyen -->
+               <!-- San Pham Bam nut chuyen -->
+               <div class="tensanpham1" >
+                   <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                       <img class="anhSanPham" src="http://localhost:63342/Nhom7_WebFurniture/ImageProduct/tu-quan-ao-canh-lua-thiet-ke.webp"  />
+                   </a>
+                   <div class="sanpham">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                           <h2 class="ten">Tủ quần áo</h2>
+                       </a>
+                       <h3 class="giasanpham">2.700.000đ</h3>
+                   </div>
+                   <div class="gioHang5">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                           <div  >
+                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                               <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                           </div>
+                       </a>
+                   </div>
+               </div>
+               <!-- San Pham Bam nut chuyen -->
+               <!-- San Pham Bam nut chuyen -->
+               <div class="tensanpham1" >
+                   <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                       <img class="anhSanPham" src="http://localhost:63342/Nhom7_WebFurniture/ImageProduct/tu-de-quan-ao-go.webp"  />
+                   </a>
+                   <div class="sanpham">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                           <h2 class="ten">Tủ quần áo</h2>
+                       </a>
+                       <h3 class="giasanpham">1.750.000đ</h3>
+                   </div>
+                   <div class="gioHang5">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                           <div  >
+                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                               <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                           </div>
+                       </a>
+                   </div>
+               </div>
+               <!-- San Pham Bam nut chuyen -->
+               <!-- San Pham Bam nut chuyen -->
+               <div class="tensanpham1" >
+                   <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                       <img class="anhSanPham" src="http://localhost:63342/Nhom7_WebFurniture/ImageProduct/giuong-hop-go-tu-nhien.jpg"  />
+                   </a>
+                   <div class="sanpham">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                           <h2 class="ten">Giường hộp gỗ</h2>
+                       </a>
+                       <h3 class="giasanpham">4.700.000đ</h3>
+                   </div>
+                   <div class="gioHang5">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                           <div  >
+                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                               <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                           </div>
+                       </a>
+                   </div>
+               </div>
+               <!-- San Pham Bam nut chuyen -->
+               <!-- San Pham Bam nut chuyen -->
+               <div class="tensanpham1" >
+                   <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                       <img class="anhSanPham" src="http://localhost:63342/Nhom7_WebFurniture/NoiThatPhongNgu/Image_NTTTPhongngu/tu-quan-ao-gon-gang-khoa-hoc-1.jpg"  />
+                   </a>
+                   <div class="sanpham">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                           <h2 class="ten">Tủ quần áo</h2>
+                       </a>
+                       <h3 class="giasanpham">1.400.000đ</h3>
+                   </div>
+                   <div class="gioHang5">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                           <div  >
+                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                               <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                           </div>
+                       </a>
+                   </div>
+               </div>
+               <!-- San Pham Bam nut chuyen -->
+               <!-- San Pham Bam nut chuyen -->
+               <div class="tensanpham1" >
+                   <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                       <img class="anhSanPham" src="http://localhost:63342/Nhom7_WebFurniture/NoiThatPhongNgu/Image_NTTTPhongngu/bo-goi.jpg"  />
+                   </a>
+                   <div class="sanpham">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/ThongTinSanPham_Home/BanAillen_03.html?_ijt=92qor4v097kkqak40toroe3gu2">
+                           <h2 class="ten">Bộ chăn gối ngủ</h2>
+                       </a>
+                       <h3 class="giasanpham">250.000đ</h3>
+                   </div>
+                   <div class="gioHang5">
+                       <a href="http://localhost:63342/Nhom7_WebFurniture/GioHang/GioHang.html?_ijt=jcprnpa34msltves625aqk8542">
+                           <div  >
+                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                               <h3 class="chu_giohang">Thêm vào giỏ hàng</h3>
+                           </div>
+                       </a>
+                   </div>
+               </div>
+               <!-- San Pham Bam nut chuyen -->
+
+           </div>
+
        </div>
    </div>
    <div id="layout4">
