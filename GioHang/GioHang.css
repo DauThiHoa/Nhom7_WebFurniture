@@ -675,7 +675,7 @@ table tr:hover {
 }
 .MuaHang .tiepTheo {
     border-radius: 10px;
-    background: #88cf81;
+    background: #34ce57;
     color: white;
     width: 200px;
     height: 50px;
@@ -685,7 +685,7 @@ table tr:hover {
 .MuaHang .tiepTheo:hover {
     cursor: pointer;
     background: white;
-    color: #88cf81;
+    color: #34ce57;
     border: 1px solid black;
 }
 .MuaHang .tiepTheo .fa-chevron-right{
