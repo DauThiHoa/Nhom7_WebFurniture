@@ -691,13 +691,12 @@ body{
     clear: right;
     margin-left: 420px;
     margin-top: -1260px;
-}
-#layout1 #right #CacLoaiDoTrangTri{
-    width: 1050px;
-    height: 200px;
-    border:  1px solid mediumturquoise;
-    background: mediumturquoise;
-}
+}#layout1 #right #CacLoaiDoTrangTri{
+     width: 1050px;
+     height: 200px;
+     border:  1px solid lightpink;
+     background: lightpink;
+ }
 #layout1 #right #CacLoaiDoTrangTri .fa {
     font-size: 250%;
     float: left;
@@ -708,12 +707,12 @@ body{
 }
 #layout1 #right #CacLoaiDoTrangTri .fa:hover {
     cursor: pointer;
-    color: pink;
+    color: white;
 }
 #layout1 #right #CacLoaiDoTrangTri .loai {
     width: 170px;
     height: 150px;
-    border:  1px solid mediumturquoise;
+    border:  1px solid lightpink;
     float: left;
     clear: right;
     text-align: center;
@@ -721,14 +720,25 @@ body{
     margin-right: 20px;
     background: white;
 }
+
+#layout1 #right #CacLoaiDoTrangTri .loai:hover {
+    cursor: pointer;
+    background: #1fb5d4;
+    color: white;
+}
 #layout1 #right #CacLoaiDoTrangTri   a {
     color: black;
     text-decoration: none;
 }
-#layout1 #right #CacLoaiDoTrangTri .loai:hover {
+#layout1 #right #CacLoaiDoTrangTri .loai:hover .tenLoaiDoTrangTri{
     cursor: pointer;
-    background: pink;
-    color: black;
+    background: #1fb5d4;
+    color: white;
+}
+#layout1 #right #CacLoaiDoTrangTri .loai1:hover .tenLoaiDoTrangTri{
+    cursor: pointer;
+    background: #1fb5d4;
+    color: white;
 }
 #layout1 #right #CacLoaiDoTrangTri .loai .anh {
     width: 150px;
@@ -766,8 +776,8 @@ body{
 }
 #layout1 #right #CacLoaiDoTrangTri .loai1:hover {
     cursor: pointer;
-    background: pink;
-    color: black;
+    background: #1fb5d4;
+    color: white;
 }
 /* */
 #layout1 #right #tieuDe .noiThatTrangtri {

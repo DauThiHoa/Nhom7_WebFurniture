@@ -446,6 +446,10 @@ body{
     border: 2px solid darkgray;
     margin-bottom: 35px;
 }
+
+
+
+
 #layout1 #left .khung .tieuDe{
     width: 100%;
     height: 50px;
@@ -522,7 +526,7 @@ body{
 #layout1 #left .tuKhoa .khung  {
     width: 297px;
     height: 50px;
-    background: mediumturquoise;
+    background: darkturquoise;
 }
 #layout1 #left .tuKhoa .khung  .ten {
     text-align: center;
@@ -550,7 +554,7 @@ body{
 #layout1 #left .mauSac .khung  {
     width: 297px;
     height: 50px;
-    background: mediumturquoise;
+    background: darkturquoise;
 }
 #layout1 #left .mauSac .khung .tenMauSac {
     text-align: center;
@@ -729,8 +733,8 @@ body{
 #layout1 #right #CacLoaiDoTrangTri{
     width: 1050px;
     height: 200px;
-    border:  1px solid mediumturquoise;
-    background: mediumturquoise;
+    border:  1px solid lightpink;
+    background: lightpink;
 }
 #layout1 #right #CacLoaiDoTrangTri .fa {
     font-size: 250%;
@@ -742,12 +746,12 @@ body{
 }
 #layout1 #right #CacLoaiDoTrangTri .fa:hover {
     cursor: pointer;
-    color: pink;
+    color: lightpink;
 }
 #layout1 #right #CacLoaiDoTrangTri .loai {
     width: 170px;
     height: 150px;
-    border:  1px solid mediumturquoise;
+    border:  1px solid #1fb5d4;
     float: left;
     clear: right;
     text-align: center;
@@ -761,8 +765,8 @@ body{
 }
 #layout1 #right #CacLoaiDoTrangTri .loai:hover {
     cursor: pointer;
-    background: pink;
-    color: black;
+    background: #1fb5d4;
+    color: white;
 }
 #layout1 #right #CacLoaiDoTrangTri .loai .anh {
     width: 150px;
@@ -796,8 +800,8 @@ body{
 }
 #layout1 #right #CacLoaiDoTrangTri .loai1:hover {
     cursor: pointer;
-    background: pink;
-    color: black;
+    background: #1fb5d4;
+    color: white;
 }
 /* */
 #layout1 #right #tieuDe .noiThatTrangtri {
@@ -1608,3 +1612,8 @@ body{
 
     }
 }
+
+
+/*
+Mau
+ */

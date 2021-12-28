@@ -766,8 +766,60 @@ body{
 }
 #layout1 #right #CacLoaiDoTrangTri .loai1:hover {
     cursor: pointer;
-    background: pink;
+    background: #1fb5d4;
+    color: white;
+}
+#layout1 #right #CacLoaiDoTrangTri{
+    width: 1050px;
+    height: 200px;
+    border:  1px solid lightpink;
+    background: lightpink;
+}
+#layout1 #right #CacLoaiDoTrangTri .fa {
+    font-size: 250%;
+    float: left;
+    clear: right;
+    margin-top: 100px;
+    margin-right: 10px;
+    color: white;
+}
+#layout1 #right #CacLoaiDoTrangTri .fa:hover {
+    cursor: pointer;
+    color: lightpink;
+}
+#layout1 #right #CacLoaiDoTrangTri .loai {
+    width: 170px;
+    height: 150px;
+    border:  1px solid #1fb5d4;
+    float: left;
+    clear: right;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 20px;
+    background: white;
+}
+#layout1 #right #CacLoaiDoTrangTri   a {
     color: black;
+    text-decoration: none;
+}
+#layout1 #right #CacLoaiDoTrangTri .loai:hover {
+    cursor: pointer;
+    background: #1fb5d4;
+    color: white;
+}
+#layout1 #right #CacLoaiDoTrangTri .loai .anh {
+    width: 150px;
+    height: 100px;
+    margin-top: 15px;
+}
+.loai:hover .tenLoaiDoTrangTri {
+    color: white;
+}
+.loai1{
+    background: #1fb5d4;
+}
+.loai1:hover .tenLoaiDoTrangTri {
+    color: white;
 }
 /* */
 #layout1 #right #tieuDe .noiThatTrangtri {
