@@ -1126,6 +1126,7 @@
           clear: right;
           margin-left: 250px;
           color:#0099aa;
+          font-weight: bold;
       }
       #SanPhamHot  #chu_SanPhamHot  #hot1:hover{
           cursor: pointer;
@@ -1136,6 +1137,7 @@
           float: left;
           clear: right;
           margin-left: 330px;
+          font-weight: bold;
       }
       #SanPhamHot  #chu_SanPhamHot  #hot2:hover{
           cursor: pointer;
@@ -1147,6 +1149,7 @@
           float: left;
           clear: right;
           margin-left: 1200px;
+          font-weight: bold;
       }
       #SanPhamHot  #chu_SanPhamHot  #hot3:hover{
           cursor: pointer;
@@ -1584,6 +1587,104 @@
       }
 
 
+      #layout5 .sanPham  .tenCacSanPham2 {
+          border: 1px solid #0099aa;
+          width: 40%;
+          height: 950px;
+          background: white;
+          position: absolute;
+          z-index: 2;
+          margin-top: -952px;
+          display: none;
+      }
+      #layout5 .sanPham .tenCacSanPham2  .cacSanPham {
+          margin-top: 20px;
+          width: 95%;
+          height: 200px;
+          border: 5px solid #0b90a8;
+          margin-left: 10px;
+          background: white;
+      }
+      #layout5 .sanPham .tenCacSanPham2   .cacSanPham   .anh5{
+          float: left;
+          clear: right;
+          width: 40%;
+          height: 150px;
+          margin-left: 10px;
+          margin-top: 20px;
+      }
+
+      #layout5 .sanPham .tenCacSanPham2   .cacSanPham:hover {
+          background: #0099aa;
+          cursor: pointer;
+      }
+      #layout5 .sanPham .tenCacSanPham2   .cacSanPham   .anh5:hover{
+          cursor: pointer;
+          width: 40%;
+          height: 150px;
+      }
+      #layout5 .sanPham .tenCacSanPham2   .cacSanPham   .moTa .ten{
+          float: left;
+          clear: right;
+          margin-left: 25px;
+      }
+      #layout5 .sanPham .tenCacSanPham2   .cacSanPham:hover   .moTa .ten{
+          color: white;
+      }
+      #layout5 .sanPham .tenCacSanPham2   .cacSanPham   .moTa .gia{
+          color: #0099aa;
+          float: left;
+          clear: right;
+          margin-left: 25px;
+
+      }
+      #layout5 .sanPham .tenCacSanPham2   .cacSanPham:hover   .moTa .gia{
+          color: white;
+      }
+      #layout5 .sanPham .tenCacSanPham2   .cacSanPham   .moTa .giaCu{
+          color: black;
+          float: left;
+          clear: right;
+          margin-left: -100px;
+      }
+      #layout5 .sanPham .tenCacSanPham2   .cacSanPham:hover   .moTa .giaCu{
+          color: white;
+      }
+
+      .gioHang6 {
+          width: 200px;
+          height: 35px ;
+          background: darkorange;
+          margin-left: 270px;
+          margin-top: 150px;
+          border-radius: 5px;
+          border: 2px solid darkorange;
+          color: white;
+      }
+      .gioHang6:hover {
+          background: white;
+          cursor: pointer;
+      }
+      .gioHang6 .fa-shopping-cart{
+          float: left;
+          clear: right;
+          margin-right: 10px;
+          font-size: 150%;
+          color: white;
+          margin-top:0px;
+      }
+      .gioHang6:hover .fa-shopping-cart{
+          color: darkorange;
+      }
+
+      .gioHang6 .chu_giohang{
+          color: white;
+          margin-top: 5px;
+      }
+      .gioHang6:hover .chu_giohang{
+          color: darkorange;
+      }
+
       #layout5 .sanPham1{
           float: left;
           clear: right;
@@ -1685,6 +1786,84 @@
       #layout5 .sanPham1  .cacSanPham:hover   .moTa .giaCu{
           color: white;
       }
+
+
+      #layout5 .sanPham1 .tenCacSanPham4  {
+          background: white;
+          border: 1px solid #0099aa;
+          width: 40%;
+          height: 950px;
+          position: absolute;
+          z-index: 2;
+          margin-top: -952px;
+          display: none;
+      }
+      #layout5 .sanPham1 .tenCacSanPham4 .cacSanPham{
+          background: white;
+          margin-top: 20px;
+          width: 95%;
+          height: 200px;
+          border: 5px solid #0b90a8;
+          margin-left: 10px;
+      }
+      #layout5 .sanPham1 .tenCacSanPham4 .cacSanPham   .anh5{
+          float: left;
+          clear: right;
+          width: 40%;
+          height: 150px;
+          margin-top: 20px;
+          margin-left: 10px;
+      }
+      #layout5 .sanPham1 .tenCacSanPham4 .cacSanPham:hover {
+          background: #0099aa;
+          cursor: pointer;
+      }
+      #layout5 .sanPham1 .tenCacSanPham4 .cacSanPham   .anh5:hover{
+          cursor: pointer;
+          width: 40%;
+          height: 150px;
+      }
+      #layout5 .sanPham1 .tenCacSanPham4 .cacSanPham   .moTa .ten{
+          float: left;
+          clear: right;
+          margin-left: 25px;
+          margin-bottom: 20px;
+      }
+
+      #layout5 .sanPham1  .tenCacSanPham4 .cacSanPham:hover   .moTa .ten{
+          color: white;
+      }
+      #layout5 .sanPham1 .tenCacSanPham4 .cacSanPham   .moTa .gia{
+          color: #0099aa;
+          float: left;
+          clear: right;
+          margin-left: -180px;
+          margin-top: 100px;
+      }
+      #layout5 .sanPham1  .tenCacSanPham4 .cacSanPham   .moTa .gia1{
+          color: #0099aa;
+          float: left;
+          clear: right;
+          margin-left: -200px;
+          margin-top: 100px;
+      }
+      #layout5 .sanPham1 .tenCacSanPham4 .cacSanPham:hover   .moTa .gia1{
+          color: white;
+      }
+      #layout5 .sanPham1 .tenCacSanPham4 .cacSanPham:hover   .moTa .gia{
+          color: white;
+      }
+      #layout5 .sanPham1  .tenCacSanPham4 .cacSanPham   .moTa .giaCu{
+          color: black;
+          float: left;
+          clear: right;
+          margin-left: -165px;
+          margin-top: 80px;
+      }
+      #layout5 .sanPham1  .tenCacSanPham4 .cacSanPham:hover   .moTa .giaCu{
+          color: white;
+      }
+
       .gioHang {
           height: 45px;
           width: 300px;

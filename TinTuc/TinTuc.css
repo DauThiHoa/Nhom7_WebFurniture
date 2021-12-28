@@ -390,11 +390,12 @@ a{
 }
 #khungTinTuc #anh_khungTinTuc {
     width: 100%;
-    height: 450px;
+    height: 500px;
     position: absolute;
     z-index: 1;
     margin-left: -1040px;
     margin-top: 52px;
+    margin-bottom: 200px;
 }
 #khungTinTuc #tenTinTuc {
     text-align: center;
@@ -407,7 +408,7 @@ a{
 }
 
 #tinTuc_2 {
-    margin-top: 550px;
+    margin-top: 600px;
 }
 #tinTuc_2 #left{
     float: left;

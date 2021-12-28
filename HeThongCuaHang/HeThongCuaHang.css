@@ -393,11 +393,11 @@ body{
     float: left;
     clear: right;
     font-size: 200%;
-    margin-top: 5px;
+    margin-top: 0px;
     width: 180px;
     height: 80px;
     color: white;
-    background: lightpink;
+    background: darkorange;
     text-align: center;
 }
 
