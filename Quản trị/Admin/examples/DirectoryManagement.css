@@ -101,6 +101,9 @@ input[type=checkbox] {
     height: 50px;
 }
 
+table tr td .fa {
+    font-size: 200%;
+}
 
 /*
 Responsive
