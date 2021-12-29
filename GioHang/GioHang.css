@@ -1,187 +1,225 @@
-body{
-    margin: 0 ;
+body {
+    margin: 0;
     overflow: auto;
-    font-family:  Cambria, Cochin,  "Georgia",   serif;
+    font-family: Cambria, Cochin, "Georgia", serif;
 }
-#SanPhamNoiBat  a{
+
+#SanPhamNoiBat a {
     color: black;
     text-decoration: none;
 }
-#trangChu_DanhMuc  a{
+
+#trangChu_DanhMuc a {
     color: black;
     text-decoration: none;
 }
-#SanPhamHot  a{
+
+#SanPhamHot a {
     color: black;
     text-decoration: none;
 }
-#layout5  a{
+
+#layout5 a {
     color: black;
     text-decoration: none;
 }
-.meoVatHay  a{
+
+.meoVatHay a {
     color: black;
     text-decoration: none;
 }
-#sanPham1  a{
+
+#sanPham1 a {
     color: black;
     text-decoration: none;
 }
-#SanPhamMoi  a{
+
+#SanPhamMoi a {
     color: black;
     text-decoration: none;
 }
+
 #layout4 .layout4_danhMucSanPham .danhMucSanPham a {
     color: white;
     text-decoration: none;
 }
-#Thanh_cong_cu{
+
+#Thanh_cong_cu {
     background: darkturquoise;
     width: 100%;
     height: 80px;
 }
+
 #Thanh_cong_cu input[type="text"] {
     width: 500px;
     box-sizing: border-box;
     border: 1px solid black;
     border-radius: 4px;
-    outline:none;
+    outline: none;
     padding: 12px 14px;
     float: left;
     margin-left: 30px;
     margin-top: 20px;
 }
-#Thanh_cong_cu #Ten_Web{
+
+#Thanh_cong_cu #Ten_Web {
     float: left;
     margin-left: 35px;
 }
-#Thanh_cong_cu .fa-search{
+
+#Thanh_cong_cu .fa-search {
     float: left;
     margin-top: 12px;
     margin-left: 13px;
 }
+
 #Tim_Kiem {
     border-radius: 5px;
     float: left;
     margin-left: 0px;
     margin-top: 20px;
-    height :  40px;
-    width : 40px;
+    height: 40px;
+    width: 40px;
     background: blue;
     border: 1px solid #0a58ca;
     color: white;
 }
+
 #Tim_Kiem:hover {
     cursor: pointer;
     background: blue;
 }
+
 #Thanh_cong_cu #Hotline a {
     color: black;
 }
-#Thanh_cong_cu #Hotline .fa-phone-square{
+
+#Thanh_cong_cu #Hotline .fa-phone-square {
     float: left;
     font-size: 35px;
     margin-left: 45px;
     margin-top: 28px;
 }
-#Thanh_cong_cu #Hotline .fa-phone-square:hover{
+
+#Thanh_cong_cu #Hotline .fa-phone-square:hover {
     color: white;
     cursor: pointer;
 }
-#Thanh_cong_cu #Hotline #chu_HotLine{
+
+#Thanh_cong_cu #Hotline #chu_HotLine {
     float: left;
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 100%;
 }
-#Thanh_cong_cu #Hotline #chu_HotLine:hover{
+
+#Thanh_cong_cu #Hotline #chu_HotLine:hover {
     color: white;
     cursor: pointer;
 }
-#Thanh_cong_cu #TaiKhoan .fa-user-circle{
+
+#Thanh_cong_cu #TaiKhoan .fa-user-circle {
     float: left;
     font-size: 35px;
     margin-left: 45px;
     margin-top: 28px;
 }
+
 #Thanh_cong_cu #TaiKhoan a {
     color: black;
     text-decoration: none;
 }
-#Thanh_cong_cu #TaiKhoan .fa-user-circle:hover{
+
+#Thanh_cong_cu #TaiKhoan .fa-user-circle:hover {
     color: white;
     cursor: pointer;
 }
-#Thanh_cong_cu #TaiKhoan #dangNhap_dangKy{
+
+#Thanh_cong_cu #TaiKhoan #dangNhap_dangKy {
     float: left;
     margin-left: 10px;
     margin-top: 10px;
     font-size: 100%;
 }
+
 #Thanh_cong_cu #TaiKhoan #dangNhap_dangKy:hover .danhNhap:hover a {
     color: white;
     cursor: pointer;
 }
-.danhNhap{
+
+.danhNhap {
     float: left;
     clear: right;
 }
+
 .danhNhap:hover a {
     color: white;
     cursor: pointer;
 }
+
 .cheo {
     float: left;
     clear: right;
 }
+
 .dangKi {
     float: left;
     clear: right;
 }
+
 .dangKi:hover {
     color: white;
     cursor: pointer;
 }
+
 .taiKhoanCuaToi {
     float: left;
     clear: right;
     margin-left: -135px;
     margin-top: 35px;
 }
+
 .taiKhoanCuaToi a {
     color: black;
     text-decoration: none;
 }
+
 .taiKhoanCuaToi:hover a {
     color: white;
     cursor: pointer;
 }
-#Thanh_cong_cu #gioHang .fa-shopping-cart{
+
+#Thanh_cong_cu #gioHang .fa-shopping-cart {
     float: left;
     font-size: 35px;
     margin-left: 45px;
     margin-top: 28px;
 }
+
 #Thanh_cong_cu #gioHang a {
     color: black;
 }
-#Thanh_cong_cu #gioHang .fa-shopping-cart:hover{
+
+#Thanh_cong_cu #gioHang .fa-shopping-cart:hover {
     color: white;
     cursor: pointer;
 }
-#Thanh_cong_cu #gioHang #chu_giohang{
+
+#Thanh_cong_cu #gioHang #chu_giohang {
     float: left;
     margin-left: 10px;
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 100%;
 }
-#Thanh_cong_cu #gioHang #chu_giohang:hover{
+
+#Thanh_cong_cu #gioHang #chu_giohang:hover {
     color: white;
     cursor: pointer;
 }
-#trangChu_DanhMuc   {
+
+#trangChu_DanhMuc {
     float: left;
     clear: right;
     border: 1px solid black;
@@ -190,6 +228,7 @@ body{
     background: lightcyan;
     margin-top: -10px;
 }
+
 #trangChu_DanhMuc #danhMuc {
     float: left;
     clear: right;
@@ -198,6 +237,7 @@ body{
     width: 260px;
     height: 50px;
 }
+
 #trangChu_DanhMuc #danhMuc:hover {
     color: white;
     background: #1fb5d4;
@@ -214,14 +254,14 @@ body{
     height: 50px;
     margin-right: 10px;
 }
+
 #trangChu_DanhMuc #chu_DanhMuc {
     margin-left: 25px;
     margin-top: 15px;
 }
 
 
-
-#trangChu_DanhMuc #danhMuc  #top  {
+#trangChu_DanhMuc #danhMuc #top {
     margin-left: 0px;
     margin-bottom: 50px;
     margin-top: -5px;
@@ -230,10 +270,11 @@ body{
     position: absolute;
 }
 
-#trangChu_DanhMuc #danhMuc  #top a {
+#trangChu_DanhMuc #danhMuc #top a {
     color: black;
     text-decoration: none;
 }
+
 #trangChu_DanhMuc #danhMuc #top .danhMuc1 {
     border: 1px solid darkgray;
     height: 50px;
@@ -246,67 +287,80 @@ body{
     width: 99%;
 
 }
+
 #trangChu_DanhMuc #danhMuc #top .danhMuc3 {
     border: 1px solid darkgray;
     height: 50px;
     width: 99%;
 
-}#trangChu_DanhMuc #danhMuc #top .danhMuc4 {
-     border: 1px solid darkgray;
-     height: 50px;
-     width: 99%;
+}
 
- }#trangChu_DanhMuc #danhMuc #top .danhMuc5 {
-      border: 1px solid darkgray;
-      height: 50px;
-      width: 99%;
+#trangChu_DanhMuc #danhMuc #top .danhMuc4 {
+    border: 1px solid darkgray;
+    height: 50px;
+    width: 99%;
 
-  }
+}
+
+#trangChu_DanhMuc #danhMuc #top .danhMuc5 {
+    border: 1px solid darkgray;
+    height: 50px;
+    width: 99%;
+
+}
 
 #trangChu_DanhMuc #danhMuc #top .danhMuc1 .noiDungSanPham1 {
     margin-left: 30px;
 
 }
+
 #trangChu_DanhMuc #danhMuc #top .danhMuc2 .noiDungSanPham2 {
     margin-left: 25px;
 
 }
+
 #trangChu_DanhMuc #danhMuc #top .danhMuc3 .noiDungSanPham3 {
     margin-left: 25px;
 
 }
+
 #trangChu_DanhMuc #danhMuc #top .danhMuc4 .noiDungSanPham4 {
     margin-left: 25px;
 
 }
+
 #trangChu_DanhMuc #danhMuc #top .danhMuc5 .noiDungSanPham5 {
     margin-left: 25px;
 
 }
 
-#trangChu_DanhMuc #danhMuc:hover  #top     {
+#trangChu_DanhMuc #danhMuc:hover #top {
     display: block;
     background: white;
     color: black;
 }
 
-#trangChu_DanhMuc  #danhMuc  #top .danhMuc1:hover {
+#trangChu_DanhMuc #danhMuc #top .danhMuc1:hover {
     background: #1fb5d4;
     color: white;
 }
-#trangChu_DanhMuc  #danhMuc  #top .danhMuc2:hover {
+
+#trangChu_DanhMuc #danhMuc #top .danhMuc2:hover {
     background: #1fb5d4;
     color: white;
 }
-#trangChu_DanhMuc  #danhMuc  #top .danhMuc3:hover {
+
+#trangChu_DanhMuc #danhMuc #top .danhMuc3:hover {
     background: #1fb5d4;
     color: white;
 }
-#trangChu_DanhMuc  #danhMuc  #top .danhMuc4:hover {
+
+#trangChu_DanhMuc #danhMuc #top .danhMuc4:hover {
     background: #1fb5d4;
     color: white;
 }
-#trangChu_DanhMuc  #danhMuc  #top .danhMuc5:hover {
+
+#trangChu_DanhMuc #danhMuc #top .danhMuc5:hover {
     background: #1fb5d4;
     color: white;
 }
@@ -319,10 +373,12 @@ body{
     height: 50px;
     width: 200px;
 }
-#trangChu_DanhMuc #trangchu .ten{
+
+#trangChu_DanhMuc #trangchu .ten {
     text-align: center;
     margin-top: 13px;
 }
+
 #trangChu_DanhMuc #trangchu:hover {
     color: white;
     background: #1fb5d4;
@@ -337,10 +393,12 @@ body{
     height: 50px;
     width: 250px;
 }
-#trangChu_DanhMuc #heThongCuaHang .ten{
+
+#trangChu_DanhMuc #heThongCuaHang .ten {
     text-align: center;
     margin-top: 13px;
 }
+
 #trangChu_DanhMuc #heThongCuaHang:hover {
     color: white;
     background: #1fb5d4;
@@ -355,10 +413,12 @@ body{
     height: 50px;
     width: 160px;
 }
-#trangChu_DanhMuc #tinTuc .ten{
+
+#trangChu_DanhMuc #tinTuc .ten {
     text-align: center;
     margin-top: 13px;
 }
+
 #trangChu_DanhMuc #tinTuc:hover {
     color: white;
     background: #1fb5d4;
@@ -373,10 +433,12 @@ body{
     height: 50px;
     width: 160px;
 }
-#trangChu_DanhMuc #lienHe .ten{
+
+#trangChu_DanhMuc #lienHe .ten {
     text-align: center;
     margin-top: 13px;
 }
+
 #trangChu_DanhMuc #lienHe:hover {
     color: white;
     background: #1fb5d4;
@@ -388,16 +450,19 @@ body{
     color: palevioletred;
     margin-top: 70px;
 }
+
 table tr:hover {
     background: #ffe2e7;
     cursor: pointer;
 }
-.GioHang .TieuDe{
+
+.GioHang .TieuDe {
     width: 100%;
     height: 50px;
     border: 1px solid black;
     margin-top: 40px;
 }
+
 .GioHang .TieuDe .SanPham {
     float: left;
     clear: right;
@@ -405,41 +470,48 @@ table tr:hover {
     margin-top: 7px;
     margin-left: 100px;
 }
-.GioHang .TieuDe  .TenSanPham{
+
+.GioHang .TieuDe .TenSanPham {
     float: left;
     clear: right;
     margin-right: 90px;
     margin-top: 7px;
 }
-.GioHang .TieuDe  .Gia{
+
+.GioHang .TieuDe .Gia {
     float: left;
     margin-top: 7px;
     clear: right;
     margin-right: 20px;
     margin-left: 300px;
 }
-.GioHang .TieuDe  .SoLuong{
+
+.GioHang .TieuDe .SoLuong {
     float: left;
     clear: right;
     margin-right: 20px;
     margin-left: 50px;
     margin-top: 7px;
 }
-.GioHang .TieuDe  .ThanhTien{
+
+.GioHang .TieuDe .ThanhTien {
     float: left;
     clear: right;
     margin-left: 50px;
     margin-top: 7px;
 }
-.ThongTin{
+
+.ThongTin {
     border: 1px solid black;
     width: 100%;
     height: 225px;
 }
-.ThongTin:hover{
+
+.ThongTin:hover {
     cursor: pointer;
-    background:#e1ffdb ;
+    background: #e1ffdb;
 }
+
 .ThongTin .anh {
     width: 200px;
     height: 200px;
@@ -450,6 +522,7 @@ table tr:hover {
     margin-top: 10px;
     border: 1px solid black;
 }
+
 .ThongTin .thongtinSP {
     float: left;
     clear: right;
@@ -459,6 +532,7 @@ table tr:hover {
     margin-top: 50px;
     text-align: center;
 }
+
 .ThongTin .giaTien {
     float: left;
     clear: right;
@@ -467,6 +541,7 @@ table tr:hover {
     margin-top: 80px;
     color: orangered;
 }
+
 .ThongTin .Quantity {
     float: left;
     clear: right;
@@ -475,6 +550,7 @@ table tr:hover {
     margin-top: 80px;
     border-radius: 5px;
 }
+
 .form-control {
     width: 100px;
     height: 25px;
@@ -483,6 +559,7 @@ table tr:hover {
     font-size: 20px;
     text-align: center;
 }
+
 .ThongTin .tongTien {
     float: left;
     clear: right;
@@ -491,6 +568,7 @@ table tr:hover {
     margin-left: -120px;
     color: orangered;
 }
+
 .ThongTin .actions {
     float: left;
     clear: right;
@@ -499,6 +577,7 @@ table tr:hover {
     width: 100px;
     height: 100px;
 }
+
 .ThongTin .actions .btn-info {
     width: 40px;
     height: 40px;
@@ -507,12 +586,14 @@ table tr:hover {
     margin-right: 5px;
     border-radius: 5px;
 }
+
 .ThongTin .actions .btn-info:hover {
     cursor: pointer;
     background: #1fb5d4;
     color: white;
     border: 3px solid black;
 }
+
 .ThongTin .actions .btn-danger {
     width: 40px;
     height: 40px;
@@ -528,24 +609,28 @@ table tr:hover {
     color: white;
     border: 3px solid black;
 }
+
 .sao3 {
     text-align: center;
     margin-bottom: -15px;
     margin-top: -10px;
 }
-.sao3 .fa-star{
+
+.sao3 .fa-star {
     color: yellow;
 }
 
-.ThongTin1{
+.ThongTin1 {
     border: 1px solid black;
     width: 100%;
     height: 225px;
 }
-.ThongTin1:hover{
+
+.ThongTin1:hover {
     cursor: pointer;
-    background:#e1ffdb ;
+    background: #e1ffdb;
 }
+
 .ThongTin1 .anh {
     width: 200px;
     height: 200px;
@@ -556,6 +641,7 @@ table tr:hover {
     margin-top: 10px;
     border: 1px solid black;
 }
+
 .ThongTin1 .thongtinSP {
     float: left;
     clear: right;
@@ -565,6 +651,7 @@ table tr:hover {
     margin-top: 50px;
     text-align: center;
 }
+
 .ThongTin1 .giaTien {
     float: left;
     clear: right;
@@ -573,14 +660,16 @@ table tr:hover {
     margin-top: 80px;
     color: orangered;
 }
+
 .ThongTin1 .Quantity {
     float: left;
     clear: right;
     margin-right: 70px;
-    margin-left:  -40px;
+    margin-left: -40px;
     margin-top: 80px;
     border-radius: 5px;
 }
+
 .form-control {
     width: 100px;
     height: 25px;
@@ -589,6 +678,7 @@ table tr:hover {
     font-size: 20px;
     text-align: center;
 }
+
 .ThongTin1 .tongTien {
     float: left;
     clear: right;
@@ -597,6 +687,7 @@ table tr:hover {
     margin-left: 0px;
     color: orangered;
 }
+
 .ThongTin1 .actions {
     float: left;
     clear: right;
@@ -605,6 +696,7 @@ table tr:hover {
     width: 100px;
     height: 100px;
 }
+
 .ThongTin1 .actions .btn-info {
     width: 40px;
     height: 40px;
@@ -613,12 +705,14 @@ table tr:hover {
     margin-right: 5px;
     border-radius: 5px;
 }
+
 .ThongTin1 .actions .btn-info:hover {
     cursor: pointer;
     background: #1fb5d4;
     color: white;
     border: 3px solid black;
 }
+
 .ThongTin1 .actions .btn-danger {
     width: 40px;
     height: 40px;
@@ -634,9 +728,11 @@ table tr:hover {
     color: white;
     border: 3px solid black;
 }
+
 .MuaHang {
     margin-top: 30px;
 }
+
 .MuaHang .tiepTuc {
     float: left;
     clear: right;
@@ -648,13 +744,15 @@ table tr:hover {
     margin-left: 20px;
     margin-right: 725px;
 }
+
 .MuaHang .tiepTuc:hover {
     cursor: pointer;
     background: white;
     color: #ef5f43;
     border: 1px solid black;
 }
-.MuaHang .tiepTuc .fa-chevron-left{
+
+.MuaHang .tiepTuc .fa-chevron-left {
     float: left;
     clear: right;
     text-align: center;
@@ -662,17 +760,20 @@ table tr:hover {
     margin-top: 15px;
     margin-left: 10px;
 }
-.MuaHang .tiepTuc .ten{
+
+.MuaHang .tiepTuc .ten {
     float: left;
     clear: right;
     margin-top: 7px;
 }
+
 .tongTien {
     float: left;
     clear: right;
     margin-left: 500px;
     color: #dd4b39;
 }
+
 .MuaHang .tiepTheo {
     border-radius: 10px;
     background: #34ce57;
@@ -682,13 +783,15 @@ table tr:hover {
     float: left;
     clear: right;
 }
+
 .MuaHang .tiepTheo:hover {
     cursor: pointer;
     background: white;
     color: #34ce57;
     border: 1px solid black;
 }
-.MuaHang .tiepTheo .fa-chevron-right{
+
+.MuaHang .tiepTheo .fa-chevron-right {
     float: left;
     clear: right;
     text-align: center;
@@ -696,12 +799,14 @@ table tr:hover {
     margin-top: 15px;
     margin-left: 10px;
 }
-.MuaHang .tiepTheo .ten{
+
+.MuaHang .tiepTheo .ten {
     float: left;
     clear: right;
     margin-top: 7px;
     margin-left: 25px;
 }
+
 #layout2 .text .dong1 .chinhsach {
     text-align: center;
     margin-left: -2000px;
@@ -714,7 +819,8 @@ table tr:hover {
     width: 100%;
     height: 50px;
 }
-#ThanhHoTro #chatLuong #anh_ChatLuong{
+
+#ThanhHoTro #chatLuong #anh_ChatLuong {
     float: left;
     clear: right;
     margin-left: 20px;
@@ -722,20 +828,23 @@ table tr:hover {
     width: 50px;
     height: 45px;
 }
-#ThanhHoTro #chatLuong #bd{
+
+#ThanhHoTro #chatLuong #bd {
     float: left;
     clear: right;
     margin-left: 20px;
     margin-top: -15px;
     margin-right: 10px;
 }
-#ThanhHoTro #chatLuong #sp{
+
+#ThanhHoTro #chatLuong #sp {
     float: left;
     clear: right;
     margin-left: -158px;
     margin-top: 10px;
 }
-#ThanhHoTro #giaoHang #anh_GiaoHang{
+
+#ThanhHoTro #giaoHang #anh_GiaoHang {
     float: left;
     clear: right;
     margin-left: 150px;
@@ -743,20 +852,23 @@ table tr:hover {
     width: 50px;
     height: 45px;
 }
-#ThanhHoTro #giaoHang #mp{
+
+#ThanhHoTro #giaoHang #mp {
     float: left;
     clear: right;
     margin-left: 23px;
     margin-top: -15px;
     margin-right: 10px;
 }
-#ThanhHoTro #giaoHang #dh{
+
+#ThanhHoTro #giaoHang #dh {
     float: left;
     clear: right;
     margin-left: -150px;
     margin-top: 10px;
 }
-#ThanhHoTro #hoTro #anh_HoTro{
+
+#ThanhHoTro #hoTro #anh_HoTro {
     float: left;
     clear: right;
     margin-left: 150px;
@@ -764,20 +876,23 @@ table tr:hover {
     width: 50px;
     height: 45px;
 }
-#ThanhHoTro #hoTro #ht{
+
+#ThanhHoTro #hoTro #ht {
     float: left;
     clear: right;
     margin-left: 23px;
     margin-top: -15px;
     margin-right: 10px;
 }
-#ThanhHoTro #hoTro #hl{
+
+#ThanhHoTro #hoTro #hl {
     float: left;
     clear: right;
     margin-left: -100px;
     margin-top: 10px;
 }
-#ThanhHoTro #doiTra #anh_DoiTro{
+
+#ThanhHoTro #doiTra #anh_DoiTro {
     float: left;
     clear: right;
     margin-left: 150px;
@@ -785,14 +900,16 @@ table tr:hover {
     width: 50px;
     height: 45px;
 }
-#ThanhHoTro #doiTra #dt{
+
+#ThanhHoTro #doiTra #dt {
     float: left;
     clear: right;
     margin-left: 23px;
     margin-top: -15px;
     margin-right: 10px;
 }
-#ThanhHoTro #doiTra #dk{
+
+#ThanhHoTro #doiTra #dk {
     float: left;
     clear: right;
     margin-left: 23px;
@@ -801,11 +918,11 @@ table tr:hover {
 }
 
 
-
 #layout1 .noiDungGioHang {
     background-color: #cfd8dc;
     height: 100%;
 }
+
 #layout1 .timKiem .btn_timKiem {
     width: 1455px;
     height: 50px;
@@ -814,14 +931,17 @@ table tr:hover {
     border: 1px solid #737373;
     background-color: #cfd8dc;
 }
+
 #layout1 .timKiem .btn_timKiem img {
     margin-left: 1450px;
     margin-top: -15px;
 }
-#layout1 .noiDungGioHang .fa-shopping-cart{
+
+#layout1 .noiDungGioHang .fa-shopping-cart {
     font-size: 40px;
     margin-left: 740px;
 }
+
 #layout1 .timKiem .btn_thongTin {
     width: 100%;
     height: 50px;
@@ -832,6 +952,7 @@ table tr:hover {
     border-left: none;
     border-right: none;
 }
+
 #layout1 .timKiem .total {
     font-size: 20px;
     display: flex;
@@ -842,6 +963,7 @@ table tr:hover {
     border-left: none;
     border-right: none;
 }
+
 #layout1 .timKiem .btn {
     margin-top: 20px;
     width: 1490px;
@@ -849,15 +971,18 @@ table tr:hover {
     background-color: red;
     border: 1px solid;
 }
+
 #layout1 .back {
     display: flex;
     justify-content: center;
     justify-items: center;
     margin-right: 45px;
 }
+
 #layout1 .back i {
     margin-right: 20px;
 }
+
 #layout3 .container {
 
     height: 200px;
@@ -866,68 +991,80 @@ table tr:hover {
     border-left: none;
     border-right: none;
 }
-#layout3 .container .lienHe h1{
+
+#layout3 .container .lienHe h1 {
     display: flex;
     justify-content: center;
     justify-items: center;
 }
-#layout3 .container .lienHe p{
+
+#layout3 .container .lienHe p {
     display: flex;
     justify-content: center;
     justify-items: center;
 }
+
 #layout3 .container .lienHe .btn1 {
     background-color: white;
     border: 1px solid #555555;
     margin-left: 450px
 }
+
 #layout3 .container .lienHe .btn2 {
     background-color: #0a58ca;
     border: 1px solid #0a58ca;
 }
+
 .layout4 {
     height: 100px;
 }
-.layout4 #giaoHang .fa-archive{
+
+.layout4 #giaoHang .fa-archive {
     float: left;
     font-size: 35px;
     margin-left: 45px;
     margin-top: 28px;
 }
-.layout4 #giaoHang #chu_giaoHang{
+
+.layout4 #giaoHang #chu_giaoHang {
     float: left;
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 100%;
 }
-.layout4 #chinhSach .fa-bullhorn{
+
+.layout4 #chinhSach .fa-bullhorn {
     float: left;
     font-size: 35px;
     margin-left: 45px;
     margin-top: 28px;
 }
-.layout4 #chinhSach #chu_chinhSach{
+
+.layout4 #chinhSach #chu_chinhSach {
     float: left;
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 100%;
 }
-.layout4 #hoTro .fa-bell{
+
+.layout4 #hoTro .fa-bell {
     float: left;
     font-size: 35px;
     margin-left: 45px;
     margin-top: 28px;
 }
-.layout4 #hoTro #chu_hoTro{
+
+.layout4 #hoTro #chu_hoTro {
     float: left;
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 100%;
 }
-#layout5 button{
+
+#layout5 button {
     margin-top: 20px;
     width: 450px;
     margin-left: 500px;
@@ -937,18 +1074,16 @@ table tr:hover {
     justify-content: center;
     font-size: 15px;
 }
-#layout5 button:hover{
+
+#layout5 button:hover {
     background: #0a58ca;
     color: black;
     cursor: pointer;
 }
+
 .chinhsachloi {
     color: white;
 }
-
-
-
-
 
 
 #layout7 .thanhDuoi {
@@ -957,92 +1092,109 @@ table tr:hover {
     background: darkturquoise;
     margin-top: 100px;
 }
-#layout7 .thanhDuoi .tenWeb{
+
+#layout7 .thanhDuoi .tenWeb {
     margin-left: 30px;
     float: left;
     clear: right;
     width: 300px;
     margin-right: 70px;
 }
+
 #layout7 .thanhDuoi .tenWeb .hotline .fa-phone-square {
     float: left;
     clear: right;
     font-size: 200%;
     margin-right: 10px;
 }
-#layout7 .thanhDuoi .tenWeb .hotline  a {
+
+#layout7 .thanhDuoi .tenWeb .hotline a {
     color: black;
 }
+
 #layout7 .thanhDuoi .tenWeb .hotline .fa-phone-square:hover {
     color: white;
     cursor: pointer;
 }
+
 #layout7 .thanhDuoi .tenWeb .hotline .line {
     font-size: 150%;
     color: white;
 }
 
-#layout7 .thanhDuoi .thongTin{
+#layout7 .thanhDuoi .thongTin {
     float: left;
     clear: right;
     margin-right: 50px;
 }
-#layout7 .thanhDuoi .thongTin .right .fa{
-    float : left;
+
+#layout7 .thanhDuoi .thongTin .right .fa {
+    float: left;
     clear: right;
     margin-right: 10px;
 }
-#layout7 .thanhDuoi .thongTin .right .noiDung{
+
+#layout7 .thanhDuoi .thongTin .right .noiDung {
     margin-left: 20px;
 }
-#layout7 .thanhDuoi .NoiDung .hoTro .chucNang{
+
+#layout7 .thanhDuoi .NoiDung .hoTro .chucNang {
     float: left;
     clear: right;
     margin-right: 100px;
 }
+
 #layout7 .thanhDuoi .NoiDung .hoTro .chucNang a {
     color: black;
     text-decoration: none;
 }
-#layout7 .thanhDuoi .NoiDung .hoTro .chucNang a:hover{
+
+#layout7 .thanhDuoi .NoiDung .hoTro .chucNang a:hover {
     color: white;
     cursor: pointer;
 }
 
-#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left{
+#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left {
     float: left;
     clear: right;
     margin-top: 220px;
 }
-#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left{
+
+#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left {
     float: left;
     clear: right;
     margin-left: -1450px;
 }
-#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left .mang{
+
+#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left .mang {
     border-radius: 100px;
     margin-right: 10px;
     width: 53px;
     height: 53px;
 }
-#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left .mang:hover{
+
+#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left .mang:hover {
     cursor: pointer;
     color: white;
 }
-#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right{
+
+#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right {
     float: left;
     clear: right;
     margin-left: -1450px;
     margin-top: 110px;
 }
-#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right .mang{
+
+#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right .mang {
     border-radius: 5px;
     margin-right: 10px;
 }
-#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right .mang:hover{
+
+#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right .mang:hover {
     cursor: pointer;
     color: white;
 }
+
 #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .nhanTin {
     float: left;
     clear: right;
@@ -1050,7 +1202,8 @@ table tr:hover {
     margin-left: 200px;
     margin-top: 50px;
 }
-#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .email{
+
+#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .email {
     float: left;
     clear: right;
     width: 400px;
@@ -1060,7 +1213,8 @@ table tr:hover {
     border-radius: 10px;
     margin-left: -310px;
 }
-#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .fromDangKi{
+
+#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .fromDangKi {
     float: left;
     clear: right;
     width: 120px;
@@ -1073,19 +1227,20 @@ table tr:hover {
     font-size: 190%;
     border: 1px solid black;
 }
+
 #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .fromDangKi:hover {
     background: blue;
     color: white;
 }
-#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .fromDangKi .dangKi{
+
+#layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .fromDangKi .dangKi {
     margin-top: 8px;
     margin-left: 15px;
 }
 
 
-
 /* Responsive Mobile */
-@media only screen and ( min-width: 0px) and ( max-width: 736px){
+@media only screen and ( min-width: 0px) and ( max-width: 736px) {
 
     .main:before, main :after {
         content: "";
@@ -1134,10 +1289,12 @@ table tr:hover {
         font-size: 100%;
 
     }
+
     #Thanh_cong_cu #Tim_Kiem .fa-search {
         margin-left: 7px;
         margin-top: 7px;
     }
+
     #Hotline {
         float: left;
         clear: right;
@@ -1145,6 +1302,7 @@ table tr:hover {
         margin-top: 20px;
         width: 30%;
     }
+
     #Thanh_cong_cu #Hotline .fa-phone-square {
         font-size: 20px;
         margin-left: 80px;
@@ -1155,6 +1313,7 @@ table tr:hover {
         margin-top: 35px;
         text-align: center;
     }
+
     #Thanh_cong_cu #Hotline #chu_HotLine {
         float: left;
         clear: right;
@@ -1163,30 +1322,35 @@ table tr:hover {
         text-align: center;
         font-weight: bold;
     }
-    #Thanh_cong_cu #TaiKhoan .fa-user-circle{
+
+    #Thanh_cong_cu #TaiKhoan .fa-user-circle {
         float: left;
         font-size: 20px;
         margin-top: 57px;
         margin-left: -180px;
     }
-    #Thanh_cong_cu #TaiKhoan .danhNhap{
+
+    #Thanh_cong_cu #TaiKhoan .danhNhap {
         font-size: 10px;
         font-weight: bold;
         margin-top: 20px;
         margin-left: 150px;
     }
-    #Thanh_cong_cu #TaiKhoan  .cheo {
+
+    #Thanh_cong_cu #TaiKhoan .cheo {
         font-size: 10px;
         font-weight: bold;
         margin-top: 20px;
         margin-left: 5px;
     }
-    #Thanh_cong_cu #TaiKhoan  .dangKi {
+
+    #Thanh_cong_cu #TaiKhoan .dangKi {
         font-size: 10px;
         font-weight: bold;
         margin-top: 20px;
         margin-left: 5px;
     }
+
     .taiKhoanCuaToi {
         font-size: 10px;
         font-weight: bold;
@@ -1195,37 +1359,44 @@ table tr:hover {
         float: left;
         clear: right;
     }
+
     #Thanh_cong_cu #gioHang .fa-shopping-cart {
         font-size: 20px;
         margin-top: -45px;
         margin-left: 80px;
     }
+
     #Thanh_cong_cu #gioHang #chu_giohang {
         font-weight: bold;
         font-size: 10px;
         margin-top: -30px;
         margin-left: 70px;
     }
+
     #trangChu_DanhMuc {
         max-width: 100%;
         height: 30px;
         margin-top: 0px;
         margin-left: -2px;
     }
+
     #trangChu_DanhMuc #danhMuc {
         width: 70%;
         height: 30px;
     }
+
     #trangChu_DanhMuc #danhMuc:hover {
         background: lightcyan;
         width: 33%;
     }
-    #trangChu_DanhMuc #danhMuc #anh_danhMuc{
+
+    #trangChu_DanhMuc #danhMuc #anh_danhMuc {
         margin-left: -200px;
         height: 30px;
         width: 30px;
     }
-    #trangChu_DanhMuc #danhMuc #chu_DanhMuc{
+
+    #trangChu_DanhMuc #danhMuc #chu_DanhMuc {
         margin-left: -150px;
         width: 50%;
         font-size: 10px;
@@ -1233,7 +1404,8 @@ table tr:hover {
         margin-top: 10px;
         display: none;
     }
-    #trangChu_DanhMuc #danhMuc:hover #chu_DanhMuc{
+
+    #trangChu_DanhMuc #danhMuc:hover #chu_DanhMuc {
         margin-left: -150px;
         width: 100%;
         font-size: 10px;
@@ -1250,7 +1422,7 @@ table tr:hover {
         margin-top: 30px;
     }
 
-    #trangChu_DanhMuc #danhMuc  #top  {
+    #trangChu_DanhMuc #danhMuc #top {
         margin-left: 0px;
         margin-bottom: 50px;
         margin-top: -5px;
@@ -1268,6 +1440,7 @@ table tr:hover {
         background: white;
         text-align: center;
     }
+
     #trangChu_DanhMuc #danhMuc #top .danhMuc2 {
         border: 1px solid darkgray;
         height: 35px;
@@ -1277,6 +1450,7 @@ table tr:hover {
         background: white;
         text-align: center;
     }
+
     #trangChu_DanhMuc #danhMuc #top .danhMuc3 {
         border: 1px solid darkgray;
         height: 35px;
@@ -1286,42 +1460,50 @@ table tr:hover {
         background: white;
         text-align: center;
 
-    }#trangChu_DanhMuc #danhMuc #top .danhMuc4 {
-         border: 1px solid darkgray;
-         height: 35px;
-         width: 130%;
-         font-size: 10px;
-         font-weight: bold;
-         background: white;
-         text-align: center;
+    }
 
-     }#trangChu_DanhMuc #danhMuc #top .danhMuc5 {
-          border: 1px solid darkgray;
-          height: 35px;
-          width: 130%;
-          font-size: 10px;
-          font-weight: bold;
-          background: white;
-          text-align: center;
+    #trangChu_DanhMuc #danhMuc #top .danhMuc4 {
+        border: 1px solid darkgray;
+        height: 35px;
+        width: 130%;
+        font-size: 10px;
+        font-weight: bold;
+        background: white;
+        text-align: center;
 
-      }
+    }
+
+    #trangChu_DanhMuc #danhMuc #top .danhMuc5 {
+        border: 1px solid darkgray;
+        height: 35px;
+        width: 130%;
+        font-size: 10px;
+        font-weight: bold;
+        background: white;
+        text-align: center;
+
+    }
 
     #trangChu_DanhMuc #danhMuc #top .danhMuc1 .noiDungSanPham1 {
         margin-left: 0px;
 
     }
+
     #trangChu_DanhMuc #danhMuc #top .danhMuc2 .noiDungSanPham2 {
         margin-left: 0px;
 
     }
+
     #trangChu_DanhMuc #danhMuc #top .danhMuc3 .noiDungSanPham3 {
         margin-left: 0px;
 
     }
+
     #trangChu_DanhMuc #danhMuc #top .danhMuc4 .noiDungSanPham4 {
         margin-left: 0px;
 
     }
+
     #trangChu_DanhMuc #danhMuc #top .danhMuc5 .noiDungSanPham5 {
         margin-left: 0px;
 
@@ -1330,6 +1512,7 @@ table tr:hover {
     #trangChu_DanhMuc #trangchu {
         margin-left: 20px;
     }
+
     #trangChu_DanhMuc #trangchu .ten {
         margin-left: 20px;
         width: 30%;
@@ -1338,6 +1521,7 @@ table tr:hover {
         display: block;
         margin-top: -20px;
     }
+
     #trangChu_DanhMuc #trangchu .ten:hover {
         margin-left: 20px;
         width: 30%;
@@ -1348,6 +1532,7 @@ table tr:hover {
         background: lightcyan;
         color: black;
     }
+
     #trangChu_DanhMuc #heThongCuaHang {
         float: left;
         clear: right;
@@ -1358,7 +1543,8 @@ table tr:hover {
         display: block;
         margin-top: -33px;
     }
-    #trangChu_DanhMuc #heThongCuaHang .ten{
+
+    #trangChu_DanhMuc #heThongCuaHang .ten {
         text-align: center;
         font-size: 10px;
 
@@ -1374,10 +1560,12 @@ table tr:hover {
         display: block;
         margin-top: -33px;
     }
-    #trangChu_DanhMuc #tinTuc .ten{
+
+    #trangChu_DanhMuc #tinTuc .ten {
         text-align: center;
         margin-top: 13px;
     }
+
     #trangChu_DanhMuc #tinTuc:hover {
         color: white;
         background: #1fb5d4;
@@ -1394,10 +1582,12 @@ table tr:hover {
         display: block;
         margin-top: -83px;
     }
-    #trangChu_DanhMuc #lienHe .ten{
+
+    #trangChu_DanhMuc #lienHe .ten {
         text-align: center;
         margin-top: 13px;
     }
+
     #trangChu_DanhMuc #lienHe:hover {
         color: white;
         background: #1fb5d4;
@@ -1409,62 +1599,74 @@ table tr:hover {
         margin-top: 50px;
     }
 
-     table tr td .imageGioHang {
-         width: 50px;
-         height: 50px;
-     }
-     table tr {
-         height: 50px;
-     }
-     .tab {
-         width: 100%;
-         overflow-x: auto;
-     }
-     .MuaHang .tiepTheo {
-         margin-left: -500px;
-         display: none;
-     }
+    table tr td .imageGioHang {
+        width: 50px;
+        height: 50px;
+    }
 
-     .tongTienThanhToan {
-         display: none;
-     }
-     .lienHe {
-         font-size: 70%;
-     }
-     .btn1 {
-         margin-left: 5px;
-         width: 100px;
-         height: 25px;
-         float: left;
-         display: none;
-         clear: right;
-     }
-     #ThanhHoTro {
-         width: 100%;
-         height: 250px;
-         margin-top: -50px;
-     }
-     #giaoHang {
+    table tr {
+        height: 50px;
+    }
+
+    .tab {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .MuaHang .tiepTheo {
+        margin-left: -500px;
+        display: none;
+    }
+
+    .tongTienThanhToan {
+        display: none;
+    }
+
+    .lienHe {
+        font-size: 70%;
+    }
+
+    .btn1 {
+        margin-left: 5px;
+        width: 100px;
+        height: 25px;
+        float: left;
+        display: none;
+        clear: right;
+    }
+
+    #ThanhHoTro {
+        width: 100%;
+        height: 250px;
+        margin-top: -50px;
+    }
+
+    #giaoHang {
         margin-left: -127px;
-     }
+    }
+
     #hoTro {
         margin-left: -127px;
     }
+
     #doiTra {
         margin-left: -127px;
         margin-top: 50px;
     }
-    #doiTra #dk .trongVong{
+
+    #doiTra #dk .trongVong {
         margin-left: -125px;
         margin-top: 60px;
     }
+
     #layout7 .thanhDuoi {
         width: 100%;
         height: 190px;
         background: darkturquoise;
         margin-top: -70px;
     }
-    #layout7 .thanhDuoi .tenWeb{
+
+    #layout7 .thanhDuoi .tenWeb {
         margin-left: 5px;
         float: left;
         clear: right;
@@ -1472,56 +1674,65 @@ table tr:hover {
         margin-right: 15px;
         font-size: 6px;
     }
+
     #layout7 .thanhDuoi .tenWeb .hotline .fa-phone-square {
         float: left;
         clear: right;
         font-size: 200%;
         margin-right: 10px;
     }
-    #layout7 .thanhDuoi .tenWeb .hotline  a {
+
+    #layout7 .thanhDuoi .tenWeb .hotline a {
         color: black;
     }
+
     #layout7 .thanhDuoi .tenWeb .hotline .fa-phone-square:hover {
         color: white;
         cursor: pointer;
     }
+
     #layout7 .thanhDuoi .tenWeb .hotline .line {
         font-size: 150%;
         color: white;
     }
 
-    #layout7 .thanhDuoi .thongTin{
+    #layout7 .thanhDuoi .thongTin {
         float: left;
         clear: right;
         margin-right: 10px;
         font-size: 6px;
         max-width: 35%;
     }
-    #layout7 .thanhDuoi .thongTin .right .fa{
-        float : left;
+
+    #layout7 .thanhDuoi .thongTin .right .fa {
+        float: left;
         clear: right;
         margin-right: 10px;
     }
-    #layout7 .thanhDuoi .thongTin .right .noiDung{
+
+    #layout7 .thanhDuoi .thongTin .right .noiDung {
         margin-left: 20px;
     }
-    #layout7 .thanhDuoi .NoiDung .hoTro .chucNang{
+
+    #layout7 .thanhDuoi .NoiDung .hoTro .chucNang {
         float: left;
         clear: right;
         margin-right: 5px;
         font-size: 6px;
         max-width: 15%;
     }
+
     #layout7 .thanhDuoi .NoiDung .hoTro .chucNang a {
         color: black;
         text-decoration: none;
     }
-    #layout7 .thanhDuoi .NoiDung .hoTro .chucNang a:hover{
+
+    #layout7 .thanhDuoi .NoiDung .hoTro .chucNang a:hover {
         color: white;
         cursor: pointer;
     }
 
-    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left{
+    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left {
         float: left;
         clear: right;
         margin-top: 100px;
@@ -1529,22 +1740,26 @@ table tr:hover {
         max-width: 100%;
         margin-left: -455px;
     }
-    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left{
+
+    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left {
         float: left;
         clear: right;
         margin-left: 50px;
     }
-    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left .mang{
+
+    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left .mang {
         border-radius: 100px;
         margin-right: 3px;
         width: 10px;
         height: 10px;
     }
-    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left .mang:hover{
+
+    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left .mang:hover {
         cursor: pointer;
         color: white;
     }
-    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right{
+
+    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right {
         float: left;
         clear: right;
         margin-left: -56px;
@@ -1552,7 +1767,8 @@ table tr:hover {
         font-size: 5px;
         max-width: 70%;
     }
-    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right .mang{
+
+    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right .mang {
         border-radius: 1px;
         margin-right: 5px;
         font-size: 5px;
@@ -1560,10 +1776,12 @@ table tr:hover {
         height: 10px;
 
     }
-    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right .mang:hover{
+
+    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right .mang:hover {
         cursor: pointer;
         color: white;
     }
+
     #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .nhanTin {
         float: left;
         clear: right;
@@ -1572,7 +1790,8 @@ table tr:hover {
         margin-top: 0px;
         font-size: 10px;
     }
-    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .email{
+
+    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .email {
         float: left;
         clear: right;
         width: 100px;
@@ -1583,7 +1802,8 @@ table tr:hover {
         margin-left: 240px;
         font-size: 10px;
     }
-    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .fromDangKi{
+
+    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .fromDangKi {
         float: left;
         clear: right;
         width: 60px;
@@ -1597,11 +1817,13 @@ table tr:hover {
         border: 1px solid black;
         text-align: center;
     }
+
     #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .fromDangKi:hover {
         background: blue;
         color: white;
     }
-    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .fromDangKi .dangKi{
+
+    #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .fromDangKi .dangKi {
         margin-top: 5px;
         margin-left: 12px;
         font-size: 70%;
@@ -1662,6 +1884,7 @@ table tr:hover {
     #Thanh_cong_cu #TaiKhoan #dangNhap_dangKy {
         display: none;
     }
+
     .taiKhoanCuaToi {
         margin-left: 14px;
         margin-top: 24px;
@@ -1681,6 +1904,7 @@ table tr:hover {
     #trangChu_DanhMuc {
         margin-top: -16px;
     }
+
     #trangChu_DanhMuc #danhMuc {
         float: left;
         clear: right;
@@ -1689,9 +1913,11 @@ table tr:hover {
         height: 50px;
         width: 0px;
     }
+
     #trangChu_DanhMuc #chu_DanhMuc {
         display: none;
     }
+
     #trangChu_DanhMuc #danhMuc #top {
         margin-left: 0px;
         margin-bottom: 50px;
@@ -1700,6 +1926,7 @@ table tr:hover {
         display: none;
         position: absolute;
     }
+
     #trangChu_DanhMuc #trangchu {
         float: left;
         clear: right;
@@ -1708,6 +1935,7 @@ table tr:hover {
         height: 50px;
         width: 150px;
     }
+
     #trangChu_DanhMuc #tinTuc {
         float: left;
         clear: right;
@@ -1716,6 +1944,7 @@ table tr:hover {
         height: 50px;
         width: 140px;
     }
+
     #trangChu_DanhMuc #lienHe {
         float: left;
         clear: right;
@@ -1735,6 +1964,7 @@ table tr:hover {
         width: 25px;
         height: 25px;
     }
+
     .table {
         width: 100%;
         border: 2px solid #dd4b39;
@@ -1747,26 +1977,6 @@ table tr:hover {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /* */
     .gioHang {
         text-align: center;
@@ -1774,16 +1984,20 @@ table tr:hover {
         margin-top: 63px;
         font-size: 50px;
     }
+
     .TT {
         margin-left: 500px;
     }
+
     .tongTienThanhToan {
         margin-left: -500px;
         color: #2dce89;
     }
+
     .MuaHang {
         margin-top: 100px;
     }
+
     .MuaHang .tiepTuc {
         width: 261px;
         height: 44px;
@@ -1792,29 +2006,36 @@ table tr:hover {
         float: left;
         clear: right;
     }
+
     .MuaHang .tiepTheo {
         width: 156px;
         height: 45px;
         margin-left: 500px;
     }
+
     .MuaHang .tiepTheo .ten {
         margin-top: 7px;
         margin-left: 16px;
     }
+
     #layout3 .container .lienHe .btn1 {
         margin-left: 97px;
     }
+
     #ThanhHoTro {
         height: 124px;
     }
+
     #ThanhHoTro #hoTro #anh_HoTro {
         margin-left: 20px;
         margin-top: 5px;
     }
+
     #ThanhHoTro #doiTra #anh_DoiTro {
         margin-left: 203px;
         margin-top: 5px;
     }
+
     #layout5 button {
         margin-left: 148px;
 
@@ -1823,48 +2044,60 @@ table tr:hover {
     input[type='checkbox'] {
         font-size: 100px;
     }
+
     .ThongTinTungSanPham {
         text-align: center;
     }
+
     table tr {
         background-color: lightcyan;
     }
+
     tbody tr:nth-child(odd) {
         background-color: #f2f2f2;
     }
-   .table .khungTieuDe .tdAnh {
+
+    .table .khungTieuDe .tdAnh {
         width: 150px;
         height: 150px;
         text-align: center;
     }
+
     /* Thanh duoi*/
     #layout7 .thanhDuoi {
         height: 787px;
 
     }
+
     #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left {
         float: left;
         clear: right;
         margin-top: -212px;
     }
+
     #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .left {
         margin-left: -750px;
     }
+
     #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_left .right {
         margin-left: -750px;
         margin-top: 110px;
     }
+
     #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .nhanTin {
         margin-left: 210px;
     }
+
     #layout7 .thanhDuoi .NoiDung .lienLac .lienLac_right .from .fromDangKi {
         margin-left: 545px;
 
     }
-    #layout7 .thanhDuoi .thongTin .right .noiDung{
+
+    #layout7 .thanhDuoi .thongTin .right .noiDung {
         margin-left: 20px;
     }
-    #layout7 .thanhDuoi .NoiDung .hoTro .chucNang{
+
+    #layout7 .thanhDuoi .NoiDung .hoTro .chucNang {
         float: left;
         clear: right;
         margin-right: 100px;
@@ -1876,22 +2109,26 @@ table tr:hover {
         height: 65px;
         border: 1px solid black;
     }
+
     table .tenSanPham {
         font-size: 100%;
         color: #1fb5d4;
     }
+
     .TT .tongTienThanhToan {
         margin-left: -5000px;
         float: left;
         clear: right;
         display: none;
     }
-    .MuaHang .tiepTheo  {
+
+    .MuaHang .tiepTheo {
         margin-left: 50px;
         float: left;
         clear: right;
         display: none;
     }
+
     .gioHang {
         font-size: 180%;
     }

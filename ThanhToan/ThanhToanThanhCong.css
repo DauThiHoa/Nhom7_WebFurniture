@@ -1,6 +1,7 @@
 body {
     background: lightcyan;
 }
+
 .from {
     width: 50%;
     height: 525px;
@@ -10,19 +11,23 @@ body {
     background: white;
     margin-top: 100px;
 }
+
 .thongbao {
     color: #0b90a8;
 }
+
 .tieude {
     text-align: center;
     color: #dd4b39;
     font-weight: bold;
 }
+
 .from .fa-check-circle {
     font-size: 300%;
     color: #34ce57;
     font-weight: bold;
 }
+
 .thongtin {
     width: 100%;
     height: 25px;
@@ -45,11 +50,13 @@ body {
     margin-left: 65%;
 
 }
+
 .tieptuc:hover {
     background: white;
     color: #dd4b39;
     cursor: pointer;
 }
+
 /*
 Responsive
 Tablet

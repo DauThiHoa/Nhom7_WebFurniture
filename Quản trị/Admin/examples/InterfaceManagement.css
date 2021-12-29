@@ -2,18 +2,22 @@
     color: black;
     font-weight: bold;
 }
+
 .fa-list-alt {
     color: #34ce57;
 }
+
 .fa-picture-o {
     color: orangered;
     width: 15px;
     height: 15px;
     margin-right: 16px;
 }
+
 .fa-address-book-o {
     color: #1fb5d4;
 }
+
 /*
 Responsive
 Tablet
@@ -29,6 +33,7 @@ Tablet
     .main {
         max-width: 100%;
     }
+
     .container {
         width: 18%;
         height: 100px;
@@ -38,14 +43,17 @@ Tablet
         margin-left: -10px;
         margin-bottom: -50px;
     }
-    .container .btn-primary{
+
+    .container .btn-primary {
         font-size: 300%;
     }
+
     .add {
         width: 100%;
         margin-left: 50%;
         margin-top: 100px;
     }
+
     .tab {
         margin-top: -50px;
     }

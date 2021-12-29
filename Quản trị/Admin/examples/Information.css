@@ -2,6 +2,7 @@
     color: black;
     font-weight: bold;
 }
+
 .infor3 {
     margin-top: 50px;
     width: 1050px;
@@ -11,23 +12,28 @@
     margin-left: 100px;
     margin-bottom: 25px;
 }
-.infor3 .information{
+
+.infor3 .information {
     font-size: 150%;
 }
+
 .Address {
     margin-left: 73px;
     width: 750px;
 }
+
 .Browser {
     margin-left: 15px;
     width: 750px;
 }
+
 .order {
     margin-left: 50px;
     width: 750px;
     float: left;
     clear: right;
 }
+
 .Select_File {
     margin-top: 25px;
     height: 35px;
@@ -37,6 +43,7 @@
     background: #1fb5d4;
     margin-left: 50px;
 }
+
 .Select_File2 {
     margin-top: 25px;
     height: 35px;
@@ -46,16 +53,19 @@
     background: #1fb5d4;
     margin-left: 14px;
 }
+
 .Select_File:hover {
     cursor: pointer;
     color: #1fb5d4;
-    background:  white;
+    background: white;
 }
+
 .Select_File2:hover {
     cursor: pointer;
     color: #1fb5d4;
-    background:  white;
+    background: white;
 }
+
 .infor4 {
     margin-top: 50px;
     width: 1050px;
@@ -65,32 +75,40 @@
     margin-left: 100px;
     margin-bottom: 25px;
 }
-.infor4 .information{
+
+.infor4 .information {
     font-size: 150%;
 }
+
 .information2 {
     margin-top: 25px;
     margin-left: 0px;
 }
+
 .JhonDoue {
     margin-left: 40px;
     width: 750px;
 }
+
 .Twitter {
     margin-left: 26px;
     width: 750px;
 }
+
 .Youtube {
     margin-left: 15px;
     width: 750px;
 }
+
 .Instagram {
     margin-left: 0px;
     width: 750px;
 }
+
 .information6 {
     margin-top: 50px;
 }
+
 /*
 Responsive
 Tablet
@@ -106,32 +124,40 @@ Tablet
     .main {
         max-width: 100%;
     }
+
     .infor3 {
         width: 100%;
         margin-left: 0px;
         height: 600px;
     }
-    .infor3 .information{
+
+    .infor3 .information {
         margin-left: 35%;
     }
-    .infor3 .information3 .Address{
+
+    .infor3 .information3 .Address {
         margin-left: 0px;
         width: 100%;
     }
-    .infor3 .information4 .order{
+
+    .infor3 .information4 .order {
         margin-left: 0px;
         width: 100%;
     }
-   .Select_File{
-       margin-left: 55%;
+
+    .Select_File {
+        margin-left: 55%;
     }
-    .infor3 .information5 .Modules{
+
+    .infor3 .information5 .Modules {
         margin-left: 0px;
     }
-    .infor3 .information5 .Browser{
+
+    .infor3 .information5 .Browser {
         margin-left: 0px;
         width: 100%;
     }
+
     .Select_File2 {
         margin-left: 55%;
     }
@@ -141,23 +167,28 @@ Tablet
         height: 840px;
         margin-left: 0px;
     }
-    .infor4 .information{
+
+    .infor4 .information {
         width: 100%;
         margin-left: 23%;
     }
-    .infor4 .information2 .JhonDoue{
+
+    .infor4 .information2 .JhonDoue {
         margin-left: 0px;
         width: 100%;
     }
-    .infor4 .information2 .Twitter{
+
+    .infor4 .information2 .Twitter {
         margin-left: 0px;
         width: 100%;
     }
-    .infor4 .information2 .Youtube{
+
+    .infor4 .information2 .Youtube {
         margin-left: 0px;
         width: 100%;
     }
-    .infor4 .information2 .Instagram{
+
+    .infor4 .information2 .Instagram {
         margin-left: 0px;
         width: 100%;
     }

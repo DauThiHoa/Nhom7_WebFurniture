@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
@@ -7,36 +7,39 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-.container{
+
+.container {
     display: flex;
     align-content: center;
     justify-content: center;
 }
-.formWraper{
+
+.formWraper {
     display: flex;
     width: 55%;
     height: 500px;
     background-color: yellowgreen;
     margin-top: 80px;
     border-radius: 10px;
-    box-shadow:0px 0px 20px black;
+    box-shadow: 0px 0px 20px black;
 }
 
 /* code for left sectin of form */
-.formDiv{
+.formDiv {
     width: 50%;
     padding: 8%;
     background-color: lavender;
     text-align: center;
     border-radius: 10px 0px 0px 10px;
 }
+
 .formDiv h2 {
     color: green;
     margin-top: -5px;
 }
 
 /* code for right sectin of the registration form */
-.welcomeDiv{
+.welcomeDiv {
     width: 50%;
     padding: 10px;
     background-image: url(image1.jpg);
@@ -44,22 +47,24 @@ body{
     text-align: center;
     color: white;
 }
+
 .welcomeDiv h2 {
     margin-top: 150px;
 }
 
 
 /* ---- code for Font Awsome social icons */
-.socialBtn{
+.socialBtn {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
-.icon{
+
+.icon {
     width: 30px;
     height: 30px;
     border-radius: 15px;
-    background-color:lavender;
+    background-color: lavender;
     margin: 5px;
     line-height: 30px;
     box-shadow: 0px 0px 10px black;
@@ -67,10 +72,10 @@ body{
 }
 
 
-
-.text{
+.text {
     font-size: small;
 }
+
 .orDiv {
     width: 10%;
     margin: 0 auto;
@@ -81,10 +86,11 @@ body{
 }
 
 /* code for form input fields */
-.formGroup{
+.formGroup {
     width: 100%;
     position: relative;
 }
+
 .formGroup input {
     width: 90%;
     padding: 10px;
@@ -109,15 +115,17 @@ input::placeholder {
     position: relative;
     left: 10px;
 }
-input:focus{
+
+input:focus {
     border-color: red;
 }
-.checkBox{
+
+.checkBox {
     width: 100%;
     margin-top: 2px;
 }
 
-.btn{
+.btn {
     width: 70%;
     padding: 15px;
     background-color: green;
@@ -126,10 +134,11 @@ input:focus{
     border-radius: 20px;
     border-style: none;
 }
-.btn2{
+
+.btn2 {
     width: 70%;
     padding: 15px;
-    background-color:transparent;
+    background-color: transparent;
     margin-top: 15px;
     color: lavender;
     border-radius: 20px;
@@ -138,22 +147,25 @@ input:focus{
 }
 
 /* CSS mouse hover efects */
-.btn:hover, .btn2:hover, .icon:hover{
+.btn:hover, .btn2:hover, .icon:hover {
     background-color: rgb(7, 80, 35);
     color: whitesmoke;
 }
+
 /* making HTML registration form responsive to mobile devices */
-@media screen and (max-width: 1000px){
-    .formWraper{
+@media screen and (max-width: 1000px) {
+    .formWraper {
         width: 70%;
     }
 }
-@media screen and (max-width: 670px){
-    .formDiv{
+
+@media screen and (max-width: 670px) {
+    .formDiv {
         width: 90%;
         border-radius: 10px 10px 10px 10px;
     }
-    .welcomeDiv{
+
+    .welcomeDiv {
         display: none;
     }
 }

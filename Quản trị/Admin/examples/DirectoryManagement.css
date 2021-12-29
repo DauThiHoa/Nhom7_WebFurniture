@@ -2,18 +2,23 @@
     color: black;
     font-weight: bold;
 }
+
 .fa-bars {
     color: orange;
 }
+
 .ni-collection {
     color: #0099aa;
 }
+
 .ni-shop {
     color: palevioletred;
 }
+
 .ni-book-bookmark {
     color: lime;
 }
+
 .container {
     color: white;
     background: white;
@@ -25,18 +30,22 @@
     clear: right;
     margin-right: -10px;
 }
+
 .btn-primary {
     color: white;
     background: orange;
 }
+
 .dropdown-menu {
     width: 50px;
 }
+
 .dropdown-menuLi {
     width: 50px;
     text-align: center;
     margin-left: 30px;
 }
+
 .dropdown-menuLi:hover {
     color: white;
     background: palegreen;
@@ -44,6 +53,7 @@
     height: 25px;
     cursor: pointer;
 }
+
 .add {
     color: white;
     background: #34ce57;
@@ -56,46 +66,56 @@
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
 .fa-plus-circle {
     font-size: 15px;
     margin-right: 10px;
 }
+
 .add:hover {
     cursor: pointer;
     border: 2px solid #2aa198;
     background: white;
     color: #34ce57;
 }
+
 input[type=checkbox] {
     font-size: 40px;
     color: white;
     background: #1fb5d4;
 }
+
 #checkBox {
     font-size: 40px;
     color: white;
     background: #1fb5d4;
 }
+
 .table {
     margin-top: 80px;
     border: 2px solid #6db9d7;
 }
+
 .fa-edit {
     color: #1fb5d4;
     font-size: 20px;
 }
+
 .fa-edit:hover {
     cursor: pointer;
     border: 2px solid #2aa198;
 }
+
 .fa-trash {
     color: #dd4b39;
     font-size: 20px;
 }
+
 .fa-trash:hover {
     cursor: pointer;
     border: 2px solid #dd4b39;
 }
+
 .image {
     width: 50px;
     height: 50px;
@@ -120,25 +140,29 @@ Tablet
     .main {
         max-width: 100%;
     }
+
     .container {
         width: 25%;
         margin-left: 0px;
         margin-right: 10px;
     }
+
     .add {
         width: 20%;
         margin-left: 322px;
         margin-top: 10px;
         margin-bottom: -50px;
     }
-table  td {
-    width: 50%;
-    color: #2aa198;
-}
 
-table {
-    margin-top: 10px;
-}
+    table td {
+        width: 50%;
+        color: #2aa198;
+    }
+
+    table {
+        margin-top: 10px;
+    }
+
     .tab {
         margin-top: -500px;
         width: 100%;
@@ -146,9 +170,10 @@ table {
     }
 
 }
-.fa{
+
+.fa {
     font-size: 150%;
- }
+}
 
 
 

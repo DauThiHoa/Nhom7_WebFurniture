@@ -7,39 +7,49 @@
     margin-left: 100px;
     margin-bottom: 25px;
 }
+
 .infor5 .information {
     font-size: 150%;
 }
+
 .informationk {
     margin-top: 25px;
 }
+
 .Username {
     margin-left: 52px;
     width: 750px;
 }
+
 .Name {
     margin-left: 92px;
     width: 750px;
 }
+
 .Password {
     margin-left: 55px;
     width: 750px;
 }
+
 .Enter {
     margin-left: 10px;
     width: 700px;
 }
+
 .information7 {
     float: left;
     clear: right;
 }
+
 .information3 {
     margin-bottom: 50px;
 }
+
 .information4 {
     margin-left: 100px;
     margin-top: 50px;
 }
+
 .left {
     float: left;
     clear: right;
@@ -47,12 +57,15 @@
     margin-right: 80px;
 
 }
+
 .checkin {
     font-size: 50px;
 }
+
 .information6 {
     margin-top: 50px;
 }
+
 /*
 Responsive
 Tablet
@@ -68,23 +81,28 @@ Tablet
     .main {
         max-width: 100%;
     }
+
     .infor5 {
         width: 100%;
         margin-left: 0%;
         height: 1250px;
     }
+
     .Username {
         margin-left: 0%;
         width: 100%;
     }
+
     .Name {
         margin-left: 0%;
         width: 100%;
     }
+
     .Password {
         margin-left: 0%;
         width: 100%;
     }
+
     .Enter {
         margin-left: 0%;
         width: 100%;

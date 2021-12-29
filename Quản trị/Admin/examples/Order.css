@@ -2,18 +2,22 @@
     color: black;
     font-weight: bold;
 }
+
 .chiTiet {
     color: #1fb5d4;
     font-weight: bold;
 }
+
 .DangGiao {
     color: #34ce57;
     font-weight: bold;
 }
+
 .DaGiao {
     color: red;
     font-weight: bold;
 }
+
 .kiemHang {
     color: orange;
     font-weight: bold;
@@ -34,6 +38,7 @@ Tablet
     .main {
         max-width: 100%;
     }
+
     .tab {
         margin-top: 0%;
     }

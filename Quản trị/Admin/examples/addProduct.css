@@ -7,51 +7,63 @@
     height: 520px;
     background: white;
 }
+
 .image {
     width: 100px;
     height: 100px;
     margin-bottom: 20px;
     margin-left: 100px;
 }
+
 .information4 .Modules {
     margin-right: 60px;
 }
+
 .information5 .Modules {
     margin-right: 60px;
 }
-.information6  {
+
+.information6 {
     margin-top: 25px;
 }
+
 .information6 .Modules {
     margin-right: 10px;
     float: left;
     clear: right;
     margin-left: -305px;
 }
+
 .information6 .type2 {
     margin-left: -193px;
 }
+
 .infor2 {
     height: 760px;
     margin-bottom: 25px;
 }
+
 .information3a .Modules {
     float: left;
     clear: right;
 }
+
 .type3a {
     width: 685px;
 }
+
 .type3b {
     width: 685px;
     margin-left: 32px;
     height: 150px;
 }
+
 .checkin {
     float: left;
     clear: right;
     margin-right: 10px;
 }
+
 .From {
     margin-left: 170px;
 }
@@ -71,6 +83,7 @@ Tablet
     .main {
         max-width: 100%;
     }
+
     .infor {
         margin-top: 50px;
         width: 100%;
@@ -79,19 +92,23 @@ Tablet
         border: 1px solid #d39e00;
         margin-left: 0px;
     }
+
     .type3a {
         width: 100%;
         margin-left: 0px;
         height: 50px;
     }
+
     .type3b {
         width: 85%;
     }
+
     .infor2 {
         height: 950px;
     }
 
 }
+
 .fa {
     width: 100px;
     height: 100px;
